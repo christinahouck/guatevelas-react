@@ -9,9 +9,9 @@ import { ThemeProvider } from "styled-components";
 import { LanguageContext } from './languageContext';
 
 import Loading from './components/Loading';
-import Products from './components/Products';
+import Products from './components/Products/index';
 import Nav from './components/Nav';
-import ProductPage from './components/ProductPage';
+import ProductPage from './components/ProductPages/index';
 import Home from './components/Home';
 import About from './components/About';
 

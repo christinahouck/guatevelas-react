@@ -3,8 +3,6 @@ import styled from 'styled-components';
 import { Link } from 'react-router-dom';
 import { LanguageContext } from '../languageContext';
 
-
-
 export default function Nav({ version, setLanguage }) {
     return (
         <LanguageContext.Consumer>
@@ -62,7 +60,11 @@ const FlexRowCenter = styled.div`
     align-items: center;
     justify-content: center;
 `;
-const NavDiv = styled(FlexRowCenter)`
+const NavDiv = styled.nav`
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
     position: sticky;
     width: 100%;
     box-shadow: ${props => props.theme.shadow};
