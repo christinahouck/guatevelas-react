@@ -9,20 +9,17 @@ export const ProductBody = styled.div`
     justify-content: center;
 `;
 
-const FlexRowCenter = styled.section`
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    justify-content: center;
-`;
-
-export const ProductContainer = styled(FlexRowCenter)`
+export const ProductContainer = styled.section`
     width: 100%;
     max-width: 1000px;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: space-between;
+    margin-top: 64px;
 `;
 
 export const ProdSection = styled.section`
-    border: 2px solid cornflowerblue;
     text-align: left;
     display: flex;
     flex-direction: column;
@@ -33,7 +30,7 @@ export const ProdSection = styled.section`
         width: 100%;
     }
     @media (min-width: ${props => props.theme.breakpointLarge}) {
-        width: 50%;
+        width: 47%;
     }
     min-height: 500px;
 `;

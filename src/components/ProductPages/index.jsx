@@ -1,6 +1,8 @@
 import React from 'react';
+
 import { useParams } from 'react-router-dom';
 import { LanguageContext } from '../../languageContext';
+import ProdImgSwiper from './ProdImgSwiper/index';
 import { ProductBody, 
     ProdSection, 
     ProductContainer, 
@@ -23,6 +25,7 @@ export default function ProductPage() {
                             return ( 
                                 <ProductContainer key={`prodSect${index}`}>
                                     <ProdSection>
+                                        <ProdImgSwiper product={item} />
                                     </ProdSection>
                                     <ProdSection>
                                         <Title>{item["title"]}</Title>
