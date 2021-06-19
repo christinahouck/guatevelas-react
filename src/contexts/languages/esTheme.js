@@ -6,19 +6,21 @@ export const esTheme = {
     },
     "productPage": {
         "helloWorld": "hola mundo",
-        "prodDictionary": {
-            1001: {
+        "prodDictionary": [
+            {
                 prodId: 1001,
-                prodTitle: "Vela 1001",
-                prodDescription: "Desc. para 1001",
-                price: "25.01"
+                title: "Vela 1001",
+                description: "Desc. for 1001",
+                price: "25.00",
+                buyLink: "https://guatevelas.com",
             },
-            1002: {
+            {
                 prodId: 1002,
-                prodTitle: "Vela 1002",
-                prodDescription: "Desc. para 1002",
-                price: "75.00"
-            }
-        }
+                title: "Vela 1002",
+                description: "Desc. for 1002",
+                price: "26.00",
+                buyLink: "https://guatevelas.com",
+            },
+        ]
     }
 }
