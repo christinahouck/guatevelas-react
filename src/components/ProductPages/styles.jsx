@@ -91,3 +91,8 @@ export const BuyButton = styled.a`
         background-color: ${props => props.theme.green2};
     }
 `;
+
+export const EmptyDiv = styled.div`
+    height: 1px;
+    width: 1px;
+`;

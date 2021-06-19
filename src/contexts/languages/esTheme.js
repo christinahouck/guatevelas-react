@@ -14,10 +14,10 @@ export const esTheme = {
                 price: "25.00",
                 buyLink: "https://guatevelas.com",
                 prodImages: [ 
-                    "https://via.placeholder.com/300x500",
-                    "https://via.placeholder.com/300x500",
-                    "https://via.placeholder.com/300x500",
-                    "https://via.placeholder.com/300x500",
+                    "https://via.placeholder.com/300x400",
+                    "https://via.placeholder.com/300x400",
+                    "https://via.placeholder.com/300x400",
+                    "https://via.placeholder.com/300x400",
                 ]
             },
             {
@@ -27,10 +27,10 @@ export const esTheme = {
                 price: "30.00",
                 buyLink: "https://guatevelas.com",
                 prodImages: [ 
-                    "https://via.placeholder.com/300x500",
-                    "https://via.placeholder.com/300x500",
-                    "https://via.placeholder.com/300x500",
-                    "https://via.placeholder.com/300x500",
+                    "https://via.placeholder.com/300x400",
+                    "https://via.placeholder.com/300x400",
+                    "https://via.placeholder.com/300x400",
+                    "https://via.placeholder.com/300x400",
                 ]
             },
         ]
