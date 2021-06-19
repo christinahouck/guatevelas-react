@@ -42,6 +42,7 @@ export default function ProductPage() {
                                 </ProductContainer>
                             )
                         }
+                    return 1;
                     })}
                 </ProductBody>
             )}
