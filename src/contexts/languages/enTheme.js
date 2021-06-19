@@ -6,19 +6,33 @@ export const enTheme = {
     },
     "productPage": {
         "helloWorld": "hello world",
-        "prodDictionary": {
-            1001: {
+        "prodDictionary": [
+            {
                 prodId: 1001,
-                prodTitle: "Candle 1001",
-                prodDescription: "Desc. for 1001",
-                price: "25.01"
+                title: "Candle 1001",
+                description: "Desc. for 1001",
+                price: "25.00",
+                buyLink: "https://guatevelas.com",
+                prodImages: [ 
+                    "https://via.placeholder.com/300x500",
+                    "https://via.placeholder.com/300x500",
+                    "https://via.placeholder.com/300x500",
+                    "https://via.placeholder.com/300x500",
+                ]
             },
-            1002: {
+            {
                 prodId: 1002,
-                prodTitle: "Candle 1002",
-                prodDescription: "Desc. for 1002",
-                price: "75.00"
-            }
-        }
+                title: "Candle 1002",
+                description: "Desc. for 1002",
+                price: "26.00",
+                buyLink: "https://guatevelas.com",
+                prodImages: [ 
+                    "https://via.placeholder.com/300x500",
+                    "https://via.placeholder.com/300x500",
+                    "https://via.placeholder.com/300x500",
+                    "https://via.placeholder.com/300x500",
+                ]
+            },
+        ]
     }
 }
