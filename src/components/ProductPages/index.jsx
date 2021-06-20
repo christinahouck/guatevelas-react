@@ -12,7 +12,7 @@ import { ProductBody,
     CentsBox, 
     CentsSpan,
     BuyButton,
-    EmptyDiv
+    EmptyDiv,
 } from './styles';
 
 export default function ProductPage() {
