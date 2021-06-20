@@ -24,7 +24,7 @@ export const ProdSection = styled.section`
     display: flex;
     flex-direction: column;
     align-items: flex-start;
-    justify-content: flex-start;
+    justify-content: space-between;
     padding: 0 10px;
     @media (max-width: ${props => props.theme.breakpointMedium}) {
         width: 100%;
@@ -55,8 +55,17 @@ export const PriceBox = styled.div`
 export const PriceH2 = styled.h2`
     font-family: ${props => props.theme.secondaryFont}, serif;
     color: ${props => props.theme.brown};
-    font-size: 32px;
+    font-size: 48px;
     margin: 0;
+    line-height: 1;
+`;
+
+export const DollarSign = styled.h2`
+    font-family: ${props => props.theme.secondaryFont}, serif;
+    color: ${props => props.theme.brown};
+    font-size: 24px;
+    margin: 0;
+    margin-top: 8px;
 `;
 
 export const CentsBox = styled.div`
@@ -64,16 +73,23 @@ export const CentsBox = styled.div`
     flex-direction: row;
     align-items: flex-start;
     justify-content: flex-start;
-    margin-top: 4px;
+    margin-top: 6px;
+    margin-left: 2px;
 `;
 
 export const CentsSpan = styled.span`
     color: ${props => props.theme.brown};
     font-family: ${props => props.theme.secondaryFont}, serif;
-    font-size: 14px;
+    font-size: 24px;
     &:nth-child(2) {
         margin-left: 8px;
     }
+`;
+
+export const Tagline = styled.p`
+    color: ${props => props.theme.green};
+    font-family: ${props => props.theme.secondaryFont}, serif;
+    font-size: 24px;
 `;
 
 export const BuyButton = styled.a`
@@ -95,4 +111,30 @@ export const BuyButton = styled.a`
 export const EmptyDiv = styled.div`
     height: 1px;
     width: 1px;
+`;
+
+export const SocialShare = styled.div`
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+`;
+
+export const SocialP = styled.p`
+    font-family: ${props => props.theme.secondaryFont}, serif;
+    color: ${props => props.theme.green};
+    text-align: center;
+    font-size: 18px;
+`;
+
+export const ShareLink = styled.a`
+    background-color: #84946a;
+    border-radius: 50%;
+    height: 50px;
+    width: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0 8px;
 `;

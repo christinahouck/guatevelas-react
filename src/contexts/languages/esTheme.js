@@ -10,6 +10,7 @@ export const esTheme = {
             {
                 prodId: 1001,
                 title: "La Esquintla",
+                tagline: "Tagline",
                 description: "Desc. for 1001",
                 price: "25.00",
                 buyLink: "https://guatevelas.com",
@@ -23,6 +24,7 @@ export const esTheme = {
             {
                 prodId: 1002,
                 title: "La Sacatepequez",
+                tagline: "Tagline",
                 description: "Desc. for 1002",
                 price: "30.00",
                 buyLink: "https://guatevelas.com",

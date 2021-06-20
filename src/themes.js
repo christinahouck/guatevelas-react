@@ -21,6 +21,4 @@ export const styleVars = {
 /* 
 TODOS
 * Get the different URLs to default to whatever language the URLs are in
-* Get the product id from the route and fill in info based on dictionary
-* More elegant to sort the prod id dictionary and then stop iterating once you've passed the number (if prod id not found)
 */
