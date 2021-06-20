@@ -11,7 +11,9 @@ import { ProductBody,
     PriceH2, 
     CentsBox, 
     CentsSpan,
-    BuyButton } from './styles';
+    BuyButton,
+    EmptyDiv
+} from './styles';
 
 export default function ProductPage() {
     let { prodId } = useParams();
@@ -41,8 +43,7 @@ export default function ProductPage() {
                                     </ProdSection>
                                 </ProductContainer>
                             )
-                        }
-                    return 1;
+                        } else { return (<EmptyDiv key={`emEmptyDivtydiv${index}`}></EmptyDiv>)}
                     })}
                 </ProductBody>
             )}
