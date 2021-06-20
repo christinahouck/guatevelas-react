@@ -17,7 +17,10 @@ import { ProductBody,
     DollarSign,
     SocialShare,
     ShareLink,
-    SocialP
+    SocialP,
+    ProdSectionFullWidth,
+    Header,
+    Description
 } from './styles';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { library } from "@fortawesome/fontawesome-svg-core";
@@ -70,6 +73,10 @@ export default function ProductPage() {
                                         </div>
                                         <BuyButton href={item["buyLink"]} target="_blank" rel="noopener">Buy on Etsy</BuyButton>
                                     </ProdSection>
+                                    <ProdSectionFullWidth>
+                                        <Header>More info</Header>
+                                        <Description>{item["description"]}</Description>
+                                    </ProdSectionFullWidth>
                                 </ProductContainer>
                             )
                         } else { return (<EmptyDiv key={`emEmptyDivtydiv${index}`}></EmptyDiv>)}

@@ -16,6 +16,7 @@ export const ProductContainer = styled.section`
     flex-direction: row;
     align-items: flex-start;
     justify-content: space-between;
+    flex-wrap: wrap;
     margin-top: 64px;
 `;
 
@@ -123,13 +124,13 @@ export const SocialShare = styled.div`
 
 export const SocialP = styled.p`
     font-family: ${props => props.theme.secondaryFont}, serif;
-    color: ${props => props.theme.green};
+    color: ${props => props.theme.green2};
     text-align: center;
     font-size: 18px;
 `;
 
 export const ShareLink = styled.a`
-    background-color: #84946a;
+    background-color: ${props => props.theme.green2};
     border-radius: 50%;
     height: 50px;
     width: 50px;
@@ -137,4 +138,26 @@ export const ShareLink = styled.a`
     align-items: center;
     justify-content: center;
     margin: 0 8px;
+`;
+
+export const ProdSectionFullWidth = styled.div`
+    width: 100%;
+    padding: 0 10px;
+    padding-top: 48px;
+`;
+
+export const Header = styled.h2`
+    color: ${props => props.theme.green2};
+    font-family: ${props => props.theme.secondaryFont}, serif;
+    font-size: 36px;
+    line-height: 1.2;
+    margin-bottom: 0;
+    text-align: left;
+`;
+
+export const Description = styled(Tagline)`
+    text-align: left;
+    color: ${props => props.theme.gray};
+    margin-top: 0;
+    line-height: 1.5;
 `;
