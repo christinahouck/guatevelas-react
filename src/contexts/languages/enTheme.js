@@ -5,7 +5,9 @@ export const enTheme = {
         "about": "About"
     },
     "productPage": {
-        "helloWorld": "hello world",
+        "buyButton": "Buy on Etsy",
+        "moreInfo": "More info",
+        "mayAlso": "You may also like...",
         "prodDictionary": [
             {
                 prodId: 1001,
@@ -20,6 +22,23 @@ export const enTheme = {
                     "https://via.placeholder.com/300x400/9d8f66",
                     "https://via.placeholder.com/300x400/faf8dd",
                     "https://via.placeholder.com/300x400/b4bca4",
+                ],
+                recommendedProds: [
+                    {
+                        "name": "name of prod",
+                        "imgUrl": "https://via.placeholder.com/300x200/abb48f",
+                        "prodId": 1234,
+                    },
+                    {
+                        "name": "name of prod 2",
+                        "imgUrl": "https://via.placeholder.com/300x200/abb48f",
+                        "prodId": 2345,
+                    },
+                    {
+                        "name": "name of prod 3",
+                        "imgUrl": "https://via.placeholder.com/300x200/abb48f",
+                        "prodId": 3456,
+                    }, 
                 ]
             },
             {
@@ -34,6 +53,23 @@ export const enTheme = {
                     "https://via.placeholder.com/300x400",
                     "https://via.placeholder.com/300x400",
                     "https://via.placeholder.com/300x400",
+                ],
+                recommendedProds: [
+                    {
+                        "name": "name of prod",
+                        "imgUrl": "https://via.placeholder.com/300x200/abb48f",
+                        "prodId": 1234,
+                    },
+                    {
+                        "name": "name of prod 2",
+                        "imgUrl": "https://via.placeholder.com/300x200/abb48f",
+                        "prodId": 2345,
+                    },
+                    {
+                        "name": "name of prod 3",
+                        "imgUrl": "https://via.placeholder.com/300x200/abb48f",
+                        "prodId": 3456,
+                    }, 
                 ]
             },
         ]

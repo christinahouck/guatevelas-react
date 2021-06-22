@@ -161,3 +161,34 @@ export const Description = styled(Tagline)`
     margin-top: 0;
     line-height: 1.5;
 `;
+
+export const RecommendedSection = styled.div`
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+`;
+
+export const RecommendedProduct = styled.div`
+    width: 30%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-contnet: flex-start;
+    margin: 0 12px;
+    padding: 12px;
+    height: 400px;
+    border: 2px dashed cornflowerblue;
+`;
+
+export const RecommendedProdImg = styled.img`
+    width: 100%;
+    height: auto;
+`;
+
+export const RecommendedProdHeader = styled.h3`
+    color: ${props => props.theme.green2};
+    font-family: ${props => props.theme.secondaryFont}, serif;
+    font-size: 32px;
+`;

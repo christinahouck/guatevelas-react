@@ -3,6 +3,8 @@ import React from 'react';
 import { useParams } from 'react-router-dom';
 import { LanguageContext } from '../../languageContext';
 import ProdImgSwiper from './ProdImgSwiper/index';
+import Recommended from './Recommended/index';
+
 import { ProductBody, 
     ProdSection, 
     ProductContainer, 
@@ -71,11 +73,17 @@ export default function ProductPage() {
                                             </PriceBox>
                                             <Tagline>{item["tagline"]}</Tagline>
                                         </div>
-                                        <BuyButton href={item["buyLink"]} target="_blank" rel="noopener">Buy on Etsy</BuyButton>
+                                        <BuyButton href={item["buyLink"]} target="_blank" rel="noopener">{theme["productPage"]["buyButton"]}</BuyButton>
                                     </ProdSection>
                                     <ProdSectionFullWidth>
-                                        <Header>More info</Header>
+                                        <Header>{theme["productPage"]["moreInfo"]}</Header>
                                         <Description>{item["description"]}</Description>
+                                    </ProdSectionFullWidth>
+                                    <ProdSectionFullWidth>
+                                        <Recommended
+                                            prod={item}
+                                        >
+                                        </Recommended>
                                     </ProdSectionFullWidth>
                                 </ProductContainer>
                             )
