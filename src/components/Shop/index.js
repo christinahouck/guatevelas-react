@@ -4,12 +4,15 @@ import {
     Container,
     Header,
     ListDiv,
-    Listing
+    Listing,
+    Title,
+    Tagline,
+    Price
 } from './styles';
 import { Link } from 'react-router-dom';
 import { LanguageContext } from '../../languageContext';
 
-export default function Products() {
+export default function Shop() {
     return (
         <LanguageContext.Consumer>
             {theme => (
@@ -21,10 +24,10 @@ export default function Products() {
                                 return (
                                     <Listing key={`listing${index}`}>
                                         <img src={item["prodImages"][0]} alt="Product" />
-                                        <h2>{item["title"]}</h2>
-                                        <p>{item["description"]}</p>
-                                        <p>${item["price"]}</p>
-                                        <Link to={`/products/${item.prodId}`}>Learn more</Link>
+                                        <Title>{item["title"]}</Title>
+                                        <Tagline>{item["tagline"]}</Tagline>
+                                        <Price>${item["price"]}</Price>
+                                        <Link to={`/products/${item.prodId}`} className="listing-link">Learn more</Link>
                                     </Listing>
                                 )
                             })}
