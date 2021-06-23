@@ -25,6 +25,7 @@ export const RecommendedProduct = styled.a`
     margin: 12px;
     padding: 12px 12px 32px;
     border-radius: 6px;
+    text-decoration: none;
     &:hover, 
     &:active {
         box-shadow: ${props => props.theme.shadow};
@@ -40,7 +41,6 @@ export const RecommendedProdHeader = styled.h3`
     color: ${props => props.theme.gray};
     font-family: ${props => props.theme.secondaryFont}, serif;
     font-size: 24px;
-    text-decoration: none;
     margin: 8px 0;
 `;
 
