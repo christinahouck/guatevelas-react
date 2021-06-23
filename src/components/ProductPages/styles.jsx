@@ -32,8 +32,18 @@ export const ProdSection = styled.section`
     }
     @media (min-width: ${props => props.theme.breakpointLarge}) {
         width: 47%;
+        min-height: 500px;
     }
-    min-height: 500px;
+`;
+
+export const ProdSectionInfo = styled(ProdSection)`
+    @media (max-width: ${props => props.theme.breakpointMedium}) {
+        justify-content: flex-start;
+        margin-top: 146px;
+    }
+    @media (min-width: ${props => props.theme.breakpointLarge}) {
+        justify-content: space-between;
+    }
 `;
 
 export const Title = styled.h1`

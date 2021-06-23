@@ -14,10 +14,12 @@ export const RecommendedHead = styled.h2`
     font-family: ${props => props.theme.secondaryFont}, serif;
     font-size: 32px;
     width: 100%;
+    text-align: center;
 `;
 
 export const RecommendedProduct = styled.a`
     width: 25%;
+    min-width: 250px;
     display: flex;
     flex-direction: column;
     align-items: center;

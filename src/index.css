@@ -10,3 +10,24 @@ body {
 .swiper-button-prev {
   color: #7c885f !important;
 }
+@media (max-width: 900px) {
+  .swiper-container:nth-child(2) {
+    max-width: 78%;
+    margin-left: 0;
+  }
+}
+
+@media (min-width: 901px) {
+  .swiper-container:first-child {
+    max-height: 500px;
+    width: 100%;
+  }
+}
+@media (max-width: 733px) {
+  .swiper-container:first-child {
+    display: none;
+  }
+  .swiper-container:nth-child(2) {
+    margin: 0 auto;
+  }
+}

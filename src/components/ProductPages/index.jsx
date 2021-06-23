@@ -22,7 +22,8 @@ import { ProductBody,
     SocialP,
     ProdSectionFullWidth,
     Header,
-    Description
+    Description,
+    ProdSectionInfo
 } from './styles';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { library } from "@fortawesome/fontawesome-svg-core";
@@ -60,7 +61,7 @@ export default function ProductPage() {
                                             </ShareLink>
                                         </SocialShare>
                                     </ProdSection>
-                                    <ProdSection>
+                                    <ProdSectionInfo>
                                         <div>
                                             <Title>{item["title"]}</Title>
                                             <PriceBox>
@@ -74,7 +75,7 @@ export default function ProductPage() {
                                             <Tagline>{item["tagline"]}</Tagline>
                                         </div>
                                         <BuyButton href={item["buyLink"]} target="_blank" rel="noopener">{theme["productPage"]["buyButton"]}</BuyButton>
-                                    </ProdSection>
+                                    </ProdSectionInfo>
                                     <ProdSectionFullWidth>
                                         <Header>{theme["productPage"]["moreInfo"]}</Header>
                                         <Description>{item["description"]}</Description>

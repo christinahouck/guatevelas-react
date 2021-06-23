@@ -15,7 +15,6 @@ const styles = {
 const thumbStyles = {
   width: '100px',
   marginRight: '10px',
-  maxHeight: '500px',
   overflowY: 'scroll',
 }
 
@@ -26,7 +25,7 @@ export default function ProdImgSwiper(props) {
     <SwiperSection>
       <Swiper
         spaceBetween={20}
-        slidesPerView={4}
+        slidesPerView={'auto'}
         direction={'vertical'}
         style={thumbStyles}
         onSwiper={setThumbsSwiper}
