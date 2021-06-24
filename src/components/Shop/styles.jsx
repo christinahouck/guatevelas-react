@@ -41,7 +41,32 @@ export const Listing = styled.div`
     align-items: flex-start;
     justify-content: center;
     box-shadow: ${props => props.theme.shadow};
+    font-family: ${props => props.theme.secondaryFont}, serif;
     padding: 30px;
     border-radius: 10px;
     margin: 16px 8px;
+    max-width: 320px;
+`;
+
+export const Title = styled.h3`
+    font-family: ${props => props.theme.secondaryFont}, serif;
+    color: ${props => props.theme.green};
+    font-size: 32px;
+    margin: 24px 0 0 0;
+`;
+
+export const Tagline = styled.p`
+    font-family: ${props => props.theme.secondaryFont}, serif;
+    color: ${props => props.theme.gray};
+    font-size: 24px;
+    margin: 8px 0 0 0;
+`;
+
+export const Price = styled.p`
+    font-family: ${props => props.theme.secondaryFont}, serif;
+    color: ${props => props.theme.green2};
+    font-size: 36px;
+    margin: 12px 0 0 0;
+    text-align: center;
+    width: 100%;
 `;

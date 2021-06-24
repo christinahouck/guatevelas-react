@@ -9,7 +9,7 @@ import { ThemeProvider } from "styled-components";
 import { LanguageContext } from './languageContext';
 
 import Loading from './components/Loading';
-import Products from './components/Products/index';
+import Shop from './components/Shop/index';
 import Nav from './components/Nav';
 import ProductPage from './components/ProductPages/index';
 import Home from './components/Home';
@@ -42,8 +42,8 @@ class App extends React.Component {
                   <React.Suspense fallback={<Loading />} >
                     <Switch>
                       <Route exact path='/' component={Home} />
-                      <Route exact path='/products' component={Products} />
-                      <Route exact path='/productos' component={Products} />
+                      <Route exact path='/products' component={Shop} />
+                      <Route exact path='/productos' component={Shop} />
                       <Route path='/about' component={About} />
                       <Route path='/sobre-nosotros' component={About} />
                       <Route path='/products/:prodId' component={ProductPage} />

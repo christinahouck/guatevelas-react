@@ -3,6 +3,8 @@ import React from 'react';
 import { useParams } from 'react-router-dom';
 import { LanguageContext } from '../../languageContext';
 import ProdImgSwiper from './ProdImgSwiper/index';
+import Recommended from './Recommended/index';
+
 import { ProductBody, 
     ProdSection, 
     ProductContainer, 
@@ -20,7 +22,8 @@ import { ProductBody,
     SocialP,
     ProdSectionFullWidth,
     Header,
-    Description
+    Description,
+    ProdSectionInfo
 } from './styles';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { library } from "@fortawesome/fontawesome-svg-core";
@@ -43,7 +46,7 @@ export default function ProductPage() {
                                     <ProdSection>
                                         <ProdImgSwiper product={item} />
                                         <SocialShare>
-                                            <SocialP>Share on<br/>Social Media</SocialP>
+                                            <SocialP>{theme["productPage"]["social"]}</SocialP>
                                             <ShareLink id="facebook" href="https://www.facebook.com/sharer/sharer.php?u=https%3A//guatevelas.com" target="_blank" rel="noopener">
                                                 <FontAwesomeIcon icon={faFacebookF} color="#faf8dd" />
                                             </ShareLink>
@@ -58,7 +61,7 @@ export default function ProductPage() {
                                             </ShareLink>
                                         </SocialShare>
                                     </ProdSection>
-                                    <ProdSection>
+                                    <ProdSectionInfo>
                                         <div>
                                             <Title>{item["title"]}</Title>
                                             <PriceBox>
@@ -71,11 +74,17 @@ export default function ProductPage() {
                                             </PriceBox>
                                             <Tagline>{item["tagline"]}</Tagline>
                                         </div>
-                                        <BuyButton href={item["buyLink"]} target="_blank" rel="noopener">Buy on Etsy</BuyButton>
-                                    </ProdSection>
+                                        <BuyButton href={item["buyLink"]} target="_blank" rel="noopener">{theme["productPage"]["buyButton"]}</BuyButton>
+                                    </ProdSectionInfo>
                                     <ProdSectionFullWidth>
-                                        <Header>More info</Header>
+                                        <Header>{theme["productPage"]["moreInfo"]}</Header>
                                         <Description>{item["description"]}</Description>
+                                    </ProdSectionFullWidth>
+                                    <ProdSectionFullWidth>
+                                        <Recommended
+                                            prod={item}
+                                        >
+                                        </Recommended>
                                     </ProdSectionFullWidth>
                                 </ProductContainer>
                             )
