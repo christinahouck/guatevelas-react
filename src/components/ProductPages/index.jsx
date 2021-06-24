@@ -46,7 +46,7 @@ export default function ProductPage() {
                                     <ProdSection>
                                         <ProdImgSwiper product={item} />
                                         <SocialShare>
-                                            <SocialP>Share on<br/>Social Media</SocialP>
+                                            <SocialP>{theme["productPage"]["social"]}</SocialP>
                                             <ShareLink id="facebook" href="https://www.facebook.com/sharer/sharer.php?u=https%3A//guatevelas.com" target="_blank" rel="noopener">
                                                 <FontAwesomeIcon icon={faFacebookF} color="#faf8dd" />
                                             </ShareLink>

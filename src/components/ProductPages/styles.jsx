@@ -137,6 +137,7 @@ export const SocialP = styled.p`
     color: ${props => props.theme.green2};
     text-align: center;
     font-size: 18px;
+    width: 120px;
 `;
 
 export const ShareLink = styled.a`
