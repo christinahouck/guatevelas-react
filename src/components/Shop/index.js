@@ -18,7 +18,7 @@ export default function Shop() {
             {theme => (
                 <PageDiv>
                     <Container>
-                        <Header>Shop</Header>
+                        <Header>{theme.nav.shop}</Header>
                         <ListDiv>
                             { theme["productPage"]["prodDictionary"].map((item, index) => {
                                 return (

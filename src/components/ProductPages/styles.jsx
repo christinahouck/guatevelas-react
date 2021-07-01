@@ -98,7 +98,7 @@ export const CentsSpan = styled.span`
 `;
 
 export const Tagline = styled.p`
-    color: ${props => props.theme.green};
+    color: ${props => props.theme.gray};
     font-family: ${props => props.theme.secondaryFont}, serif;
     font-size: 24px;
 `;
