@@ -79,6 +79,7 @@ export default function ProductPage() {
                                     <ProdSectionFullWidth>
                                         <Header>{theme["productPage"]["moreInfo"]}</Header>
                                         <Description>{item["description"]}</Description>
+                                        <Description>{theme["productPage"]["prodSpecsMeasurements"]} {item["height"]} x {item["width"]} {theme["productPage"]["prodSpecsWeight"]} {item["weight"]}</Description>
                                     </ProdSectionFullWidth>
                                     <ProdSectionFullWidth>
                                         <Recommended

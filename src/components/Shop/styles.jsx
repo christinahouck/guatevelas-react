@@ -30,7 +30,7 @@ export const ListDiv = styled.div`
     display: flex;
     flex-direction: row;
     align-items: flex-start;
-    justify-content: space-between;
+    justify-content: center;
     flex-wrap: wrap;
     margin-top: 32px;
 `;
