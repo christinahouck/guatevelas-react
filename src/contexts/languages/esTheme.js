@@ -11,6 +11,7 @@ export const esTheme = {
         "social": "Comparte en redes sociales",
         "prodSpecsMeasurements": "Este artículo mide",
         "prodSpecsWeight": "y pesa",
+        "in": "en",
         "prodDictionary": [
             {
                 prodId: 1001,
@@ -23,7 +24,7 @@ export const esTheme = {
                 price: "25.00",
                 buyLink: "https://guatevelas.com",
                 prodImages: [ 
-                    "https://via.placeholder.com/300x400/abb48f'",
+                    "https://via.placeholder.com/300x400/abb48f",
                     "https://via.placeholder.com/300x400/84946a",
                     "https://via.placeholder.com/300x400/9d8f66",
                     "https://via.placeholder.com/300x400/faf8dd",
@@ -45,6 +46,44 @@ export const esTheme = {
                         "imgUrl": "https://via.placeholder.com/300x200/abb48f",
                         "prodId": 3456,
                     }, 
+                ],
+                availableColors: [
+                    {
+                        "color": "colorName",
+                        "colorSampleImage": "https://via.placeholder.com/150x50/abb48f",
+                        "colorDescription": "Description of color",
+                        "images": [
+                            "https://via.placeholder.com/300x400/abb48f",
+                            "https://via.placeholder.com/300x400/84946a",
+                            "https://via.placeholder.com/300x400/9d8f66",
+                            "https://via.placeholder.com/300x400/faf8dd",
+                            "https://via.placeholder.com/300x400/b4bca4",
+                        ]
+                    },
+                    {
+                        "color": "colorName1",
+                        "colorSampleImage": "https://via.placeholder.com/150x50/abb48f",
+                        "colorDescription": "Description of color",
+                        "images": [
+                            "https://via.placeholder.com/300x400/abb48f",
+                            "https://via.placeholder.com/300x400/84946a",
+                            "https://via.placeholder.com/300x400/9d8f66",
+                            "https://via.placeholder.com/300x400/faf8dd",
+                            "https://via.placeholder.com/300x400/b4bca4",
+                        ]
+                    },
+                    {
+                        "color": "colorName2",
+                        "colorSampleImage": "https://via.placeholder.com/150x50/abb48f",
+                        "colorDescription": "Description of color",
+                        "images": [
+                            "https://via.placeholder.com/300x400/abb48f",
+                            "https://via.placeholder.com/300x400/84946a",
+                            "https://via.placeholder.com/300x400/9d8f66",
+                            "https://via.placeholder.com/300x400/faf8dd",
+                            "https://via.placeholder.com/300x400/b4bca4",
+                        ]
+                    }
                 ]
             },
             {
