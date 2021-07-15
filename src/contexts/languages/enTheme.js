@@ -54,19 +54,19 @@ export const enTheme = {
                         "colorDescription": "Description of color",
                         "images": [
                             "https://via.placeholder.com/300x400/abb48f",
-                            "https://via.placeholder.com/300x400/84946a",
-                            "https://via.placeholder.com/300x400/9d8f66",
-                            "https://via.placeholder.com/300x400/faf8dd",
-                            "https://via.placeholder.com/300x400/b4bca4",
+                            "https://via.placeholder.com/300x400/abb48f",
+                            "https://via.placeholder.com/300x400/abb48f",
+                            "https://via.placeholder.com/300x400/abb48f",
+                            "https://via.placeholder.com/300x400/abb48f",
                         ]
                     },
                     {
                         "color": "colorName1",
-                        "colorSampleImage": "https://via.placeholder.com/150x50/abb48f",
+                        "colorSampleImage": "https://via.placeholder.com/150x50/84946a",
                         "colorDescription": "Description of color",
                         "images": [
-                            "https://via.placeholder.com/300x400/abb48f",
                             "https://via.placeholder.com/300x400/84946a",
+                            "https://via.placeholder.com/300x400/abb48f",
                             "https://via.placeholder.com/300x400/9d8f66",
                             "https://via.placeholder.com/300x400/faf8dd",
                             "https://via.placeholder.com/300x400/b4bca4",
@@ -74,14 +74,14 @@ export const enTheme = {
                     },
                     {
                         "color": "colorName2",
-                        "colorSampleImage": "https://via.placeholder.com/150x50/abb48f",
+                        "colorSampleImage": "https://via.placeholder.com/150x50/9d8f66",
                         "colorDescription": "Description of color",
                         "images": [
-                            "https://via.placeholder.com/300x400/abb48f",
-                            "https://via.placeholder.com/300x400/84946a",
                             "https://via.placeholder.com/300x400/9d8f66",
-                            "https://via.placeholder.com/300x400/faf8dd",
-                            "https://via.placeholder.com/300x400/b4bca4",
+                            "https://via.placeholder.com/300x400/000000",
+                            "https://via.placeholder.com/300x400/000000",
+                            "https://via.placeholder.com/300x400/000000",
+                            "https://via.placeholder.com/300x400/000000",
                         ]
                     }
                 ]

@@ -7,7 +7,7 @@ export default function ColorSelect(props) {
             {props.prodId.availableColors.map((item, index) => {
                 const newColor = item.color;
                 return(
-                    <ColorOption key={`colorOption${index}`} onClick={(event) => props.toggleColor(event, newColor)}>
+                    <ColorOption key={`colorOption${index}`} onClick={(event) => props.toggleColor(event, newColor, index)}>
                         <ColorOptionImage src={item.colorSampleImage} />
                     </ColorOption>
                 )

@@ -35,15 +35,27 @@ library.add(faTwitter);
 
 class ProductPage extends React.Component {
     state = {
-      color: 'azul',
+      color: 'colorName',
+      colorIndex: 0,
     }
 
-    toggleColor = (event, newColor) => {
-        this.setState({ color: newColor})
+    determineColorToShow = (color) => {
+        console.log(color);
+        // item.availableColors.map((colorListing, i) => {
+        //     if (colorListing.color === color) {
+        //         this.setState({ colorIndex: i })
+        //     }
+        // })
+    }
+    /* CHRISTINA => need to figure this out, I'm not putting in the right inputs here but otherwise I think it's ok */
+
+    toggleColor = (event, newColor, index) => {
+        this.setState({ color: newColor, colorIndex: index});
+        // this.determineColorToShow(newColor);
     }
 
     render() {
-        const { color } = this.state;
+        const { color, colorIndex } = this.state;
         let prodId = this.props.match.params.prodId;
         return (
             <LanguageContext.Consumer>
@@ -54,7 +66,7 @@ class ProductPage extends React.Component {
                                 return ( 
                                     <ProductContainer key={`prodSect${index}`}>
                                         <ProdSection>
-                                            <ProdImgSwiper product={item} color={color} />
+                                            <ProdImgSwiper product={item} color={color} colorIndex={colorIndex}/>
                                             <SocialShare>
                                                 <SocialP>{theme["productPage"]["social"]}</SocialP>
                                                 <ShareLink id="facebook" href="https://www.facebook.com/sharer/sharer.php?u=https%3A//guatevelas.com" target="_blank" rel="noopener">
