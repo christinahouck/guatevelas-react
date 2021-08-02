@@ -11,6 +11,7 @@ export const enTheme = {
         "social": "Share on Social Media",
         "prodSpecsMeasurements": "This item is",
         "prodSpecsWeight": "and weighs",
+        "in": "in",
         "prodDictionary": [
             {
                 prodId: 1001,
@@ -45,6 +46,44 @@ export const enTheme = {
                         "imgUrl": "https://via.placeholder.com/300x200/abb48f",
                         "prodId": 3456,
                     }, 
+                ],
+                availableColors: [
+                    {
+                        "color": "colorName",
+                        "colorSampleImage": "https://via.placeholder.com/150x50/abb48f",
+                        "colorDescription": "Description of color",
+                        "images": [
+                            "https://via.placeholder.com/300x400/abb48f",
+                            "https://via.placeholder.com/300x400/abb48f",
+                            "https://via.placeholder.com/300x400/abb48f",
+                            "https://via.placeholder.com/300x400/abb48f",
+                            "https://via.placeholder.com/300x400/abb48f",
+                        ]
+                    },
+                    {
+                        "color": "colorName1",
+                        "colorSampleImage": "https://via.placeholder.com/150x50/84946a",
+                        "colorDescription": "Description of color",
+                        "images": [
+                            "https://via.placeholder.com/300x400/84946a",
+                            "https://via.placeholder.com/300x400/abb48f",
+                            "https://via.placeholder.com/300x400/9d8f66",
+                            "https://via.placeholder.com/300x400/faf8dd",
+                            "https://via.placeholder.com/300x400/b4bca4",
+                        ]
+                    },
+                    {
+                        "color": "colorName2",
+                        "colorSampleImage": "https://via.placeholder.com/150x50/9d8f66",
+                        "colorDescription": "Description of color",
+                        "images": [
+                            "https://via.placeholder.com/300x400/9d8f66",
+                            "https://via.placeholder.com/300x400/000000",
+                            "https://via.placeholder.com/300x400/000000",
+                            "https://via.placeholder.com/300x400/000000",
+                            "https://via.placeholder.com/300x400/000000",
+                        ]
+                    }
                 ]
             },
             {

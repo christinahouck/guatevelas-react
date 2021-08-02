@@ -32,13 +32,14 @@ export default function ProdImgSwiper(props) {
         watchSlidesVisibility
         watchSlidesProgress
       >
-          {props.product.prodImages.map((imageUrl, index) => {
-              return (
-                <SwiperSlide key={`thumbSwiper${index}`}>
-                    <ThumbImage src={imageUrl} alt={`${props.product.title} thumbnail`} />
-                </SwiperSlide>
-              )
-          })}
+        {props.product.availableColors[props.colorIndex].images.map((imageUrl, i) => {
+          return(
+            <SwiperSlide key={`thumbSwiper${i}`}>
+              <ThumbImage src={imageUrl} alt={`${props.product.title} thumbnail`} />
+            </SwiperSlide>
+          )
+        })}
+    
       </Swiper>
       <Swiper
         thumbs={{ swiper: thumbsSwiper }}
@@ -48,7 +49,7 @@ export default function ProdImgSwiper(props) {
         navigation
         style={styles}
       >
-          {props.product.prodImages.map((imageUrl, index) => {
+          {props.product.availableColors[props.colorIndex].images.map((imageUrl, index) => {
               return (
                 <SwiperSlide key={`mainSwiper${index}`}>
                     <ProductImage src={imageUrl} alt={props.product.title} />
