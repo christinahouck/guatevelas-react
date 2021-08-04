@@ -35,7 +35,7 @@ library.add(faTwitter);
 
 class ProductPage extends React.Component {
     state = {
-      color: 'colorName',
+      color: 'white',
       colorIndex: 0,
     }
 

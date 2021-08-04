@@ -15,7 +15,7 @@ export const enTheme = {
         "prodDictionary": [
             {
                 prodId: 1001,
-                title: "The Esquintla",
+                title: "The Progreso",
                 tagline: "This is the English tagline for 1001. I will keep typing more and more and more and more and even more.",
                 description: "This is where we'd put more info about the candle. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
                 height: "6 in",
@@ -24,8 +24,8 @@ export const enTheme = {
                 price: "25.00",
                 buyLink: "https://guatevelas.com",
                 prodImages: [ 
-                    "https://via.placeholder.com/300x400/abb48f'",
-                    "https://via.placeholder.com/300x400/84946a",
+                    "https://i.imgur.com/RvhDMbC.png",
+                    "https://via.placeholder.com/300x400/b4bca4",
                     "https://via.placeholder.com/300x400/9d8f66",
                     "https://via.placeholder.com/300x400/faf8dd",
                     "https://via.placeholder.com/300x400/b4bca4",
@@ -49,27 +49,27 @@ export const enTheme = {
                 ],
                 availableColors: [
                     {
-                        "color": "colorName",
+                        "color": "white",
                         "colorSampleImage": "https://via.placeholder.com/150x50/abb48f",
-                        "colorDescription": "Description of color",
+                        "colorDescription": "white",
                         "images": [
-                            "https://via.placeholder.com/300x400/abb48f",
-                            "https://via.placeholder.com/300x400/abb48f",
-                            "https://via.placeholder.com/300x400/abb48f",
-                            "https://via.placeholder.com/300x400/abb48f",
-                            "https://via.placeholder.com/300x400/abb48f",
+                            "https://i.imgur.com/RvhDMbC.png",
+                            "https://i.imgur.com/RvhDMbC.png",
+                            "https://i.imgur.com/RvhDMbC.png",
+                            "https://i.imgur.com/RvhDMbC.png",
+                            "https://i.imgur.com/RvhDMbC.png",
                         ]
                     },
                     {
-                        "color": "colorName1",
+                        "color": "hot pink",
                         "colorSampleImage": "https://via.placeholder.com/150x50/84946a",
                         "colorDescription": "Description of color",
                         "images": [
-                            "https://via.placeholder.com/300x400/84946a",
-                            "https://via.placeholder.com/300x400/abb48f",
-                            "https://via.placeholder.com/300x400/9d8f66",
-                            "https://via.placeholder.com/300x400/faf8dd",
-                            "https://via.placeholder.com/300x400/b4bca4",
+                            "https://www.lapsmediae.com/send_imgs.php?img=abe91d36bea45a343609fca197da54079HR0cHM6Lybe91d36bea45a343609fca197da540799pbWFnZXMtbmEuc3NsLWltYWdlcy1hbWF6b24uY29tL2ltYWdlcy9JLzQxdDl0c0hTSWVMLl9BQ19TTDEwMDBfLmpwZw==",
+                            "https://www.lapsmediae.com/send_imgs.php?img=abe91d36bea45a343609fca197da54079HR0cHM6Lybe91d36bea45a343609fca197da540799pbWFnZXMtbmEuc3NsLWltYWdlcy1hbWF6b24uY29tL2ltYWdlcy9JLzQxdDl0c0hTSWVMLl9BQ19TTDEwMDBfLmpwZw==",
+                            "https://www.lapsmediae.com/send_imgs.php?img=abe91d36bea45a343609fca197da54079HR0cHM6Lybe91d36bea45a343609fca197da540799pbWFnZXMtbmEuc3NsLWltYWdlcy1hbWF6b24uY29tL2ltYWdlcy9JLzQxdDl0c0hTSWVMLl9BQ19TTDEwMDBfLmpwZw==",
+                            "https://www.lapsmediae.com/send_imgs.php?img=abe91d36bea45a343609fca197da54079HR0cHM6Lybe91d36bea45a343609fca197da540799pbWFnZXMtbmEuc3NsLWltYWdlcy1hbWF6b24uY29tL2ltYWdlcy9JLzQxdDl0c0hTSWVMLl9BQ19TTDEwMDBfLmpwZw==",
+                            "https://www.lapsmediae.com/send_imgs.php?img=abe91d36bea45a343609fca197da54079HR0cHM6Lybe91d36bea45a343609fca197da540799pbWFnZXMtbmEuc3NsLWltYWdlcy1hbWF6b24uY29tL2ltYWdlcy9JLzQxdDl0c0hTSWVMLl9BQ19TTDEwMDBfLmpwZw==",
                         ]
                     },
                     {
