@@ -15,7 +15,7 @@ export const esTheme = {
         "prodDictionary": [
             {
                 prodId: 1001,
-                title: "The Esquintla",
+                title: "El Progreso",
                 tagline: "This is the Spanish tagline for 1001. I will keep typing more and more and more and more and even more.",
                 description: "Aquí hay la descripción para el producto 1001, que sigue y sigue hasta la infinidad, así y así sigue. This is where we'd put more info about the candle. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.",
                 height: "15 cm",
