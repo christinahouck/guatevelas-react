@@ -17,8 +17,3 @@ export const styleVars = {
     breakpointSmall: '600px',
     shadow: 'rgba(100, 100, 111, 0.2) 0px 7px 29px 0px',
 }
-
-/* 
-TODOS
-* Get the different URLs to default to whatever language the URLs are in
-*/

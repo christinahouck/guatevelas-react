@@ -12,7 +12,7 @@ import Loading from './components/Loading';
 import Shop from './components/Shop/index';
 import Nav from './components/Nav';
 import ProductPage from './components/ProductPages/index';
-import Home from './components/Home';
+import Home from './components/Home/index';
 import About from './components/About';
 
 import { styleVars } from './themes.js';
