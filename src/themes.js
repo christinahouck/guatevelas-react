@@ -9,6 +9,7 @@ export const styleVars = {
     green6: '#b4bca4',
     green7: '#bdbd99',
     whiteYellow: '#faf8dd',
+    lightestGray: '#f1f1f1',
     gray: '#333',
     secondaryFont: "'Playfair Display', serif",
     breakpointTablet: '768px',
@@ -17,8 +18,3 @@ export const styleVars = {
     breakpointSmall: '600px',
     shadow: 'rgba(100, 100, 111, 0.2) 0px 7px 29px 0px',
 }
-
-/* 
-TODOS
-* Get the different URLs to default to whatever language the URLs are in
-*/
