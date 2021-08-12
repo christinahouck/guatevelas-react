@@ -1,11 +1,14 @@
 import React from 'react';
-import { Main, CenteredContainer, BtnAPrimary, InlineButtons, InlinePrimary, InlineSecondary } from '../Common/styles';
+import { Main, CenteredContainer, BtnAPrimary } from '../Common/styles';
 import { 
     Header, 
     HeaderHeading, 
     H2, 
     CenteredContain, 
     CandleImage, 
+    SideBySideButtons,
+    SideBySidePrimary,
+    SideBySideSecondary,
     BenefitContainer,
     Benefits, 
     BenefitBubbleWithText, 
@@ -23,7 +26,7 @@ import {
     InsideOfOuterRing, 
     InnerRing,
     InsideOfInnerRing, 
-    PostcardP
+    PostcardP,
 } from './styles';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faRecycle, faHandHoldingHeart, faFire, faGifts, faPlane } from '@fortawesome/free-solid-svg-icons';
@@ -62,10 +65,9 @@ export default function Home() {
                         <BenefitText>Unique & meaningful gift</BenefitText>
                     </BenefitBubbleWithText>
                 </Benefits>
-                <InlineButtons>
-                    <InlinePrimary href="/products">Browse the collection</InlinePrimary>
-                    <InlineSecondary href="/about">Learn more</InlineSecondary>
-                </InlineButtons>
+                <SideBySideButtons>
+                    <SideBySidePrimary href="/about">Learn more</SideBySidePrimary>
+                </SideBySideButtons>
             </BenefitContainer>
             <CenteredContainer>
                 <Postcard>
@@ -98,7 +100,9 @@ export default function Home() {
                         <PostcardP>Plus, you get a unique and meaningful souvenir</PostcardP>
                     </PostcardText>
                 </Postcard>
-
+                <SideBySideButtons>
+                    <SideBySidePrimary href="/products">Shop now</SideBySidePrimary>
+                </SideBySideButtons>
             </CenteredContainer>
         </Main>
     )

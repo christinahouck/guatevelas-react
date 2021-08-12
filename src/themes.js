@@ -9,6 +9,7 @@ export const styleVars = {
     green6: '#b4bca4',
     green7: '#bdbd99',
     whiteYellow: '#faf8dd',
+    lightestGray: '#f1f1f1',
     gray: '#333',
     secondaryFont: "'Playfair Display', serif",
     breakpointTablet: '768px',

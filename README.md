@@ -76,3 +76,4 @@ Using https://christinacodes.imgur.com/ for image hosting (other than the logos)
 * Get the different URLs to default to whatever language the URLs are in
 * Scroll animations
 * Maybe change to video background?
+* Motion reference: https://git.faithlife.dev/MarTech/faithlifebase/blob/master/scripts/faithlifebase_unity.js#L171

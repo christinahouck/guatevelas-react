@@ -18,7 +18,7 @@ export const Header = styled.article`
         background-color: #333;
         background-image: url('https://i.imgur.com/2qmKiWk.jpg');
         background-size: cover;
-        background-position: 20% 50%;
+        background-position: 50% 20%;
         filter: sepia(10%) opacity(30%);
     }
 `;
@@ -49,7 +49,7 @@ export const H2 = styled.h2`
     font-size: 36px;
     line-height: 1.2;
     margin-bottom: 0;
-    text-align: left;
+    text-align: center;
 `;
 
 export const CandleImage = styled.img`
@@ -57,6 +57,54 @@ export const CandleImage = styled.img`
     max-width: 600px;
     height: auto;
     margin: 0 0 34px 0;
+`;
+
+export const SideBySideButtons = styled.div`
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    @media (max-width: 510px) {
+        flex-direction: column;
+        align-items: center;
+    }
+    @media (min-width: 511px) {
+        flex-direction: row;
+        align-items: flex-start;
+    }
+`;
+
+export const SideBySidePrimary = styled.a`
+    padding: 12px 32px;
+    margin: 0 12px;
+    border-radius: 4px;
+    background-color: ${props => props.theme.green};
+    color: ${props => props.theme.whiteYellow};
+    text-decoration: none;
+    font-size: 18px;
+    font-family: ${props => props.theme.secondaryFont}, serif;
+
+    &:hover,
+    &:active {
+        background-color: ${props => props.theme.green2};
+    }
+`;
+export const SideBySideSecondary = styled.a`
+    margin: 0 12px;
+    padding: 12px 32px;
+    border-radius: 4px;
+    background-color: ${props => props.theme.green4};
+    color: ${props => props.theme.whiteYellow};
+    text-decoration: none;
+    font-size: 18px;
+    font-family: ${props => props.theme.secondaryFont}, serif;
+
+    &:hover,
+    &:active {
+        background-color: ${props => props.theme.green2};
+    }
+    @media (max-width: 510px) {
+        margin-top: 14px;
+    }
 `;
 
 export const BenefitContainer = styled.section`
@@ -67,7 +115,8 @@ export const BenefitContainer = styled.section`
     align-items: center;
     justify-content: center;
     padding: 70px 10px;
-    background-color: ${props => props.theme.green7};
+    background-color: ${props => props.theme.lightestGray};
+    border-radius: 50px 0 50px 0;
 `;
 
 export const Benefits = styled.div`
@@ -78,6 +127,7 @@ export const Benefits = styled.div`
     align-items: flex-start;
     justify-content: center;
     padding: 64px 10px;
+    flex-wrap: wrap;
 `;
 
 export const BenefitBubbleWithText = styled.a`
@@ -86,8 +136,14 @@ export const BenefitBubbleWithText = styled.a`
     align-items: center;
     justify-content: flex-start;
     margin: 12px;
-    width: 180px;
     text-decoration: none;
+    @media (max-width: 820px) {
+        width: 35%;
+        min-width: 140px;
+    }
+    @media (min-width: 821px) {
+        width: 180px;
+    }
 `;
 
 export const BenefitBubble = styled.div`
@@ -121,14 +177,20 @@ export const Postcard = styled.div`
     width: 100%;
     max-width: 1300px;
     display: flex;
-    flex-direction: row;
     align-items: center;
     justify-content: center;
     padding: 64px 10px;
+    @media (max-width: 767px) {
+        flex-direction: column;
+    }
+    @media (min-width: 768px) {
+        flex-direction: row;
+    }
 `;
 
 export const PostcardText = styled.div`
     width: 25%;
+    min-width: 100px;
     display: flex;
     flex-direction: column;
     align-items: center;
