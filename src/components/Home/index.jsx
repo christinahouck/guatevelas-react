@@ -8,7 +8,6 @@ import {
     CandleImage, 
     SideBySideButtons,
     SideBySidePrimary,
-    SideBySideSecondary,
     BenefitContainer,
     Benefits, 
     BenefitBubbleWithText, 
