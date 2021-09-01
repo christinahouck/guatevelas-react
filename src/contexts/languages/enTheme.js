@@ -49,32 +49,186 @@ export const enTheme = {
                 ],
                 availableColors: [
                     {
-                        "color": "white",
-                        "colorSampleImage": "https://via.placeholder.com/150x50/abb48f",
-                        "colorDescription": "white",
+                        "color": "Maíz Azul",
+                        "colorSampleImage": "https://i.imgur.com/RoCSwSY.jpg",
+                        "colorDescription": "Description for blue corn, or maíz azul",
                         "images": [
-                            "https://i.imgur.com/RvhDMbC.png",
-                            "https://i.imgur.com/RvhDMbC.png",
-                            "https://i.imgur.com/RvhDMbC.png",
-                            "https://i.imgur.com/RvhDMbC.png",
-                            "https://i.imgur.com/RvhDMbC.png",
+                            "https://m.media-amazon.com/images/I/81PESIsjKsL._AC_SX679_.jpg",
+                            "https://m.media-amazon.com/images/I/71b9kos-22L._AC_SX679_.jpg",
+                            "https://m.media-amazon.com/images/I/71gSdkhRnJL._AC_SL1500_.jpg",
+                            "https://m.media-amazon.com/images/I/71OUyZ8oSJL._AC_SX679_.jpg",
                         ]
                     },
                     {
-                        "color": "hot pink",
-                        "colorSampleImage": "https://via.placeholder.com/150x50/84946a",
+                        "color": "Uaxactún",
+                        "colorSampleImage": "https://i.imgur.com/RWJlpou.jpg",
                         "colorDescription": "Description of color",
                         "images": [
-                            "https://www.lapsmediae.com/send_imgs.php?img=abe91d36bea45a343609fca197da54079HR0cHM6Lybe91d36bea45a343609fca197da540799pbWFnZXMtbmEuc3NsLWltYWdlcy1hbWF6b24uY29tL2ltYWdlcy9JLzQxdDl0c0hTSWVMLl9BQ19TTDEwMDBfLmpwZw==",
-                            "https://www.lapsmediae.com/send_imgs.php?img=abe91d36bea45a343609fca197da54079HR0cHM6Lybe91d36bea45a343609fca197da540799pbWFnZXMtbmEuc3NsLWltYWdlcy1hbWF6b24uY29tL2ltYWdlcy9JLzQxdDl0c0hTSWVMLl9BQ19TTDEwMDBfLmpwZw==",
-                            "https://www.lapsmediae.com/send_imgs.php?img=abe91d36bea45a343609fca197da54079HR0cHM6Lybe91d36bea45a343609fca197da540799pbWFnZXMtbmEuc3NsLWltYWdlcy1hbWF6b24uY29tL2ltYWdlcy9JLzQxdDl0c0hTSWVMLl9BQ19TTDEwMDBfLmpwZw==",
-                            "https://www.lapsmediae.com/send_imgs.php?img=abe91d36bea45a343609fca197da54079HR0cHM6Lybe91d36bea45a343609fca197da540799pbWFnZXMtbmEuc3NsLWltYWdlcy1hbWF6b24uY29tL2ltYWdlcy9JLzQxdDl0c0hTSWVMLl9BQ19TTDEwMDBfLmpwZw==",
-                            "https://www.lapsmediae.com/send_imgs.php?img=abe91d36bea45a343609fca197da54079HR0cHM6Lybe91d36bea45a343609fca197da540799pbWFnZXMtbmEuc3NsLWltYWdlcy1hbWF6b24uY29tL2ltYWdlcy9JLzQxdDl0c0hTSWVMLl9BQ19TTDEwMDBfLmpwZw==",
+                            "https://m.media-amazon.com/images/I/71ilsWr7KvL._AC_SX679_.jpg",
+                            "https://m.media-amazon.com/images/I/61Kyy1-qLEL._AC_SX679_.jpg",
+                            "https://m.media-amazon.com/images/I/61acHBld8NL._AC_SX679_.jpg",
+                            "https://m.media-amazon.com/images/I/610nZjKyYYL._AC_SX679_.jpg",
                         ]
                     },
                     {
-                        "color": "colorName2",
-                        "colorSampleImage": "https://via.placeholder.com/150x50/9d8f66",
+                        "color": "Atitlán Blue",
+                        "colorSampleImage": "https://i.imgur.com/g9n1MYL.jpg",
+                        "colorDescription": "Description of color",
+                        "images": [
+                            "https://via.placeholder.com/300x400/9d8f66",
+                            "https://via.placeholder.com/300x400/000000",
+                            "https://via.placeholder.com/300x400/000000",
+                            "https://via.placeholder.com/300x400/000000",
+                            "https://via.placeholder.com/300x400/000000",
+                        ]
+                    },
+                    {
+                        "color": "Patzicía Red",
+                        "colorSampleImage": "https://i.imgur.com/dQTiqsg.jpg",
+                        "colorDescription": "Description of color",
+                        "images": [
+                            "https://via.placeholder.com/300x400/9d8f66",
+                            "https://via.placeholder.com/300x400/000000",
+                            "https://via.placeholder.com/300x400/000000",
+                            "https://via.placeholder.com/300x400/000000",
+                            "https://via.placeholder.com/300x400/000000",
+                        ]
+                    },
+                    {
+                        "color": "Tikal",
+                        "colorSampleImage": "https://i.imgur.com/JmJEKlD.jpg",
+                        "colorDescription": "Description of color",
+                        "images": [
+                            "https://via.placeholder.com/300x400/9d8f66",
+                            "https://via.placeholder.com/300x400/000000",
+                            "https://via.placeholder.com/300x400/000000",
+                            "https://via.placeholder.com/300x400/000000",
+                            "https://via.placeholder.com/300x400/000000",
+                        ]
+                    },
+                    {
+                        "color": "Patzún",
+                        "colorSampleImage": "https://i.imgur.com/FuiHMi4.jpg",
+                        "colorDescription": "Description of color",
+                        "images": [
+                            "https://via.placeholder.com/300x400/9d8f66",
+                            "https://via.placeholder.com/300x400/000000",
+                            "https://via.placeholder.com/300x400/000000",
+                            "https://via.placeholder.com/300x400/000000",
+                            "https://via.placeholder.com/300x400/000000",
+                        ]
+                    },
+                    {
+                        "color": "Ipala Soil",
+                        "colorSampleImage": "https://i.imgur.com/4Hlf0JA.jpg",
+                        "colorDescription": "Description of color",
+                        "images": [
+                            "https://via.placeholder.com/300x400/9d8f66",
+                            "https://via.placeholder.com/300x400/000000",
+                            "https://via.placeholder.com/300x400/000000",
+                            "https://via.placeholder.com/300x400/000000",
+                            "https://via.placeholder.com/300x400/000000",
+                        ]
+                    },
+                    {
+                        "color": "Palopó Blue",
+                        "colorSampleImage": "https://i.imgur.com/d9D3otL.jpg",
+                        "colorDescription": "Description of color",
+                        "images": [
+                            "https://via.placeholder.com/300x400/9d8f66",
+                            "https://via.placeholder.com/300x400/000000",
+                            "https://via.placeholder.com/300x400/000000",
+                            "https://via.placeholder.com/300x400/000000",
+                            "https://via.placeholder.com/300x400/000000",
+                        ]
+                    },
+                    {
+                        "color": "Nebaj",
+                        "colorSampleImage": "https://i.imgur.com/YQ2sOZQ.jpg",
+                        "colorDescription": "Description of color",
+                        "images": [
+                            "https://via.placeholder.com/300x400/9d8f66",
+                            "https://via.placeholder.com/300x400/000000",
+                            "https://via.placeholder.com/300x400/000000",
+                            "https://via.placeholder.com/300x400/000000",
+                            "https://via.placeholder.com/300x400/000000",
+                        ]
+                    },
+                    {
+                        "color": "Lanquín",
+                        "colorSampleImage": "https://i.imgur.com/R0Iltan.jpg",
+                        "colorDescription": "Description of color",
+                        "images": [
+                            "https://via.placeholder.com/300x400/9d8f66",
+                            "https://via.placeholder.com/300x400/000000",
+                            "https://via.placeholder.com/300x400/000000",
+                            "https://via.placeholder.com/300x400/000000",
+                            "https://via.placeholder.com/300x400/000000",
+                        ]
+                    },
+                    {
+                        "color": "Salcajá",
+                        "colorSampleImage": "https://i.imgur.com/Mkfavtc.jpg",
+                        "colorDescription": "Description of color",
+                        "images": [
+                            "https://via.placeholder.com/300x400/9d8f66",
+                            "https://via.placeholder.com/300x400/000000",
+                            "https://via.placeholder.com/300x400/000000",
+                            "https://via.placeholder.com/300x400/000000",
+                            "https://via.placeholder.com/300x400/000000",
+                        ]
+                    },
+                    {
+                        "color": "Xelajú Moon",
+                        "colorSampleImage": "https://i.imgur.com/KJoK21e.jpg",
+                        "colorDescription": "Description of color",
+                        "images": [
+                            "https://via.placeholder.com/300x400/9d8f66",
+                            "https://via.placeholder.com/300x400/000000",
+                            "https://via.placeholder.com/300x400/000000",
+                            "https://via.placeholder.com/300x400/000000",
+                            "https://via.placeholder.com/300x400/000000",
+                        ]
+                    },
+                    {
+                        "color": "Café Cobán",
+                        "colorSampleImage": "https://i.imgur.com/rcMg4Ob.jpg",
+                        "colorDescription": "Description of color",
+                        "images": [
+                            "https://via.placeholder.com/300x400/9d8f66",
+                            "https://via.placeholder.com/300x400/000000",
+                            "https://via.placeholder.com/300x400/000000",
+                            "https://via.placeholder.com/300x400/000000",
+                            "https://via.placeholder.com/300x400/000000",
+                        ]
+                    },
+                    {
+                        "color": "Zaculeu",
+                        "colorSampleImage": "https://i.imgur.com/Oc7gOBz.jpg",
+                        "colorDescription": "Description of color",
+                        "images": [
+                            "https://via.placeholder.com/300x400/9d8f66",
+                            "https://via.placeholder.com/300x400/000000",
+                            "https://via.placeholder.com/300x400/000000",
+                            "https://via.placeholder.com/300x400/000000",
+                            "https://via.placeholder.com/300x400/000000",
+                        ]
+                    },
+                    {
+                        "color": "Comalapa",
+                        "colorSampleImage": "https://i.imgur.com/FMFYO8o.jpg",
+                        "colorDescription": "Description of color",
+                        "images": [
+                            "https://via.placeholder.com/300x400/9d8f66",
+                            "https://via.placeholder.com/300x400/000000",
+                            "https://via.placeholder.com/300x400/000000",
+                            "https://via.placeholder.com/300x400/000000",
+                            "https://via.placeholder.com/300x400/000000",
+                        ]
+                    },
+                    {
+                        "color": "Semuc Champey",
+                        "colorSampleImage": "https://i.imgur.com/qojf3Nr.jpg",
                         "colorDescription": "Description of color",
                         "images": [
                             "https://via.placeholder.com/300x400/9d8f66",

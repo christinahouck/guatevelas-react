@@ -16,10 +16,9 @@ export const Header = styled.article`
         width: 100%; 
         height: 400px;
         background-color: #333;
-        background-image: url('https://i.imgur.com/2qmKiWk.jpg');
+        background-image: url('https://i.imgur.com/OHFgIHl.jpg');
         background-size: cover;
-        background-position: 50% 20%;
-        filter: sepia(10%) opacity(30%);
+        background-position: 50% 50%;
     }
 `;
 
