@@ -60,7 +60,7 @@ export const PriceBox = styled.div`
     align-items: flex-start;
     justify-content: flex-start;
     flex-wrap: nowrap;
-    margin-top: 12px;
+    margin: 12px 0;
 `;
 
 export const PriceH2 = styled.h2`

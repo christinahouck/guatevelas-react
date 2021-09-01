@@ -32,19 +32,19 @@ export const enTheme = {
                 ],
                 recommendedProds: [
                     {
-                        "name": "name of prod",
+                        "name": "The Chiquimula",
                         "imgUrl": "https://via.placeholder.com/300x200/abb48f",
-                        "prodId": 1234,
+                        "prodId": 1002,
                     },
                     {
-                        "name": "name of prod 2",
+                        "name": "The Santa Rosa",
                         "imgUrl": "https://via.placeholder.com/300x200/abb48f",
-                        "prodId": 2345,
+                        "prodId": 1003,
                     },
                     {
-                        "name": "name of prod 3",
+                        "name": "The Izabal",
                         "imgUrl": "https://via.placeholder.com/300x200/abb48f",
-                        "prodId": 3456,
+                        "prodId": 1004,
                     }, 
                 ],
                 availableColors: [
@@ -237,6 +237,54 @@ export const enTheme = {
                             "https://via.placeholder.com/300x400/000000",
                             "https://via.placeholder.com/300x400/000000",
                         ]
+                    },
+                    {
+                        "color": "Zunil",
+                        "colorSampleImage": "https://i.imgur.com/CuQBteH.jpg",
+                        "colorDescription": "Description of color",
+                        "images": [
+                            "https://via.placeholder.com/300x400/9d8f66",
+                            "https://via.placeholder.com/300x400/000000",
+                            "https://via.placeholder.com/300x400/000000",
+                            "https://via.placeholder.com/300x400/000000",
+                            "https://via.placeholder.com/300x400/000000",
+                        ]
+                    },
+                    {
+                        "color": "Tacaná",
+                        "colorSampleImage": "https://i.imgur.com/Ue6ZpDy.jpg",
+                        "colorDescription": "Description of color",
+                        "images": [
+                            "https://via.placeholder.com/300x400/9d8f66",
+                            "https://via.placeholder.com/300x400/000000",
+                            "https://via.placeholder.com/300x400/000000",
+                            "https://via.placeholder.com/300x400/000000",
+                            "https://via.placeholder.com/300x400/000000",
+                        ]
+                    },
+                    {
+                        "color": "El Mirador",
+                        "colorSampleImage": "https://i.imgur.com/HJYm7VZ.jpg",
+                        "colorDescription": "Description of color",
+                        "images": [
+                            "https://via.placeholder.com/300x400/9d8f66",
+                            "https://via.placeholder.com/300x400/000000",
+                            "https://via.placeholder.com/300x400/000000",
+                            "https://via.placeholder.com/300x400/000000",
+                            "https://via.placeholder.com/300x400/000000",
+                        ]
+                    },
+                    {
+                        "color": "Cancuén",
+                        "colorSampleImage": "https://i.imgur.com/MGaLdLK.jpg",
+                        "colorDescription": "Description of color",
+                        "images": [
+                            "https://via.placeholder.com/300x400/9d8f66",
+                            "https://via.placeholder.com/300x400/000000",
+                            "https://via.placeholder.com/300x400/000000",
+                            "https://via.placeholder.com/300x400/000000",
+                            "https://via.placeholder.com/300x400/000000",
+                        ]
                     }
                 ]
             },
@@ -259,19 +307,19 @@ export const enTheme = {
                 ],
                 recommendedProds: [
                     {
-                        "name": "name of prod",
+                        "name": "The Progreso",
                         "imgUrl": "https://via.placeholder.com/300x200/abb48f",
-                        "prodId": 1234,
+                        "prodId": 1001,
                     },
                     {
-                        "name": "name of prod 2",
+                        "name": "The Santa Rosa",
                         "imgUrl": "https://via.placeholder.com/300x200/abb48f",
-                        "prodId": 2345,
+                        "prodId": 1003,
                     },
                     {
-                        "name": "name of prod 3",
+                        "name": "The Izabal",
                         "imgUrl": "https://via.placeholder.com/300x200/abb48f",
-                        "prodId": 3456,
+                        "prodId": 1004,
                     }, 
                 ],
                 availableColors: [
@@ -332,19 +380,19 @@ export const enTheme = {
                 ],
                 recommendedProds: [
                     {
-                        "name": "name of prod",
+                        "name": "The Chiquimula",
                         "imgUrl": "https://via.placeholder.com/300x200/abb48f",
-                        "prodId": 1234,
+                        "prodId": 1002,
                     },
                     {
-                        "name": "name of prod 2",
+                        "name": "The Progreso",
                         "imgUrl": "https://via.placeholder.com/300x200/abb48f",
-                        "prodId": 2345,
+                        "prodId": 1001,
                     },
                     {
-                        "name": "name of prod 3",
+                        "name": "The Izabal",
                         "imgUrl": "https://via.placeholder.com/300x200/abb48f",
-                        "prodId": 3456,
+                        "prodId": 1004,
                     }, 
                 ],
                 availableColors: [
@@ -405,19 +453,19 @@ export const enTheme = {
                 ],
                 recommendedProds: [
                     {
-                        "name": "name of prod",
+                        "name": "The Chiquimula",
                         "imgUrl": "https://via.placeholder.com/300x200/abb48f",
-                        "prodId": 1234,
+                        "prodId": 1002,
                     },
                     {
-                        "name": "name of prod 2",
+                        "name": "The Santa Rosa",
                         "imgUrl": "https://via.placeholder.com/300x200/abb48f",
-                        "prodId": 2345,
+                        "prodId": 1003,
                     },
                     {
-                        "name": "name of prod 3",
+                        "name": "The Progreso",
                         "imgUrl": "https://via.placeholder.com/300x200/abb48f",
-                        "prodId": 3456,
+                        "prodId": 1001,
                     }, 
                 ],
                 availableColors: [
@@ -478,19 +526,19 @@ export const enTheme = {
                 ],
                 recommendedProds: [
                     {
-                        "name": "name of prod",
+                        "name": "The San Marcos",
                         "imgUrl": "https://via.placeholder.com/300x200/abb48f",
-                        "prodId": 1234,
+                        "prodId": 1006,
                     },
                     {
-                        "name": "name of prod 2",
+                        "name": "The Sololá",
                         "imgUrl": "https://via.placeholder.com/300x200/abb48f",
-                        "prodId": 2345,
+                        "prodId": 1008,
                     },
                     {
-                        "name": "name of prod 3",
+                        "name": "The Alta Verapaz",
                         "imgUrl": "https://via.placeholder.com/300x200/abb48f",
-                        "prodId": 3456,
+                        "prodId": 1009,
                     }, 
                 ],
                 availableColors: [
@@ -551,20 +599,20 @@ export const enTheme = {
                 ],
                 recommendedProds: [
                     {
-                        "name": "name of prod",
+                        "name": "The Esquintla",
                         "imgUrl": "https://via.placeholder.com/300x200/abb48f",
-                        "prodId": 1234,
+                        "prodId": 1005,
                     },
                     {
-                        "name": "name of prod 2",
+                        "name": "The Sololá",
                         "imgUrl": "https://via.placeholder.com/300x200/abb48f",
-                        "prodId": 2345,
+                        "prodId": 1008,
                     },
                     {
-                        "name": "name of prod 3",
+                        "name": "The Alta Verapaz",
                         "imgUrl": "https://via.placeholder.com/300x200/abb48f",
-                        "prodId": 3456,
-                    }, 
+                        "prodId": 1009,
+                    },
                 ],
                 availableColors: [
                     {
@@ -697,20 +745,20 @@ export const enTheme = {
                 ],
                 recommendedProds: [
                     {
-                        "name": "name of prod",
+                        "name": "The San Marcos",
                         "imgUrl": "https://via.placeholder.com/300x200/abb48f",
-                        "prodId": 1234,
+                        "prodId": 1006,
                     },
                     {
-                        "name": "name of prod 2",
+                        "name": "The Esquintla",
                         "imgUrl": "https://via.placeholder.com/300x200/abb48f",
-                        "prodId": 2345,
+                        "prodId": 1005,
                     },
                     {
-                        "name": "name of prod 3",
+                        "name": "The Alta Verapaz",
                         "imgUrl": "https://via.placeholder.com/300x200/abb48f",
-                        "prodId": 3456,
-                    }, 
+                        "prodId": 1009,
+                    },
                 ],
                 availableColors: [
                     {
@@ -770,20 +818,20 @@ export const enTheme = {
                 ],
                 recommendedProds: [
                     {
-                        "name": "name of prod",
+                        "name": "The San Marcos",
                         "imgUrl": "https://via.placeholder.com/300x200/abb48f",
-                        "prodId": 1234,
+                        "prodId": 1006,
                     },
                     {
-                        "name": "name of prod 2",
+                        "name": "The Sololá",
                         "imgUrl": "https://via.placeholder.com/300x200/abb48f",
-                        "prodId": 2345,
+                        "prodId": 1008,
                     },
                     {
-                        "name": "name of prod 3",
+                        "name": "The Esquintla",
                         "imgUrl": "https://via.placeholder.com/300x200/abb48f",
-                        "prodId": 3456,
-                    }, 
+                        "prodId": 1005,
+                    },
                 ],
                 availableColors: [
                     {
