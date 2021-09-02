@@ -18,8 +18,7 @@ export const Header = styled.article`
         background-color: #333;
         background-image: url('https://i.imgur.com/2qmKiWk.jpg');
         background-size: cover;
-        background-position: 50% 20%;
-        filter: sepia(10%) opacity(30%);
+        background-position: 50% 50%;
     }
 `;
 
