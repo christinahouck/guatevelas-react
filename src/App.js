@@ -9,15 +9,58 @@ import { ThemeProvider } from "styled-components";
 import { LanguageContext } from './languageContext';
 
 import Loading from './components/Loading';
-import Shop from './components/Shop/index';
 import Nav from './components/Nav';
-import ProductPage from './components/ProductPages/index';
-import Home from './components/Home/index';
-import About from './components/About';
 
 import { styleVars } from './themes.js';
 import { enTheme } from './contexts/languages/enTheme';
 import { esTheme } from './contexts/languages/esTheme';
+
+class DynamicImport extends React.Component { 
+  state = {
+    component: null
+  }
+  componentDidMount() {
+    this.props.load()
+      .then((mod) => this.setState(() => ({
+        component: mod.default
+      })))
+  }
+  render() {
+    return this.props.children(this.state.component)
+  }
+}
+const Shop = (props) => (
+  <DynamicImport load={() => import('./components/Shop/index.js')}>
+    {(Component) => Component === null 
+      ? <h1>Loading</h1>
+      : <Component {...props} />
+    }
+  </DynamicImport>
+)
+const ProductPage = (props) => (
+  <DynamicImport load={() => import('./components/ProductPages/index.jsx')}>
+    {(Component) => Component === null 
+      ? <h1>Loading</h1>
+      : <Component {...props} />
+    }
+  </DynamicImport>
+)
+const About = (props) => (
+  <DynamicImport load={() => import('./components/About/index.jsx')}>
+    {(Component) => Component === null 
+      ? <h1>Loading</h1>
+      : <Component {...props} />
+    }
+  </DynamicImport>
+)
+const Home = (props) => (
+  <DynamicImport load={() => import('./components/Home/index.jsx')}>
+    {(Component) => Component === null 
+      ? <h1>Loading</h1>
+      : <Component {...props} />
+    }
+  </DynamicImport>
+)
 
 class App extends React.Component {
   state = {
