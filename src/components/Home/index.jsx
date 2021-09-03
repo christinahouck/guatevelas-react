@@ -26,38 +26,45 @@ import {
     InnerRing,
     InsideOfInnerRing, 
     PostcardP,
+    Video,
+    VideoContainer
 } from './styles';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { faRecycle, faHandHoldingHeart, faFire, faGifts, faPlane } from '@fortawesome/free-solid-svg-icons';
+import { faGlobeAmericas, faHandHoldingHeart, faFire, faGifts, faPlane } from '@fortawesome/free-solid-svg-icons';
 
 export default function Home() {
 
     return (
         <Main>
             <Header>
+                <VideoContainer>  
+                    <Video autoPlay loop muted>
+                        <source src="../assets/candles.mp4" type="video/mp4" />
+                    </Video>
+                </VideoContainer>
                 <CenteredContain>
                     <HeaderHeading>Discover the magic of Mayan fire</HeaderHeading>
                     <BtnAPrimary href="/products">Browse the collection</BtnAPrimary>
                 </CenteredContain>
             </Header>
             <CenteredContainer>
-                <H2>These candles are super awesome</H2>
+                <H2>Handcrafted Guatemalan candles</H2>
                 <CandleImage src="https://i.imgur.com/bv8DHoW.png" />
             </CenteredContainer>
             <BenefitContainer>
                 <H2>What makes Guatevelas unique</H2>
                 <Benefits>
                     <BenefitBubbleWithText href="/about">
-                        <BenefitBubble><FontAwesomeIcon icon={faRecycle} /></BenefitBubble>
-                        <BenefitText>Eco-friendly</BenefitText>
+                        <BenefitBubble><FontAwesomeIcon icon={faGlobeAmericas} /></BenefitBubble>
+                        <BenefitText>Guatemalan-owned</BenefitText>
+                    </BenefitBubbleWithText>
+                    <BenefitBubbleWithText href="/about">
+                        <BenefitBubble><FontAwesomeIcon icon={faFire} /></BenefitBubble>
+                        <BenefitText>24+ hour burn time</BenefitText>
                     </BenefitBubbleWithText>
                     <BenefitBubbleWithText href="/about">
                         <BenefitBubble><FontAwesomeIcon icon={faHandHoldingHeart} /></BenefitBubble>
                         <BenefitText>Empowers local artisans</BenefitText>
-                    </BenefitBubbleWithText>
-                    <BenefitBubbleWithText href="/about">
-                        <BenefitBubble><FontAwesomeIcon icon={faFire} /></BenefitBubble>
-                        <BenefitText>100+ hour burn time</BenefitText>
                     </BenefitBubbleWithText>
                     <BenefitBubbleWithText href="/about">
                         <BenefitBubble><FontAwesomeIcon icon={faGifts} /></BenefitBubble>

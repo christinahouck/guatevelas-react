@@ -8,19 +8,21 @@ export const Header = styled.article`
     width: 100%;
     padding: 64px 10px;
     position: relative;
-    &:before {
-        content: '';
-        position: absolute;
-        top: 0; 
-        left: 0;
-        width: 100%; 
-        height: 400px;
-        background-color: #333;
-        background-image: url('https://i.imgur.com/2qmKiWk.jpg');
-        background-size: cover;
-        background-position: 50% 50%;
-    }
+    
 `;
+
+// &:before {
+//     content: '';
+//     position: absolute;
+//     top: 0; 
+//     left: 0;
+//     width: 100%; 
+//     height: 400px;
+//     background-color: #333;
+//     background-image: url('https://i.imgur.com/2qmKiWk.jpg');
+//     background-size: cover;
+//     background-position: 50% 50%;
+// }
 
 export const HeaderHeading = styled.h1`
     text-align: center;
@@ -29,6 +31,7 @@ export const HeaderHeading = styled.h1`
     font-size: 40px;
     line-height: 1.2;
     margin: 0;
+    background-color: rgba(255,255,255,0.8);
 `;
 
 export const CenteredContain = styled.section`
@@ -81,7 +84,6 @@ export const SideBySidePrimary = styled.a`
     text-decoration: none;
     font-size: 18px;
     font-family: ${props => props.theme.secondaryFont}, serif;
-
     &:hover,
     &:active {
         background-color: ${props => props.theme.green2};
@@ -209,6 +211,7 @@ export const PostcardImageContainer = styled.div`
 export const PostcardImage = styled.img`
     position: relative;
     top: -80px;
+    width: 100%;
 `;
 
 export const Stamp = styled.div`
@@ -263,7 +266,7 @@ export const OuterRing = styled.div`
 export const InsideOfOuterRing = styled.div`
     height: 100px;
     width: 100px;
-    background-color: #fff;
+    background-color: #hotpink;
     border-radius: 50%;
     display: flex;
     align-items: center;
@@ -272,8 +275,8 @@ export const InsideOfOuterRing = styled.div`
 `;
 
 export const InnerRing = styled.div`
-    width: 60%;
-    height: 60%;
+    width: 90%;
+    height: 90%;
     border-radius: 50%;
     border-radius: 50%;
     position: relative;
@@ -298,8 +301,8 @@ export const InnerRing = styled.div`
 `;
 
 export const InsideOfInnerRing = styled.div`
-    height: 80px;
-    width: 80px;
+    height: 58px;
+    width: 58px;
     background-color: #fff;
     border-radius: 50%;
     display: flex;
@@ -324,4 +327,29 @@ export const PostcardP = styled.p`
     font-family: ${props => props.theme.secondaryFont};
     text-align: center;
     max-width: 180px;
+`;
+
+export const VideoContainer = styled.div`
+    width: 100%; 
+    height: 100%;
+    max-height: 500px;
+    overflow: hidden;
+    position: absolute;
+    top: 0;
+    right: 0;
+    z-index: -100;
+`;
+export const Video = styled.video`
+    position: absolute;
+    width: 100%;
+    top: 0;
+`;
+
+export const VideoSection = styled.section`
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    min-height: 300px;
 `;
