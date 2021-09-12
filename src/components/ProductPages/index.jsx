@@ -38,20 +38,8 @@ class ProductPage extends React.Component {
       color: 'Maíz Azul',
       colorIndex: 0,
     }
-
-    determineColorToShow = (color) => {
-        console.log(color);
-        // item.availableColors.map((colorListing, i) => {
-        //     if (colorListing.color === color) {
-        //         this.setState({ colorIndex: i })
-        //     }
-        // })
-    }
-    /* CHRISTINA => need to figure this out, I'm not putting in the right inputs here but otherwise I think it's ok */
-
     toggleColor = (event, newColor, index) => {
         this.setState({ color: newColor, colorIndex: index});
-        // this.determineColorToShow(newColor);
     }
 
     render() {

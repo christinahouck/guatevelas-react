@@ -11,7 +11,16 @@ import {
     FlexRowLeft,
     BtnPrimary,
     VideoSectionContent,
-    FlexColHalfWidth
+    FlexColHalfWidth,
+    TwoImgBackground,
+    ImgBackground,
+    ImgBackgroundOverlay,
+    ImgBgP,
+    FireSections,
+    Fire,
+    FireImg,
+    FireH1, 
+    FireP
  } from './styles';
 
 export default function About() {
@@ -19,25 +28,47 @@ export default function About() {
         <div>
             <Section>
                 <Container>
-                    <FlexRow>
-                        <FlexCol>
-                            <H1>Some stuff about fire</H1>
-                            <p>Mayans, Rituals, Birthday candles, purity</p>
-                        </FlexCol>
-                    </FlexRow>
+                    <FireSections>
+                        <Fire>
+                            <FireImg src="https://i.imgur.com/OHFgIHl.jpg?1" alt="alt" />
+                        </Fire>
+                        <Fire>
+                            <FireH1>Fire: one of the last remaining forms of magic.</FireH1>
+                            <FireP>One of the four elements, fire has captivated humanity since primitive times. It represents purification and has been used in rituals for ages, from burials to births to cleansings.</FireP>
+                            <FireP>Candles are a manifestation of fire that we use even now, and even in the simplest of rituals such as lighting a birthday candle.</FireP>
+                        </Fire>
+                    </FireSections>
                 </Container>
             </Section>
             <Section>
+                <TwoImgBackground>
+                    <ImgBackground>
+                    </ImgBackground>
+                    <ImgBackground>
+                    </ImgBackground>
+                    <ImgBackgroundOverlay>
+                    <FlexRow>
+                        <FlexCol>
+                            <H1>Guatemalan Textile Art</H1>
+                            <ImgBgP>Textiles are an essential part of ancient Guatemalan culture, one that has been handed down for millennia. Not only are Guatemalan textiles beautiful works of art, they also have long-lasting significance.</ImgBgP>
+                            <ImgBgP>Textiles have been woven using traditional methods and tools such as backstrap looms. Historically, this artful skill has been passed down from mother to daughter as a rite of passage.</ImgBgP>
+                            <ImgBgP>Over time, different regions adopted patterns as their own, and a trained eye can oftentimes tell where a piece came from by its pattern.</ImgBgP>
+                        </FlexCol>
+                    </FlexRow>
+                </ImgBackgroundOverlay>
+                </TwoImgBackground>
+            </Section>
+            {/* <Section>
                 <Container>
                     <FlexRow>
                         <FlexCol>
-                            <H1>Some stuff about Guatemalan textiles</H1>
+                            <H1>Guatevelas fuses two ancient forms of Mayan magic and tradition: fire and textiles</H1>
                             <p>Read all about it</p>
                         </FlexCol>
                     </FlexRow>
                 </Container>
-            </Section>
-            <Section>
+            </Section> */}
+            {/* <Section>
                 <Container>
                     <FlexRow>
                         <FlexCol>
@@ -46,8 +77,8 @@ export default function About() {
                         </FlexCol>
                     </FlexRow>
                 </Container>
-            </Section>
-            <Section>
+            </Section> */}
+            {/* <Section>
                 <Container>
                     <FlexRow>
                         <FlexColHalfWidth>
@@ -59,7 +90,7 @@ export default function About() {
                         </FlexColHalfWidth>
                     </FlexRow>
                 </Container>
-            </Section>
+            </Section> */}
 
             <VideoSection>
                 <VideoSectionContent>
