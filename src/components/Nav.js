@@ -68,6 +68,7 @@ const NavDiv = styled.nav`
     position: sticky;
     width: 100%;
     box-shadow: ${props => props.theme.shadow};
+    background-color: #fff;
 `;
 const NavContainer = styled(FlexRowCenter)`
     max-width: 1000px;

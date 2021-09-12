@@ -21,7 +21,7 @@ export const esTheme = {
                 height: "15 cm",
                 width: "6.3 cm",
                 weight: "0.7 kg",
-                price: "25.00",
+                price: "12.00",
                 buyLink: "https://guatevelas.com",
                 prodImages: [ 
                     "https://i.imgur.com/RvhDMbC.png",
@@ -94,7 +94,7 @@ export const esTheme = {
                 height: "16.5 cm",
                 width: "7.6 cm",
                 weight: "0.7 kg",
-                price: "25.00",
+                price: "12.00",
                 buyLink: "https://guatevelas.com",
                 prodImages: [ 
                     "https://i.imgur.com/RvhDMbC.png",
@@ -167,7 +167,7 @@ export const esTheme = {
                 height: "12.7 cm",
                 width: "5 cm",
                 weight: "0.36 kg",
-                price: "25.00",
+                price: "6.00",
                 buyLink: "https://guatevelas.com",
                 prodImages: [ 
                     "https://i.imgur.com/RvhDMbC.png",
@@ -240,7 +240,7 @@ export const esTheme = {
                 height: "11.4 cm",
                 width: "6.3 cm",
                 weight: "0.45 kg",
-                price: "25.00",
+                price: "9.00",
                 buyLink: "https://guatevelas.com",
                 prodImages: [ 
                     "https://i.imgur.com/RvhDMbC.png",
@@ -313,7 +313,7 @@ export const esTheme = {
                 height: "16.5 cm",
                 width: "7.6 cm",
                 weight: "0.75 kg",
-                price: "25.00",
+                price: "12.00",
                 buyLink: "https://guatevelas.com",
                 prodImages: [ 
                     "https://i.imgur.com/RvhDMbC.png",
@@ -386,7 +386,7 @@ export const esTheme = {
                 height: "11.4 cm",
                 width: "6.3 cm",
                 weight: "0.45 kg",
-                price: "25.00",
+                price: "9.00",
                 buyLink: "https://guatevelas.com",
                 prodImages: [ 
                     "https://i.imgur.com/RvhDMbC.png",
@@ -459,7 +459,7 @@ export const esTheme = {
                 height: "10 cm",
                 width: "12.7 cm",
                 weight: "0.7 kg",
-                price: "25.00",
+                price: "12.00",
                 buyLink: "https://guatevelas.com",
                 prodImages: [ 
                     "https://i.imgur.com/RvhDMbC.png",
@@ -532,7 +532,7 @@ export const esTheme = {
                 height: "10 cm",
                 width: "10 cm",
                 weight: "0.7 kg",
-                price: "25.00",
+                price: "12.00",
                 buyLink: "https://guatevelas.com",
                 prodImages: [ 
                     "https://i.imgur.com/RvhDMbC.png",
@@ -605,7 +605,7 @@ export const esTheme = {
                 height: "30.4 cm",
                 width: "5 cm",
                 weight: "1.13 kg",
-                price: "25.00",
+                price: "18.00",
                 buyLink: "https://guatevelas.com",
                 prodImages: [ 
                     "https://i.imgur.com/RvhDMbC.png",
