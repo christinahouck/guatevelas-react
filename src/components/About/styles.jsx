@@ -9,7 +9,7 @@ export const Section = styled.section`
 `;
 
 export const Container = styled.div`
-    padding: 64px 10px;
+    padding: 92px 10px;
     width: 100%;
     max-width: 1200px;
 `;
@@ -48,10 +48,33 @@ export const FlexColHalfWidth = styled.div`
     justify-content: center;
     margin: 0 10px;
     width: 44%;
-    border: 2px dashed orange;
+    &:first-child {
+        align-items: center;
+    }
+`;
+
+export const FlexColHalfWidthCentered = styled.div`
+    display: flex;
+    flex-direction: column;
+    align-items: center
+    justify-content: center;
+    margin: 0 10px;
+    width: 44%;
+    &:first-child {
+        align-items: center;
+    }
 `;
 
 export const H1 = styled.h1`
+    text-align: center;
+    font-family: ${props => props.theme.secondaryFont}, serif;
+    color: ${props => props.theme.green};
+    font-size: 52px;
+    line-height: 1.2;
+    margin: 0;
+`;
+
+export const FooterH1 = styled.h1`
     text-align: center;
     font-family: ${props => props.theme.secondaryFont}, serif;
     color: ${props => props.theme.green};
@@ -103,12 +126,6 @@ export const FireP = styled.p`
     text-align: left;
 `;
 
-export const LuisFerImage = styled.img`
-    max-width: 100%;
-    height: auto;
-    box-shadow: #586a3a 5px 5px, #7c885f 10px 10px, #84946a 15px 15px, #9ea783 20px 20px, #bdbd99 25px 25px;
-`;
-
 export const TwoImgBackground = styled.div`
     width: 100%;
     height: 100%;
@@ -139,8 +156,8 @@ export const ImgBackground = styled.div`
 export const ImgBackgroundOverlay = styled.div`
     position: absolute;
     z-index: 900;
-    top: 750px;
-    left: 33%;
+    top: 840px;
+    left: 27%;
     background-color: #f1f1f1;
     width: 60%;
     max-width: 800px;
@@ -158,6 +175,107 @@ export const ImgBgP = styled.p`
     font-family: ${props => props.theme.secondaryFont};
     text-align: left;
     font-size: 24px;
+`;
+
+export const Fusion = styled.h1`
+    color: ${props => props.theme.brown};
+    font-family: ${props => props.theme.secondaryFont};
+    font-size: 48px;
+    line-height: 1.2;
+    width: 100%;
+    max-width: 1000px;
+    text-align: center;
+    margin-top: 82px;
+    margin-bottom: 64px;
+`;
+
+// export const FusionImg = styled.img`
+//     max-width: 600px;
+//     width: 100%;
+//     height: auto;
+//     margin-bottom: 68px;
+// `;
+
+export const Artisans = styled.div`
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: center;
+    flex-wrap: wrap;
+    width: 100%;
+    margin-top: 24px;
+`;
+
+export const ArtisansSect = styled.div`
+    display: flex;
+    flex-direction: row-reverse;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    width: 100%;
+    padding: 16px 0;
+    &:first-child {
+        margin-top: 18px;
+        flex-direction: row;
+    }
+    &:nth-child(2) {
+        flex-direction: row-reverse;
+    }
+`;
+
+export const ArtisansImage = styled.img`
+    max-width: 100%;
+    height: auto;
+    box-shadow: #586a3a 5px 5px, #7c885f 10px 10px, #84946a 15px 15px, #9ea783 20px 20px, #bdbd99 25px 25px;
+`;
+
+export const ArtisansImageCapt = styled.p`
+    color: ${props => props.theme.green};
+    font-family: ${props => props.theme.secondaryFont};
+    text-align: center;
+    font-size: 18px;
+    margin-top: 36px;
+`;
+
+export const StaggeredH1 = styled.h1`
+    margin: 0;
+    margin-bottom: 24px;
+    text-align: center;
+    font-family: ${props => props.theme.secondaryFont}, serif;
+    color: ${props => props.theme.green};
+    font-size: 52px;
+    line-height: 1.2;
+`;
+
+export const StaggeredHolder = styled.div`
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+    margin-bottom: 62px;
+`;
+
+export const Staggered = styled.div`
+    margin-top: 24px;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    &:nth-child(2n) {
+        align-items: flex-start;
+    }
+    &:nth-child(2n + 1) {
+        align-items: flex-end;
+        justify-content: flex-end;
+    }
+`;
+
+export const StaggeredInside = styled.div`
+    width: 90%;
+    background-color: #f1f1f1;
+    padding: 24px;
+    border-radius: 8px;
+    margin-top: 12px;
+    margin-bottom: 12px;
 `;
 
 export const VideoSection = styled.section`
