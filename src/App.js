@@ -20,6 +20,7 @@ class DynamicImport extends React.Component {
     component: null
   }
   componentDidMount() {
+    alert('This website is a work in progress. Not all of its content is finalized or up-to-date.');
     this.props.load()
       .then((mod) => this.setState(() => ({
         component: mod.default
@@ -32,7 +33,7 @@ class DynamicImport extends React.Component {
 const Shop = (props) => (
   <DynamicImport load={() => import('./components/Shop/index.js')}>
     {(Component) => Component === null 
-      ? <h1>Loading</h1>
+      ? <Loading />
       : <Component {...props} />
     }
   </DynamicImport>
@@ -40,7 +41,7 @@ const Shop = (props) => (
 const ProductPage = (props) => (
   <DynamicImport load={() => import('./components/ProductPages/index.jsx')}>
     {(Component) => Component === null 
-      ? <h1>Loading</h1>
+      ? <Loading />
       : <Component {...props} />
     }
   </DynamicImport>
@@ -48,7 +49,7 @@ const ProductPage = (props) => (
 const About = (props) => (
   <DynamicImport load={() => import('./components/About/index.jsx')}>
     {(Component) => Component === null 
-      ? <h1>Loading</h1>
+      ? <Loading />
       : <Component {...props} />
     }
   </DynamicImport>
@@ -56,7 +57,7 @@ const About = (props) => (
 const Home = (props) => (
   <DynamicImport load={() => import('./components/Home/index.jsx')}>
     {(Component) => Component === null 
-      ? <h1>Loading</h1>
+      ? <Loading />
       : <Component {...props} />
     }
   </DynamicImport>

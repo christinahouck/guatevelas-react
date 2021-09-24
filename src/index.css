@@ -47,3 +47,17 @@ body {
 .listing-link:active {
   color: #9d8f66;
 }
+
+.loading {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  height: 500px;
+}
+.loading-h1 {
+  font-size: 52px;
+  text-align: center;
+  font-family: "Playfair Display", serif;
+  color: #586a3a;
+}
