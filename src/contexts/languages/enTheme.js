@@ -1,7 +1,7 @@
 export const enTheme = {
     "lang": "en",
     "nav": {
-        "shop": "Shop",
+        "shop": "Collection",
         "about": "About"
     },
     "home": {
@@ -16,13 +16,13 @@ export const enTheme = {
         "learnMore":"Learn more",
         "postcardLeft":"Your purchase empowers local artisans by investing in their work",
         "postcardRight":"Plus, you get a unique and meaningful souvenir",
-        "shopNow": "Shop now"
+        "shopNow": "Browse collection"
     },
     "about": {
         "headerText": "Fire: one of the last remaining forms of magic.",
     },
     "productPage": {
-        "buyButton": "Buy on Etsy",
+        "buyButton": "Buy on TBD",
         "moreInfo": "More info",
         "mayAlso": "You may also like...",
         "social": "Share on Social Media",

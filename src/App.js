@@ -20,6 +20,7 @@ class DynamicImport extends React.Component {
     component: null
   }
   componentDidMount() {
+    alert('This website is a work in progress. Not all of its content is finalized or up-to-date.');
     this.props.load()
       .then((mod) => this.setState(() => ({
         component: mod.default

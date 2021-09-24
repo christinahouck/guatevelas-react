@@ -34,7 +34,6 @@ import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faGlobeAmericas, faHandHoldingHeart, faFire, faGifts, faPlane } from '@fortawesome/free-solid-svg-icons';
 
 export default function Home() {
-
     return (
         <LanguageContext.Consumer>
             {theme => (
