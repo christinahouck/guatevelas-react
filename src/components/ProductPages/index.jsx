@@ -35,7 +35,7 @@ library.add(faTwitter);
 
 class ProductPage extends React.Component {
     state = {
-      color: 'Maíz Azul',
+      color: 'Atitlán Blue',
       colorIndex: 0,
     }
     toggleColor = (event, newColor, index) => {

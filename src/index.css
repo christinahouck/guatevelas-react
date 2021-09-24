@@ -61,3 +61,7 @@ body {
   font-family: "Playfair Display", serif;
   color: #586a3a;
 }
+.flag {
+  width: 40px;
+  height: auto;
+}
