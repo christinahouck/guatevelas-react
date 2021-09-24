@@ -48,6 +48,11 @@ export const Listing = styled.div`
     max-width: 320px;
 `;
 
+export const ProdImage = styled.img`
+    width: 100%;
+    height: auto;
+`;
+
 export const Title = styled.h3`
     font-family: ${props => props.theme.secondaryFont}, serif;
     color: ${props => props.theme.green};

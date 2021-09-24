@@ -35,12 +35,12 @@ export default function Nav({ version, setLanguage }) {
                             <FlexRowCenter>
                                 { theme.lang === 'es' ? (
                                     <LanguageButton onClick={() => setLanguage('en')}>
-                                        <img src="https://via.placeholder.com/35x20" alt="English" />
+                                        <img className="flag" src="https://i.imgur.com/8Hugc1D.png" alt="Set website language to English" />
                                         <LanguageName>English</LanguageName>
                                     </LanguageButton>
                                 ) : (
                                     <LanguageButton onClick={() => setLanguage('es')}>
-                                        <img src="https://via.placeholder.com/35x20" alt="Español" />
+                                        <img className="flag" src="https://i.imgur.com/WNVIvkO.png" alt="Leer este sitio web en Español" />
                                         <LanguageName>Espa&ntilde;ol</LanguageName>
                                     </LanguageButton>
                                 )}
@@ -66,6 +66,7 @@ const NavDiv = styled.nav`
     align-items: center;
     justify-content: center;
     position: sticky;
+    top: 0;
     width: 100%;
     box-shadow: ${props => props.theme.shadow};
     background-color: #fff;

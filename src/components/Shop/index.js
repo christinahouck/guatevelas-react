@@ -7,7 +7,8 @@ import {
     Listing,
     Title,
     Tagline,
-    Price
+    Price, 
+    ProdImage
 } from './styles';
 import { Link } from 'react-router-dom';
 import { LanguageContext } from '../../languageContext';
@@ -23,7 +24,7 @@ export default function Shop() {
                             { theme["productPage"]["prodDictionary"].map((item, index) => {
                                 return (
                                     <Listing key={`listing${index}`}>
-                                        <img src={item["prodImages"][0]} alt="Product" />
+                                        <ProdImage src={item["prodImages"][0]} alt={item["title"]} />
                                         <Title>{item["title"]}</Title>
                                         <Tagline>{item["tagline"]}</Tagline>
                                         <Price>${item["price"]}</Price>
