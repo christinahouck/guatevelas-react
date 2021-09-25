@@ -23,7 +23,7 @@ export default function ProdImgSwiper(props) {
 
   return (
     <SwiperSection>
-      <Swiper
+      {/* <Swiper
         spaceBetween={20}
         slidesPerView={'auto'}
         direction={'vertical'}
@@ -40,8 +40,9 @@ export default function ProdImgSwiper(props) {
           )
         })}
     
-      </Swiper>
-      <Swiper
+      </Swiper> */}
+      <ProductImage src={props.product.availableColors[props.colorIndex].images[0]} alt={props.product.title} />
+      {/* <Swiper
         thumbs={{ swiper: thumbsSwiper }}
         spaceBetween={10}
         slidesPerView={1}
@@ -56,7 +57,7 @@ export default function ProdImgSwiper(props) {
                 </SwiperSlide>
               )
           })}
-      </Swiper>
+      </Swiper> */}
     </SwiperSection>
   );
 };
