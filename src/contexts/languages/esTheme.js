@@ -1,7 +1,7 @@
 export const esTheme = {
     "lang": "es",
     "nav": {
-        "shop": "Tienda",
+        "shop": "Colección",
         "about": "Sobre nosotros"
     },
     "home": {
@@ -22,7 +22,7 @@ export const esTheme = {
         "headerText": "Fuego: one of the last remaining forms of magic.",
     },
     "productPage": {
-        "buyButton": "Compra en Etsy",
+        "buyButton": "Compra en TBD",
         "moreInfo": "Más información",
         "mayAlso": "Te podría interesar...",
         "social": "Comparte en redes sociales",
