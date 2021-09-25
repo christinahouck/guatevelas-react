@@ -86,3 +86,4 @@ Using https://christinacodes.imgur.com/ for image hosting (other than the logos)
 * Add flag icons to the navbar 
 * Make nav bar mobile friendly
 * Make nav bar shrink when sticky
+* Make it more obvious on the collections page that there are more colors available (show smaller images of different colors or a carousel?)

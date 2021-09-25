@@ -2109,7 +2109,7 @@ export const esTheme = {
                         "color": "Atitlán Blue",
                         "colorSampleImage": "https://i.imgur.com/g9n1MYL.jpg",
                         "images": [
-                            "https://i.imgur.com/HZicd5d.jpg",
+                            "https://i.imgur.com/BAyz3WK.jpg",
                             "https://via.placeholder.com/300x400/000000",
                             "https://via.placeholder.com/300x400/000000",
                             "https://via.placeholder.com/300x400/000000",
@@ -2120,7 +2120,7 @@ export const esTheme = {
                         "color": "Palopó Blue",
                         "colorSampleImage": "https://i.imgur.com/d9D3otL.jpg",
                         "images": [
-                            "https://i.imgur.com/L3G6c5g.jpg",
+                            "https://i.imgur.com/RCWeC5l.jpg",
                             "https://via.placeholder.com/300x400/000000",
                             "https://via.placeholder.com/300x400/000000",
                             "https://via.placeholder.com/300x400/000000",
@@ -2131,7 +2131,7 @@ export const esTheme = {
                         "color": "Café Cobán",
                         "colorSampleImage": "https://i.imgur.com/rcMg4Ob.jpg",
                         "images": [
-                            "https://i.imgur.com/OjJf01t.jpg",
+                            "https://i.imgur.com/e5MANvd.jpg",
                             "https://via.placeholder.com/300x400/000000",
                             "https://via.placeholder.com/300x400/000000",
                             "https://via.placeholder.com/300x400/000000",
@@ -2142,7 +2142,7 @@ export const esTheme = {
                         "color": "Cancuén",
                         "colorSampleImage": "https://i.imgur.com/MGaLdLK.jpg",
                         "images": [
-                            "https://i.imgur.com/QtUTSBe.jpg",
+                            "https://i.imgur.com/8Q5fdyM.jpg",
                             "https://via.placeholder.com/300x400/000000",
                             "https://via.placeholder.com/300x400/000000",
                             "https://via.placeholder.com/300x400/000000",
@@ -2153,7 +2153,7 @@ export const esTheme = {
                         "color": "Comalapa",
                         "colorSampleImage": "https://i.imgur.com/FMFYO8o.jpg",
                         "images": [
-                            "https://i.imgur.com/CrNf3jN.jpg",
+                            "https://i.imgur.com/iJGuDyY.jpg",
                             "https://via.placeholder.com/300x400/000000",
                             "https://via.placeholder.com/300x400/000000",
                             "https://via.placeholder.com/300x400/000000",
@@ -2164,7 +2164,7 @@ export const esTheme = {
                         "color": "El Mirador",
                         "colorSampleImage": "https://i.imgur.com/HJYm7VZ.jpg",
                         "images": [
-                            "https://i.imgur.com/R0u6nJ1.jpg",
+                            "https://i.imgur.com/eejHtil.jpg",
                             "https://via.placeholder.com/300x400/000000",
                             "https://via.placeholder.com/300x400/000000",
                             "https://via.placeholder.com/300x400/000000",
@@ -2175,7 +2175,7 @@ export const esTheme = {
                         "color": "Lanquín",
                         "colorSampleImage": "https://i.imgur.com/R0Iltan.jpg",
                         "images": [
-                            "https://i.imgur.com/aHutYEk.jpg",
+                            "https://i.imgur.com/zf6TAYE.jpg",
                             "https://via.placeholder.com/300x400/000000",
                             "https://via.placeholder.com/300x400/000000",
                             "https://via.placeholder.com/300x400/000000",
@@ -2186,7 +2186,7 @@ export const esTheme = {
                         "color": "Xelajú Moon",
                         "colorSampleImage": "https://i.imgur.com/KJoK21e.jpg",
                         "images": [
-                            "https://i.imgur.com/BsXghSe.jpg",
+                            "https://i.imgur.com/ZZMTX54.jpg",
                             "https://via.placeholder.com/300x400/000000",
                             "https://via.placeholder.com/300x400/000000",
                             "https://via.placeholder.com/300x400/000000",
@@ -2197,7 +2197,7 @@ export const esTheme = {
                         "color": "Maíz Azul",
                         "colorSampleImage": "https://i.imgur.com/RoCSwSY.jpg",
                         "images": [
-                            "https://i.imgur.com/vl69gPI.jpg",
+                            "https://i.imgur.com/DID5JRH.jpg",
                             "https://m.media-amazon.com/images/I/71b9kos-22L._AC_SX679_.jpg",
                             "https://m.media-amazon.com/images/I/71gSdkhRnJL._AC_SL1500_.jpg",
                             "https://m.media-amazon.com/images/I/71OUyZ8oSJL._AC_SX679_.jpg",
@@ -2207,7 +2207,7 @@ export const esTheme = {
                         "color": "Nebaj",
                         "colorSampleImage": "https://i.imgur.com/YQ2sOZQ.jpg",
                         "images": [
-                            "https://i.imgur.com/ysTSTfq.jpg",
+                            "https://i.imgur.com/yrqJAe6.jpg",
                             "https://via.placeholder.com/300x400/000000",
                             "https://via.placeholder.com/300x400/000000",
                             "https://via.placeholder.com/300x400/000000",
@@ -2218,7 +2218,7 @@ export const esTheme = {
                         "color": "Patzún",
                         "colorSampleImage": "https://i.imgur.com/FuiHMi4.jpg",
                         "images": [
-                            "https://i.imgur.com/BteAGRF.jpg",
+                            "https://i.imgur.com/wybBi9f.jpg",
                             "https://via.placeholder.com/300x400/000000",
                             "https://via.placeholder.com/300x400/000000",
                             "https://via.placeholder.com/300x400/000000",
@@ -2229,7 +2229,7 @@ export const esTheme = {
                         "color": "Patzicía Red",
                         "colorSampleImage": "https://i.imgur.com/dQTiqsg.jpg",
                         "images": [
-                            "https://i.imgur.com/tIS1U56.jpg",
+                            "https://i.imgur.com/BnIhTou.jpg",
                             "https://via.placeholder.com/300x400/000000",
                             "https://via.placeholder.com/300x400/000000",
                             "https://via.placeholder.com/300x400/000000",
@@ -2240,7 +2240,7 @@ export const esTheme = {
                         "color": "Salcajá",
                         "colorSampleImage": "https://i.imgur.com/Mkfavtc.jpg",
                         "images": [
-                            "https://i.imgur.com/QsUPQWg.jpg",
+                            "https://i.imgur.com/fMCZKE3.jpg",
                             "https://via.placeholder.com/300x400/000000",
                             "https://via.placeholder.com/300x400/000000",
                             "https://via.placeholder.com/300x400/000000",
@@ -2251,7 +2251,7 @@ export const esTheme = {
                         "color": "Semuc Champey",
                         "colorSampleImage": "https://i.imgur.com/qojf3Nr.jpg",
                         "images": [
-                            "https://i.imgur.com/LGnaHm9.jpg",
+                            "https://i.imgur.com/mZL1rdv.jpg",
                             "https://via.placeholder.com/300x400/000000",
                             "https://via.placeholder.com/300x400/000000",
                             "https://via.placeholder.com/300x400/000000",
@@ -2262,7 +2262,7 @@ export const esTheme = {
                         "color": "Tacaná",
                         "colorSampleImage": "https://i.imgur.com/Ue6ZpDy.jpg",
                         "images": [
-                            "https://i.imgur.com/FJxVg3V.jpg",
+                            "https://i.imgur.com/2VEpVVr.jpg",
                             "https://via.placeholder.com/300x400/000000",
                             "https://via.placeholder.com/300x400/000000",
                             "https://via.placeholder.com/300x400/000000",
@@ -2273,7 +2273,7 @@ export const esTheme = {
                         "color": "Ipala Soil",
                         "colorSampleImage": "https://i.imgur.com/4Hlf0JA.jpg",
                         "images": [
-                            "https://i.imgur.com/cKDlKUg.jpg",
+                            "https://i.imgur.com/XHnfnAO.jpg",
                             "https://via.placeholder.com/300x400/000000",
                             "https://via.placeholder.com/300x400/000000",
                             "https://via.placeholder.com/300x400/000000",
@@ -2284,7 +2284,7 @@ export const esTheme = {
                         "color": "Tikal",
                         "colorSampleImage": "https://i.imgur.com/JmJEKlD.jpg",
                         "images": [
-                            "https://i.imgur.com/VyqjL1K.jpg",
+                            "https://i.imgur.com/HD624uz.jpg",
                             "https://via.placeholder.com/300x400/000000",
                             "https://via.placeholder.com/300x400/000000",
                             "https://via.placeholder.com/300x400/000000",
@@ -2295,7 +2295,7 @@ export const esTheme = {
                         "color": "Uaxactún",
                         "colorSampleImage": "https://i.imgur.com/RWJlpou.jpg",
                         "images": [
-                            "https://i.imgur.com/vab1pnL.jpg",
+                            "https://i.imgur.com/ybu432z.jpg",
                             "https://m.media-amazon.com/images/I/61Kyy1-qLEL._AC_SX679_.jpg",
                             "https://m.media-amazon.com/images/I/61acHBld8NL._AC_SX679_.jpg",
                             "https://m.media-amazon.com/images/I/610nZjKyYYL._AC_SX679_.jpg",
@@ -2305,7 +2305,7 @@ export const esTheme = {
                         "color": "Zaculeu",
                         "colorSampleImage": "https://i.imgur.com/Oc7gOBz.jpg",
                         "images": [
-                            "https://i.imgur.com/FJyzvrd.jpg",
+                            "https://i.imgur.com/0trpk9n.jpg",
                             "https://via.placeholder.com/300x400/000000",
                             "https://via.placeholder.com/300x400/000000",
                             "https://via.placeholder.com/300x400/000000",
@@ -2316,7 +2316,7 @@ export const esTheme = {
                         "color": "Zunil",
                         "colorSampleImage": "https://i.imgur.com/CuQBteH.jpg",
                         "images": [
-                            "https://i.imgur.com/bP40C81.jpg",
+                            "https://i.imgur.com/aU31GGi.jpg",
                             "https://via.placeholder.com/300x400/000000",
                             "https://via.placeholder.com/300x400/000000",
                             "https://via.placeholder.com/300x400/000000",
