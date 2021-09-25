@@ -1,25 +1,25 @@
-import React, { useState } from 'react';
-import { Swiper, SwiperSlide } from 'swiper/react';
+import React from 'react';
+// import { Swiper, SwiperSlide } from 'swiper/react';
 import SwiperCore, { Navigation, Thumbs } from 'swiper/core';
 import 'swiper/swiper.scss';
 import 'swiper/components/navigation/navigation.scss';
 
-import { ProductImage, ThumbImage, SwiperSection } from './styles';
+import { ProductImage, SwiperSection } from './styles';
 
 SwiperCore.use([Navigation]);
 SwiperCore.use([Thumbs]);
 
-const styles = {
-    width: '100%',
-}
-const thumbStyles = {
-  width: '100px',
-  marginRight: '10px',
-  overflowY: 'scroll',
-}
+// const styles = {
+//     width: '100%',
+// }
+// const thumbStyles = {
+//   width: '100px',
+//   marginRight: '10px',
+//   overflowY: 'scroll',
+// }
 
 export default function ProdImgSwiper(props) {
-  const [thumbsSwiper, setThumbsSwiper] = useState(null);
+  // const [thumbsSwiper, setThumbsSwiper] = useState(null);
 
   return (
     <SwiperSection>
