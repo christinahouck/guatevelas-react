@@ -14,6 +14,7 @@ import {
     FlexColHalfWidthCentered,
     TwoImgBackground,
     ImgBackground,
+    ImgBackgroundOverlayHolder,
     ImgBackgroundOverlay,
     ImgBgP,
     Fusion,
@@ -28,6 +29,10 @@ import {
     ArtisansImageCapt, 
     FooterH1,
     StaggeredH1,
+    StaggeredP,
+    StaggeredText,
+    StaggeredImg,
+    StaggeredTitle,
     StaggeredHolder,
     Staggered,
     StaggeredInside
@@ -46,8 +51,11 @@ export default function About() {
                                 </Fire>
                                 <Fire>
                                     <FireH1>{theme["about"]["headerText"]}</FireH1>
-                                    <FireP>One of the four elements, fire has captivated humanity since primitive times. It represents purification and has been used in rituals for ages, from burials to births to cleansings.</FireP>
-                                    <FireP>Candles are a manifestation of fire that we use even now, and even in the simplest of rituals such as lighting a birthday candle.</FireP>
+                                    {theme["about"]["headerPs"].map((p, index) => {
+                                        return(
+                                            <FireP key={`firep${index}`}>{p}</FireP>
+                                        )
+                                    })}
                                 </Fire>
                             </FireSections>
                         </Container>
@@ -58,47 +66,51 @@ export default function About() {
                             </ImgBackground>
                             <ImgBackground>
                             </ImgBackground>
-                            <ImgBackgroundOverlay>
-                            <FlexRow>
-                                <FlexCol>
-                                    <H1>Guatemalan Textile Art</H1>
-                                    <ImgBgP>Textiles are an essential part of ancient Guatemalan culture, one that has been handed down for millennia. Not only are Guatemalan textiles beautiful works of art, they also have long-lasting significance.</ImgBgP>
-                                    <ImgBgP>Textiles have been woven using traditional methods and tools such as backstrap looms. Historically, this artful skill has been passed down from mother to daughter as a rite of passage.</ImgBgP>
-                                    <ImgBgP>Over time, different regions adopted patterns as their own, and a trained eye can oftentimes tell where a piece came from by its pattern.</ImgBgP>
-                                </FlexCol>
-                            </FlexRow>
-                        </ImgBackgroundOverlay>
+                            <ImgBackgroundOverlayHolder>
+                                <ImgBackgroundOverlay>
+                                    <FlexRow>
+                                        <FlexCol>
+                                            <H1>{theme["about"]["overlayH1"]}</H1>
+                                            {theme["about"]["overlayPs"].map((p, index) => {
+                                                return(
+                                                    <ImgBgP key={`imgbp${index}`}>{p}</ImgBgP>
+                                                )
+                                            })}
+                                        </FlexCol>
+                                    </FlexRow>
+                                </ImgBackgroundOverlay>
+                            </ImgBackgroundOverlayHolder>
                         </TwoImgBackground>
                     </Section>
                     <Section>
                         <Container>
                             <FlexRow>
                                 <FlexRow>
-                                    <Fusion>Guatevelas fuses two ancient forms of Mayan magic and tradition: fire and textiles</Fusion>
+                                    <Fusion>{theme["about"]["fusion"]}</Fusion>
                                 </FlexRow>
                             </FlexRow>
                         </Container>
                     </Section>
                     <Section>
                         <Container>
-                            <H1>Our Artisans</H1>
+                            <H1>{theme["about"]["ourArtisans"]}</H1>
                             <Artisans>
                                 <ArtisansSect>
                                     <FlexColHalfWidthCentered>
                                         <ArtisansImage src="https://via.placeholder.com/300x400/b4bca4" alt="Luis Fernando Martinez" />
-                                        <ArtisansImageCapt>Victor, 38 years old</ArtisansImageCapt>
+                                        <ArtisansImageCapt>{theme["about"]["victor"]}</ArtisansImageCapt>
                                     </FlexColHalfWidthCentered>
                                     <FlexColHalfWidthCentered>
-                                        <FireP>The artisan duo that craft Guatevelas candles come from families with long-lasting legacies as artisans. Victor and Edwin enjoy their work because it requires attention to detail and it fills them with pride to think that their work will be appreciated and admired. They believe that an artisan develops their talent through experience, experimentation, and love of the craft.</FireP>
+                                        <FireP>{theme["about"]["victorP"]}</FireP>
                                     </FlexColHalfWidthCentered>
                                 </ArtisansSect>
                                 <ArtisansSect>
                                     <FlexColHalfWidthCentered>
                                         <ArtisansImage src="https://via.placeholder.com/300x400/b4bca4" alt="Luis Fernando Martinez" />
-                                        <ArtisansImageCapt>Edwin, 21 years old</ArtisansImageCapt>
+                                        <ArtisansImageCapt>{theme["about"]["edwin"]}</ArtisansImageCapt>
                                     </FlexColHalfWidthCentered>
                                     <FlexColHalfWidthCentered>
-                                        <FireP>Both Victor and Edwin are members of a grassroots association that helps local Guatemalan artisans to thrive. The association helps them to sell their art, provides access to small loans, and helps them to build up savings, among other benefits.</FireP>
+                                        <FireP>{theme["about"]["edwinP"]}</FireP>
                                     </FlexColHalfWidthCentered>
                                 </ArtisansSect>
                             </Artisans>
@@ -107,26 +119,49 @@ export default function About() {
 
                     <Section>
                         <Container>
-                            <StaggeredH1>How Guatevelas candles are made</StaggeredH1>
+                            <StaggeredH1>{theme["about"]["how"]}</StaggeredH1>
                             <StaggeredHolder>
                                 <Staggered>
                                     <StaggeredInside>
-                                        <p>Mold design & preparation</p>
-                                        <p>Cyllindrical candles are made with PVC pipe molds, cut to fit the specifications of the candle that is being made. The molds for our rectangular and ovular candles are made with aluminum.</p>
-                                        <p>The molds are cleaned meticulously, and vegan oil is applied so that when they're finished, the candles can be removed from the molds.</p>
+                                        <StaggeredText>
+                                            <StaggeredTitle>{theme["about"]["staggeredTitle1"]}</StaggeredTitle>
+                                            {theme["about"]["staggeredPs1"].map((p, index) => {
+                                                return(
+                                                    <StaggeredP key={`staggeredp1${index}`}>{p}</StaggeredP>
+                                                )
+                                            })}
+                                        </StaggeredText>
+                                        <StaggeredImg>
+
+                                        </StaggeredImg>
                                     </StaggeredInside>
                                 </Staggered>
                                 <Staggered>
                                     <StaggeredInside>
-                                        <p>Wax preparation</p>
-                                        <p>Paraffin wax is melted and dye is added until the perfect color is reached.</p>
-                                        <p>Wicks are added to the molds and the hot wax is poured into the molds. The candles are then left to cool for at least 8 hours.</p>
+                                        <StaggeredImg>
+                                        </StaggeredImg>
+                                        <StaggeredText>
+                                            <StaggeredTitle>{theme["about"]["staggeredTitle2"]}</StaggeredTitle>
+                                            {theme["about"]["staggeredPs2"].map((p, index) => {
+                                                return(
+                                                    <StaggeredP key={`staggeredp2${index}`}>{p}</StaggeredP>
+                                                )
+                                            })}
+                                        </StaggeredText>
                                     </StaggeredInside>
                                 </Staggered>
                                 <Staggered>
                                     <StaggeredInside>
-                                        <p>Decoration</p>
-                                        <p>Something about the decoration and maybe something about the seal</p>
+                                        <StaggeredText>
+                                            <StaggeredTitle>{theme["about"]["staggeredTitle3"]}</StaggeredTitle>
+                                            {theme["about"]["staggeredPs3"].map((p, index) => {
+                                                return(
+                                                    <StaggeredP key={`staggeredp3${index}`}>{p}</StaggeredP>
+                                                )
+                                            })}
+                                        </StaggeredText>
+                                        <StaggeredImg>
+                                        </StaggeredImg>
                                     </StaggeredInside>
                                 </Staggered>
                             </StaggeredHolder>
@@ -136,8 +171,8 @@ export default function About() {
                     <VideoSection>
                         <VideoSectionContent>
                             <FlexCol>
-                                <FooterH1>Find the perfect candle for you</FooterH1>
-                                <BtnPrimary href="/shop">Shop now</BtnPrimary>
+                                <FooterH1>{theme["about"]["footerH1"]}</FooterH1>
+                                <BtnPrimary href="/shop">{theme["about"]["footerBtn"]}</BtnPrimary>
                             </FlexCol>
                         </VideoSectionContent>
                         <VideoContainer>

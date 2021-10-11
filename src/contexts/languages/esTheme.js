@@ -9,7 +9,7 @@ export const esTheme = {
         "headerBtnText": "Ver la colección",
         "handcrafted": "Velas únicos hechos a mano",
         "unique": "Que nos hace únicos?",
-        "guatemalanOwned":"Empresario Guatemalteca",
+        "guatemalanOwned":"Empresario Guatemalteco",
         "burnTime":"Duración de más de 24 horas",
         "empowers":"Apoya artisanos locales",
         "gift":"Un regalo único y especial",
@@ -19,7 +19,41 @@ export const esTheme = {
         "shopNow": "Compra ahora"
     },
     "about": {
-        "headerText": "Fuego: one of the last remaining forms of magic.",
+        "headerText": "La magia del fuego Maya en tu casa",
+        "headerPs": [
+            "Las velas traen magia ya que son una manifestación del fuego - uno de los cuatro elementos – que ha cautivado a la humanidad desde tiempos primitivos.",
+            "Las velas son la expresión más hermosa utilizada en ceremonias y rituales, incluso los más simples, como encender una para un cumpleaños y pedir un deseo antes de apagarla.",
+        ],
+        "overlayH1": "Arte textil Guatemalteco",
+        "overlayPs": [
+            "Nuestras velas agregan el simbolismo de los ancestros y tradiciones mayas, ya que están decoradas con algunos de sus patrones y diseños de tel as más hermosos. Más allá de sus dimensiones étnicas, los textiles mayas contienen múltiples significados de índole social, económica y política, y lo más importante, su simbolismo cosmológico, es decir, todos aquellos conceptos relacionados con la cosmovisión maya.",
+            "Hoy, sin la necesidad de grandes rituales o ceremonias y en la privacidad de nuestro hogar, todavía podemos estar fascinados por el fuego a la luz mágica de las velas.",
+        ],
+        "fusion": "Guatevelas representa el fusión de dos formas de mágia y tradición: el fuego y el arte textil",
+        "ourArtisans": "Nuestros artisanos",
+        "victor": "Victor, 38 años",
+        "victorP": 
+        "Nuestros artisanos provienen de familias fabricantes de artesanías por generaciones. Ambos coinciden en que la cerería al igual que cualquier otra artesanía, conlleva procesos que precisan mucha dedicación y paciencia; a ambos les gusta su trabajo porque requiere atención al detalle y les llena de satisfacción que su producto sea apreciado. Ellos coinciden en que el artesano desarrolla su talento a través de la experiencia, la experimentación y el amor por su trabajo.",
+        "edwin": "Edwin, 21 años",
+        "edwinP": "La asociación a la que ellos pertenecen, es una asociación de empleados que elaboran diversos productos artesanales, además de la cerería, que cuenta con casi 25 años de experiencia y constantemente experimenta e investiga para mejorar sus productos.  La asociación vende sus productos y reparte utilidades entre sus miembros, otorga préstamos livianos y ofrece una caja de ahorro, entre otros pequeños beneficios. Actualmente analizan la integración de beneficios adicionales para sus miembros.",
+        "how": "El proceso de fabricación",
+        "staggeredTitle1": "Diseño y preparación de moldes",
+        "staggeredPs1": [
+            "El primer paso en la elaboración de las velas de forma cilíndrica, es la preparación de los moldes. Para éstos se utilizan tubos de PVC (policloruro de vinilo) de diferente ancho, según el ancho de las velas y se cortan a la medida que tendrá la altura de la vela. Para las velas cuadradas y ovaladas se utilizan moldes de aluminio.",
+            "Luego se limpian los moldes minuciosamente y se les aplica aceite vegetal para facilitar el desmolde."
+        ],
+        "staggeredTitle2": "Wax preparation",
+        "staggeredPs2": [
+            "Cuando la vela será de color, al derretir la parafina se le agrega un tinte del color deseado. Así, se llenan los moldes con la parafina derretida y se colocan las mechas.",
+            "Finalmente se dejan secar a temperatura ambiente. Después de aproximadamente 8 horas se sacan de los moldes y se procede a la decoración."
+        ],
+        "staggeredTitle3": "Decoration",
+        "staggeredPs3": [
+            "How the fabric pattern is added goes here",
+            "Para un producto sencillo y elegante, un empaque sencillo y elegante: un simple envoltorio de papel kraft atado con lazo de maguey, con una tarjetita que identifica al producto. Cada vela además lleva una calcomanía con la marca para garantizar su autenticidad. Además, recomendaciones dentro del empaque para disfrutar del producto y para la seguridad del cliente"
+        ],
+        "footerH1": "Encuentra la vela perfecta para ti",
+        "footerBtn": "Ver el colección",
     },
     "productPage": {
         "buyButton": "Compra en TBD",
@@ -33,8 +67,7 @@ export const esTheme = {
             {
                 prodId: 1001,
                 title: "El Progreso",
-                tagline: "This is the Spanish tagline for 1001. I will keep typing more and more and more and more and even more.",
-                description: "This is where we'd put more info about the candle. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
+                tagline: "Esta alta vela cilíndrica está nombrada por un departamento en el corazón de Guatemala. Es un centro de mesa perfecta.",
                 height: "15 cm",
                 width: "6.3 cm",
                 weight: "0.7 kg",
@@ -288,8 +321,7 @@ export const esTheme = {
             {
                 prodId: 1002,
                 title: "Chiquimula",
-                tagline: "This is the Spanish tagline for 1001. I will keep typing more and more and more and more and even more.",
-                description: "This is where we'd put more info about the candle. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
+                tagline: "Nombrado por \"La perla del oriente,\" una ciudad y departamento en el sureste de Guatemala, esta vela de altura media es una joya escondida.",
                 height: "16.5 cm",
                 width: "7.6 cm",
                 weight: "0.7 kg",
@@ -543,8 +575,7 @@ export const esTheme = {
             {
                 prodId: 1003,
                 title: "Santa Rosa",
-                tagline: "This is the Spanish tagline for 1001. I will keep typing more and more and more and more and even more.",
-                description: "This is where we'd put more info about the candle. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
+                tagline: "Esta vela cilindrica está nombrada por un departamento que tiene muchos ríos y lagos y borde el océano.",
                 height: "12.7 cm",
                 width: "5 cm",
                 weight: "0.36 kg",
@@ -798,8 +829,7 @@ export const esTheme = {
             {
                 prodId: 1004,
                 title: "Izabal",
-                tagline: "This is the Spanish tagline for 1001. I will keep typing more and more and more and more and even more.",
-                description: "This is where we'd put more info about the candle. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
+                tagline: "Esta vela baja y cylíndrica acentúa cada rincón de tu casa. El nombre viene del departamento costal entre Costa Rica y Honduras.",
                 height: "11.4 cm",
                 width: "6.3 cm",
                 weight: "0.45 kg",
@@ -1053,8 +1083,7 @@ export const esTheme = {
             {
                 prodId: 1005,
                 title: "Escuintla",
-                tagline: "This is the Spanish tagline for 1001. I will keep typing more and more and more and more and even more.",
-                description: "This is where we'd put more info about the candle. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
+                tagline: "Nombrado por un departamento costal de Guatemala, esta alta vela rectangular es una pieza bonita y llamativa.",
                 height: "16.5 cm",
                 width: "7.6 cm",
                 weight: "0.75 kg",
@@ -1308,8 +1337,7 @@ export const esTheme = {
             {
                 prodId: 1006,
                 title: "San Marcos",
-                tagline: "This is the Spanish tagline for 1001. I will keep typing more and more and more and more and even more.",
-                description: "This is where we'd put more info about the candle. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
+                tagline: "Esta vela rectangular con altura mediana lleva el nombre de un departamento en el Oeste de Guatemala que borde México y el Oceano Pacífico.",
                 height: "11.4 cm",
                 width: "6.3 cm",
                 weight: "0.45 kg",
@@ -1563,8 +1591,7 @@ export const esTheme = {
             {
                 prodId: 1007,
                 title: "Petén",
-                tagline: "This is the Spanish tagline for 1001. I will keep typing more and more and more and more and even more.",
-                description: "This is where we'd put more info about the candle. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
+                tagline: "Esta vela tan único lleva el nombre donde el departamento donde se encuentra el anciano ciudad Maya más famoso de Guatemala: Tikal. Es un sitio Patrimonio de la Humanidad de UNESCO. Igual que Tikal, esta vela es una joya de Guatemala.",
                 height: "10 cm",
                 width: "12.7 cm",
                 weight: "0.7 kg",
@@ -1818,8 +1845,7 @@ export const esTheme = {
             {
                 prodId: 1008,
                 title: "Sololá",
-                tagline: "This is the Spanish tagline for 1001. I will keep typing more and more and more and more and even more.",
-                description: "This is where we'd put more info about the candle. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
+                tagline: "Nombrado en honor de la región donde se encuentra el lago Atitlán, esta baja vela rectangular representa paz y claridad.",
                 height: "10 cm",
                 width: "10 cm",
                 weight: "0.7 kg",
@@ -2073,8 +2099,7 @@ export const esTheme = {
             {
                 prodId: 1009,
                 title: "Alta Verapaz",
-                tagline: "This is the Spanish tagline for 1001. I will keep typing more and more and more and more and even more.",
-                description: "This is where we'd put more info about the candle. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
+                tagline: "Con alturas hasta 9,200 pies (2,800 m), Alta Verapaz, un departamento de Guatemala, es la inspiración perfecta para esta alta vela.",
                 height: "30.4 cm",
                 width: "5 cm",
                 weight: "1.13 kg",
