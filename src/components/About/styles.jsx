@@ -154,10 +154,6 @@ export const ImgBackground = styled.div`
 `;
 
 export const ImgBackgroundOverlay = styled.div`
-    position: absolute;
-    z-index: 900;
-    top: 840px;
-    left: 27%;
     background-color: #f1f1f1;
     width: 60%;
     max-width: 800px;
@@ -168,6 +164,18 @@ export const ImgBackgroundOverlay = styled.div`
     justify-content: center;
     box-shadow: ${props => props.theme.shadow};
     padding: 30px;
+`;
+
+export const ImgBackgroundOverlayHolder = styled.div`
+    position: absolute;
+    z-index: 900;
+    top: 800px;
+    left: 0;
+    right: 0;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
 `;
 
 export const ImgBgP = styled.p`
@@ -276,6 +284,38 @@ export const StaggeredInside = styled.div`
     border-radius: 8px;
     margin-top: 12px;
     margin-bottom: 12px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap-reverse;
+    align-items: center;
+    justify-content: center;
+`;
+
+export const StaggeredText = styled.div`
+    width: 60%;
+    padding: 10px 24px;
+`;
+
+export const StaggeredImg = styled.div`
+    width: 30%;
+    min-height: 300px;
+    border: 4px dashed salmon;
+`;
+
+export const StaggeredTitle = styled.h1`
+    font-family: ${props => props.theme.secondaryFont}, serif;
+    color: ${props => props.theme.green};
+    margin: 12px 0;
+    font-size: 30px;
+    line-height: 1.2;
+`;
+
+export const StaggeredP = styled.p`
+    font-family: ${props => props.theme.secondaryFont}, serif;
+    color: ${props => props.theme.gray};
+    font-size: 24px;
+    line-height: 1.2;
+    margin-top: 0;
 `;
 
 export const VideoSection = styled.section`

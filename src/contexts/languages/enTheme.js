@@ -19,7 +19,41 @@ export const enTheme = {
         "shopNow": "Browse collection"
     },
     "about": {
-        "headerText": "Fire: one of the last remaining forms of magic.",
+        "headerText": "Fire: one of the last remaining forms of magic",
+        "headerPs": [
+            "One of the four elements, fire has captivated humanity since primitive times. It represents purification and has been used in rituals for ages, from burials to births to cleansings.",
+            "Candles are a manifestation of fire that we use even now, and even in the simplest of rituals such as lighting a birthday candle."
+        ],
+        "overlayH1": "Guatemalan Textile Art",
+        "overlayPs": [
+            "Textiles are an essential part of ancient Guatemalan culture, one that has been handed down for millennia. Not only are Guatemalan textiles beautiful works of art, they also have long-lasting significance.",
+            "Textiles have been woven using traditional methods and tools such as backstrap looms. Historically, this artful skill has been passed down from mother to daughter as a rite of passage.",
+            "Over time, different regions adopted patterns as their own, and a trained eye can oftentimes tell where a piece came from by its pattern."
+        ],
+        "fusion": "Guatevelas fuses two ancient forms of Mayan magic and tradition: fire and textiles",
+        "ourArtisans": "Our Artisans",
+        "victor": "Victor, 38 years old",
+        "victorP": "The artisan duo that craft Guatevelas candles come from families with long-lasting legacies as artisans. Victor and Edwin enjoy their work because it requires attention to detail and it fills them with pride to think that their work will be appreciated and admired. They believe that an artisan develops their talent through experience, experimentation, and love of the craft.",
+        "edwin": "Edwin, 21 years old",
+        "edwinP": "Both Victor and Edwin are members of a grassroots association that helps local Guatemalan artisans to thrive. The association helps them to sell their art, provides access to small loans, and helps them to build up savings, among other benefits.",
+        "how": "How Guatevelas candles are made",
+        "staggeredTitle1": "Mold design & preparation",
+        "staggeredPs1": [
+            "Guatevelas artisans design and select the right molds for the job. For our cyllindrical candles, the molds are made with PCV pipes, which are cut to fit the specifications of the candle. For our rectangular and ovular candles, we use aluminum molds, which are better suited for custom shapes.",
+            "Once the mold is selected, it is cleaned meticulously. Then, vegan oil is applied so that when they're finished, the candles can be easily removed from the molds."
+        ],
+        "staggeredTitle2": "Wax preparation",
+        "staggeredPs2": [
+            "Once the mold has been prepared, the wax is melted down. As the wax is melted, Guatevelas artisans add dye until the perfect color is reached.",
+            "The artisans then add wicks to the molds and the hot wax is poured on top. Afterward, the candles are left to cool for at least 8 hours."
+        ],
+        "staggeredTitle3": "Decoration",
+        "staggeredPs3": [
+            "How the fabric pattern is added goes here",
+            "Our beautiful, simple, and elegant candles come in a beautiful, simple, and elegant package. Each is wrapped in kraft paper, tied with Guatemalan agave string, and comes accompanied with a card that identifies the product. Each candle is also sealed with the Guatevelas logo to ensure its authenticity."
+        ],
+        "footerH1": "Find the perfect candle for you",
+        "footerBtn": "Browse the collection",
     },
     "productPage": {
         "buyButton": "Buy on TBD",
@@ -33,8 +67,7 @@ export const enTheme = {
             {
                 prodId: 1001,
                 title: "El Progreso",
-                tagline: "This is the English tagline for 1001. I will keep typing more and more and more and more and even more.",
-                description: "This is where we'd put more info about the candle. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
+                tagline: "Named after a region in the heart of Guatemala, this tall cyllindrical candle makes a gorgeous centerpiece.",
                 height: "6 in",
                 width: "2.5 in",
                 weight: "1.5 lbs",
@@ -288,8 +321,7 @@ export const enTheme = {
             {
                 prodId: 1002,
                 title: "Chiquimula",
-                tagline: "This is the English tagline for 1001. I will keep typing more and more and more and more and even more.",
-                description: "This is where we'd put more info about the candle. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
+                tagline: "Named after \"The pearl of the East,\" a city in Southeastern Guatemala, this medium-height cyllindrical candle is a hidden gem.",
                 height: "6.5 in",
                 width: "3 in",
                 weight: "1.5 lbs",
@@ -543,8 +575,7 @@ export const enTheme = {
             {
                 prodId: 1003,
                 title: "Santa Rosa",
-                tagline: "This is the English tagline for 1001. I will keep typing more and more and more and more and even more.",
-                description: "This is where we'd put more info about the candle. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
+                tagline: "This cyllindrical candle is named after a region in Guatemala that's filled with lakes and rivers and bordered by the sea.",
                 height: "5 in",
                 width: "2 in",
                 weight: "0.8 lbs",
@@ -798,8 +829,7 @@ export const enTheme = {
             {
                 prodId: 1004,
                 title: "Izabal",
-                tagline: "This is the English tagline for 1001. I will keep typing more and more and more and more and even more.",
-                description: "This is where we'd put more info about the candle. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
+                tagline: "This short cyllindrical candle is a perfect accent piece, named after the lush coastal region of Guatemala between Costa Rica and Honduras.",
                 height: "4.5 in",
                 width: "2.5 in",
                 weight: "1 lb",
@@ -1053,8 +1083,7 @@ export const enTheme = {
             {
                 prodId: 1005,
                 title: "Escuintla",
-                tagline: "This is the English tagline for 1001. I will keep typing more and more and more and more and even more.",
-                description: "This is where we'd put more info about the candle. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
+                tagline: "Named for a coastal region in Guatemala, this tall rectangular candle is an excellent conversation piece.",
                 height: "6.5 in",
                 width: "3 in",
                 weight: "1.5 lbs",
@@ -1308,8 +1337,7 @@ export const enTheme = {
             {
                 prodId: 1006,
                 title: "San Marcos",
-                tagline: "This is the English tagline for 1001. I will keep typing more and more and more and more and even more.",
-                description: "This is where we'd put more info about the candle. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
+                tagline: "This medium-height rectangular candle gets its name from a Western region in Guatemala that borders Mexico and the Pacific.",
                 height: "4.5 in",
                 width: "2.5 in",
                 weight: "1 lb",
@@ -1563,8 +1591,7 @@ export const enTheme = {
             {
                 prodId: 1007,
                 title: "Petén",
-                tagline: "This is the English tagline for 1001. I will keep typing more and more and more and more and even more.",
-                description: "This is where we'd put more info about the candle. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
+                tagline: "This unique ovular candle gets its name from the region of Guatemala's most famous ancient Mayan cities, Tikal, which is a UNESCO World Heritage Site. Just like Tikal, this candle is a hidden gem.",
                 height: "4 in",
                 width: "5 in",
                 weight: "1.5 lbs",
@@ -1818,8 +1845,7 @@ export const enTheme = {
             {
                 prodId: 1008,
                 title: "Sololá",
-                tagline: "This is the English tagline for 1001. I will keep typing more and more and more and more and even more.",
-                description: "This is where we'd put more info about the candle. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
+                tagline: "Named for the region where Atitlán lake is found, this short rectangular candle represents serenity and clarity.",
                 height: "4 in",
                 width: "4 in",
                 weight: "1.5 lbs",
@@ -2073,8 +2099,7 @@ export const enTheme = {
             {
                 prodId: 1009,
                 title: "Alta Verapaz",
-                tagline: "This is the English tagline for 1001. I will keep typing more and more and more and more and even more.",
-                description: "This is where we'd put more info about the candle. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
+                tagline: "With elevations soaring to 9,200 ft (2,800 m), Alta Verapaz, a region in Guatemala, is the perfect inspiration for this tall, proud, rectangular candle.",
                 height: "12 in",
                 width: "2 in",
                 weight: "2.5 lbs",
