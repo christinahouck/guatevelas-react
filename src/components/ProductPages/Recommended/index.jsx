@@ -9,6 +9,7 @@ import {
     RecommendedProdHeader,
     LearnMore
 } from './styles';
+import Fade from 'react-reveal/Fade';
 
 export default function Recommended(props) {
     return (
@@ -22,9 +23,11 @@ export default function Recommended(props) {
                                 key={`recommendedProd${index}`} 
                                 href={`/products/${item["prodId"]}`}
                             >
-                                <RecommendedProdImg src={item["imgUrl"]} alt={item["name"]} />
-                                <RecommendedProdHeader>{item["name"]}</RecommendedProdHeader>
-                                <LearnMore>Learn more</LearnMore>
+                                <Fade>
+                                    <RecommendedProdImg src={item["imgUrl"]} alt={item["name"]} />
+                                    <RecommendedProdHeader>{item["name"]}</RecommendedProdHeader>
+                                    <LearnMore>Learn more</LearnMore>
+                                </Fade>
                             </RecommendedProduct>
                         )
                     })}

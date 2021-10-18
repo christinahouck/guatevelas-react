@@ -99,3 +99,6 @@ body {
 .menuItemunScrolled {
   font-size: 24px;
 }
+.flex-col-reverse {
+  flex-direction: column-reverse !important;
+}

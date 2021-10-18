@@ -80,8 +80,10 @@ Using https://christinacodes.imgur.com/ for image hosting (other than the logos)
 * The homepage postcard thing is a little messed up
 * Polish homepage
 * Homepage text
-* Add image to homepage
+* Add images to homepage
 * Homepage localization
 * Make nav bar mobile friendly
 * Make nav bar shrink when sticky
 * Make it more obvious on the collections page that there are more colors available (show smaller images of different colors or a carousel?)
+* alt tags 
+* bug under "our artisans"

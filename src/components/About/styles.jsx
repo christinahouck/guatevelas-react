@@ -87,19 +87,29 @@ export const FireSections = styled.div`
     width: 100%;
     height: 100%;
     display: flex;
-    flex-direction: row;
     align-items: center;
     justify-content: space-between;
+    @media (max-width: 767px) {
+        flex-direction: column;
+    }
+    @media (min-width: 768px) {
+        flex-direction: row;  
+    }
 `;
 
 export const Fire = styled.div`
-    width: 50%;
     display: flex;
     flex-direction: column;
     align-items: flex-start;
     justify-content: flex-start;
     text-align: left;
     padding: 0 20px;
+    @media (max-width: 767px) {
+        width: 100%;
+    }
+    @media (min-width: 768px) {
+        width: 50%;
+    }
 `;
 
 export const FireImg = styled.img`
@@ -128,11 +138,19 @@ export const FireP = styled.p`
 
 export const TwoImgBackground = styled.div`
     width: 100%;
-    height: 100%;
     display: flex;
     flex-direction: row;
     align-items: flex-start;
     justify-content: center;
+    @media (max-width: 767px) {
+        height: 990px;
+    }
+    @media (min-width: 768px) {
+        height: 100%;
+    }
+    @media (max-width: 500px) {
+        height: 1150px;
+    }
 `;
 export const ImgBackground = styled.div`
     width: 50%;
@@ -153,9 +171,28 @@ export const ImgBackground = styled.div`
     left: 0;
 `;
 
+export const ImgBackgroundOverlayHolder = styled.div`
+    position: absolute;
+    z-index: 900;
+    left: 0;
+    right: 0;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    @media (max-width: 767px) {
+        top: 1200px;
+    }
+    @media (min-width: 768px) {
+        top: 800px;
+    }
+    @media (max-width: 700px) {
+        top: 1120px;
+    }
+`;
+
 export const ImgBackgroundOverlay = styled.div`
     background-color: #f1f1f1;
-    width: 60%;
     max-width: 800px;
     border-radius: 12px;
     display: flex;
@@ -164,18 +201,7 @@ export const ImgBackgroundOverlay = styled.div`
     justify-content: center;
     box-shadow: ${props => props.theme.shadow};
     padding: 30px;
-`;
-
-export const ImgBackgroundOverlayHolder = styled.div`
-    position: absolute;
-    z-index: 900;
-    top: 800px;
-    left: 0;
-    right: 0;
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    justify-content: center;
+    width: 90%;
 `;
 
 export const ImgBgP = styled.p`
@@ -216,7 +242,6 @@ export const Artisans = styled.div`
 
 export const ArtisansSect = styled.div`
     display: flex;
-    flex-direction: row-reverse;
     align-items: center;
     justify-content: center;
     flex-wrap: wrap;
@@ -228,6 +253,45 @@ export const ArtisansSect = styled.div`
     }
     &:nth-child(2) {
         flex-direction: row-reverse;
+    }
+    @media (max-width: 767px) {
+        margin-bottom: 64px;
+        &:first-child {
+            flex-direction: column;
+        }
+        &:nth-child(2) {
+            flex-direction: column;
+        }
+    }
+`;
+
+export const ArtFlexColHalfWidthCentered = styled.div`
+    display: flex;
+    flex-direction: column;
+    align-items: center
+    justify-content: center;
+    margin: 0 10px;
+    width: 44%;
+    &:first-child {
+        align-items: center;
+    }
+    @media (max-width: 767px) {
+        width: 100%;
+    }
+`;
+
+export const ArtisansP = styled.p`
+    font-family: ${props => props.theme.secondaryFont}, serif;
+    color: ${props => props.theme.gray};
+    font-size: 24px;
+    line-height: 1.2;
+    margin: 12px 0 0 0;
+    text-align: left;
+    @media (max-width: 800px) {
+        margin: 0 18px;
+    }
+    @media (max-width: 767px) {
+        margin: 18px;
     }
 `;
 
@@ -266,15 +330,11 @@ export const StaggeredHolder = styled.div`
 export const Staggered = styled.div`
     margin-top: 24px;
     width: 100%;
+    max-width: 100vw;
     display: flex;
     flex-direction: row;
-    &:nth-child(2n) {
-        align-items: flex-start;
-    }
-    &:nth-child(2n + 1) {
-        align-items: flex-end;
-        justify-content: flex-end;
-    }
+    align-items: center;
+    justify-content: center;
 `;
 
 export const StaggeredInside = styled.div`
@@ -289,17 +349,27 @@ export const StaggeredInside = styled.div`
     flex-wrap: wrap-reverse;
     align-items: center;
     justify-content: center;
+    @media (max-width: 1135px) {
+        flex-direction: column;
+    }
 `;
 
 export const StaggeredText = styled.div`
-    width: 60%;
+    width: 55%;
     padding: 10px 24px;
+    @media (max-width: 1135px) {
+        width: 100%;
+    }
 `;
 
-export const StaggeredImg = styled.div`
-    width: 30%;
-    min-height: 300px;
-    border: 4px dashed salmon;
+export const StaggeredImg = styled.img`
+    height: 310px;
+    width: auto;
+    margin: 0 8px;
+    border-radius: 4px;
+    @media (max-width: 1300) {
+        height: 250px;
+    }
 `;
 
 export const StaggeredTitle = styled.h1`
@@ -335,6 +405,9 @@ export const VideoContainer = styled.div`
     max-height: 500px;
     overflow: hidden;
     z-index: -100;
+    @media (max-width: 700px) {
+        display: none;
+    }
 `;
 
 export const VideoSectionContent = styled.div`
@@ -343,6 +416,10 @@ export const VideoSectionContent = styled.div`
     background-color: #fff;
     padding: 16px 30px;
     border-radius: 10px;
+    @media (max-width: 700px) {
+        background-color: ${props => props.theme.green7};
+        top: 0;
+    }
 `;
 
 export const Video = styled.video`

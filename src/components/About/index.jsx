@@ -25,6 +25,8 @@ import {
     FireP,
     Artisans,
     ArtisansSect,
+    ArtFlexColHalfWidthCentered,
+    ArtisansP,
     ArtisansImage,
     ArtisansImageCapt, 
     FooterH1,
@@ -102,22 +104,22 @@ export default function About() {
                                 <H1>{theme["about"]["ourArtisans"]}</H1>
                                 <Artisans>
                                         <ArtisansSect>
-                                            <FlexColHalfWidthCentered>
-                                                <ArtisansImage src="https://via.placeholder.com/300x400/b4bca4" alt="Luis Fernando Martinez" />
+                                            <ArtFlexColHalfWidthCentered>
+                                                <ArtisansImage src="https://via.placeholder.com/300x400/b4bca4" alt="A photo of the artisans" />
                                                 <ArtisansImageCapt>{theme["about"]["victor"]}</ArtisansImageCapt>
-                                            </FlexColHalfWidthCentered>
-                                            <FlexColHalfWidthCentered>
-                                                <FireP>{theme["about"]["victorP"]}</FireP>
-                                            </FlexColHalfWidthCentered>
+                                            </ArtFlexColHalfWidthCentered>
+                                            <ArtFlexColHalfWidthCentered>
+                                                <ArtisansP>{theme["about"]["victorP"]}</ArtisansP>
+                                            </ArtFlexColHalfWidthCentered>
                                         </ArtisansSect>
                                         <ArtisansSect>
-                                            <FlexColHalfWidthCentered>
-                                                <ArtisansImage src="https://via.placeholder.com/300x400/b4bca4" alt="Luis Fernando Martinez" />
+                                            <ArtFlexColHalfWidthCentered>
+                                                <ArtisansImage src="https://via.placeholder.com/300x400/b4bca4" alt="A photo of the artisans" />
                                                 <ArtisansImageCapt>{theme["about"]["edwin"]}</ArtisansImageCapt>
-                                            </FlexColHalfWidthCentered>
-                                            <FlexColHalfWidthCentered>
-                                                <FireP>{theme["about"]["edwinP"]}</FireP>
-                                            </FlexColHalfWidthCentered>
+                                            </ArtFlexColHalfWidthCentered>
+                                            <ArtFlexColHalfWidthCentered>
+                                                <ArtisansP>{theme["about"]["edwinP"]}</ArtisansP>
+                                            </ArtFlexColHalfWidthCentered>
                                         </ArtisansSect>
                                 </Artisans>
                             </Fade>
@@ -139,15 +141,14 @@ export default function About() {
                                                     )
                                                 })}
                                             </StaggeredText>
-                                            <StaggeredImg>
-
-                                            </StaggeredImg>
+                                            <StaggeredImg src="https://i.imgur.com/KihTwxz.jpg" alt="alt" />
+                                                
+                                            
                                         </StaggeredInside>
                                     </Staggered>
                                     <Staggered>
-                                        <StaggeredInside>
-                                            <StaggeredImg>
-                                            </StaggeredImg>
+                                        <StaggeredInside className="flex-col-reverse">
+                                            <StaggeredImg src="https://i.imgur.com/jld2Rpd.jpg" alt="alt" />
                                             <StaggeredText>
                                                 <StaggeredTitle>{theme["about"]["staggeredTitle2"]}</StaggeredTitle>
                                                 {theme["about"]["staggeredPs2"].map((p, index) => {
@@ -168,8 +169,7 @@ export default function About() {
                                                     )
                                                 })}
                                             </StaggeredText>
-                                            <StaggeredImg>
-                                            </StaggeredImg>
+                                            <StaggeredImg src="https://i.imgur.com/kuvSWhJ.jpg" alt="alt" />
                                         </StaggeredInside>
                                     </Staggered>
                                 </Fade>
