@@ -17,6 +17,7 @@ export const ColorOption = styled.button`
 `;
 
 export const ColorOptionImage = styled.img`
+    background-color: ${props => props.theme.green};
     width: 100%;
     height: 100%;
     border-radius: 10px;

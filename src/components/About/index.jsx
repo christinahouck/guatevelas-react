@@ -25,6 +25,8 @@ import {
     FireP,
     Artisans,
     ArtisansSect,
+    ArtFlexColHalfWidthCentered,
+    ArtisansP,
     ArtisansImage,
     ArtisansImageCapt, 
     FooterH1,
@@ -37,6 +39,7 @@ import {
     Staggered,
     StaggeredInside
  } from './styles';
+import Fade from 'react-reveal/Fade';
 
 export default function About() {
     return (
@@ -71,11 +74,13 @@ export default function About() {
                                     <FlexRow>
                                         <FlexCol>
                                             <H1>{theme["about"]["overlayH1"]}</H1>
-                                            {theme["about"]["overlayPs"].map((p, index) => {
-                                                return(
-                                                    <ImgBgP key={`imgbp${index}`}>{p}</ImgBgP>
-                                                )
-                                            })}
+                                            <Fade cascade>
+                                                {theme["about"]["overlayPs"].map((p, index) => {
+                                                    return(
+                                                        <ImgBgP key={`imgbp${index}`}>{p}</ImgBgP>
+                                                    )
+                                                })}
+                                            </Fade>
                                         </FlexCol>
                                     </FlexRow>
                                 </ImgBackgroundOverlay>
@@ -86,34 +91,38 @@ export default function About() {
                         <Container>
                             <FlexRow>
                                 <FlexRow>
-                                    <Fusion>{theme["about"]["fusion"]}</Fusion>
+                                    <Fade>
+                                        <Fusion>{theme["about"]["fusion"]}</Fusion>
+                                    </Fade>
                                 </FlexRow>
                             </FlexRow>
                         </Container>
                     </Section>
                     <Section>
                         <Container>
-                            <H1>{theme["about"]["ourArtisans"]}</H1>
-                            <Artisans>
-                                <ArtisansSect>
-                                    <FlexColHalfWidthCentered>
-                                        <ArtisansImage src="https://via.placeholder.com/300x400/b4bca4" alt="Luis Fernando Martinez" />
-                                        <ArtisansImageCapt>{theme["about"]["victor"]}</ArtisansImageCapt>
-                                    </FlexColHalfWidthCentered>
-                                    <FlexColHalfWidthCentered>
-                                        <FireP>{theme["about"]["victorP"]}</FireP>
-                                    </FlexColHalfWidthCentered>
-                                </ArtisansSect>
-                                <ArtisansSect>
-                                    <FlexColHalfWidthCentered>
-                                        <ArtisansImage src="https://via.placeholder.com/300x400/b4bca4" alt="Luis Fernando Martinez" />
-                                        <ArtisansImageCapt>{theme["about"]["edwin"]}</ArtisansImageCapt>
-                                    </FlexColHalfWidthCentered>
-                                    <FlexColHalfWidthCentered>
-                                        <FireP>{theme["about"]["edwinP"]}</FireP>
-                                    </FlexColHalfWidthCentered>
-                                </ArtisansSect>
-                            </Artisans>
+                            <Fade cascade>
+                                <H1>{theme["about"]["ourArtisans"]}</H1>
+                                <Artisans>
+                                        <ArtisansSect>
+                                            <ArtFlexColHalfWidthCentered>
+                                                <ArtisansImage src="https://via.placeholder.com/300x400/b4bca4" alt="A photo of the artisans" />
+                                                <ArtisansImageCapt>{theme["about"]["victor"]}</ArtisansImageCapt>
+                                            </ArtFlexColHalfWidthCentered>
+                                            <ArtFlexColHalfWidthCentered>
+                                                <ArtisansP>{theme["about"]["victorP"]}</ArtisansP>
+                                            </ArtFlexColHalfWidthCentered>
+                                        </ArtisansSect>
+                                        <ArtisansSect>
+                                            <ArtFlexColHalfWidthCentered>
+                                                <ArtisansImage src="https://via.placeholder.com/300x400/b4bca4" alt="A photo of the artisans" />
+                                                <ArtisansImageCapt>{theme["about"]["edwin"]}</ArtisansImageCapt>
+                                            </ArtFlexColHalfWidthCentered>
+                                            <ArtFlexColHalfWidthCentered>
+                                                <ArtisansP>{theme["about"]["edwinP"]}</ArtisansP>
+                                            </ArtFlexColHalfWidthCentered>
+                                        </ArtisansSect>
+                                </Artisans>
+                            </Fade>
                         </Container>
                     </Section>
 
@@ -121,59 +130,61 @@ export default function About() {
                         <Container>
                             <StaggeredH1>{theme["about"]["how"]}</StaggeredH1>
                             <StaggeredHolder>
-                                <Staggered>
-                                    <StaggeredInside>
-                                        <StaggeredText>
-                                            <StaggeredTitle>{theme["about"]["staggeredTitle1"]}</StaggeredTitle>
-                                            {theme["about"]["staggeredPs1"].map((p, index) => {
-                                                return(
-                                                    <StaggeredP key={`staggeredp1${index}`}>{p}</StaggeredP>
-                                                )
-                                            })}
-                                        </StaggeredText>
-                                        <StaggeredImg>
-
-                                        </StaggeredImg>
-                                    </StaggeredInside>
-                                </Staggered>
-                                <Staggered>
-                                    <StaggeredInside>
-                                        <StaggeredImg>
-                                        </StaggeredImg>
-                                        <StaggeredText>
-                                            <StaggeredTitle>{theme["about"]["staggeredTitle2"]}</StaggeredTitle>
-                                            {theme["about"]["staggeredPs2"].map((p, index) => {
-                                                return(
-                                                    <StaggeredP key={`staggeredp2${index}`}>{p}</StaggeredP>
-                                                )
-                                            })}
-                                        </StaggeredText>
-                                    </StaggeredInside>
-                                </Staggered>
-                                <Staggered>
-                                    <StaggeredInside>
-                                        <StaggeredText>
-                                            <StaggeredTitle>{theme["about"]["staggeredTitle3"]}</StaggeredTitle>
-                                            {theme["about"]["staggeredPs3"].map((p, index) => {
-                                                return(
-                                                    <StaggeredP key={`staggeredp3${index}`}>{p}</StaggeredP>
-                                                )
-                                            })}
-                                        </StaggeredText>
-                                        <StaggeredImg>
-                                        </StaggeredImg>
-                                    </StaggeredInside>
-                                </Staggered>
+                                <Fade cascade>
+                                    <Staggered>
+                                        <StaggeredInside>
+                                            <StaggeredText>
+                                                <StaggeredTitle>{theme["about"]["staggeredTitle1"]}</StaggeredTitle>
+                                                {theme["about"]["staggeredPs1"].map((p, index) => {
+                                                    return(
+                                                        <StaggeredP key={`staggeredp1${index}`}>{p}</StaggeredP>
+                                                    )
+                                                })}
+                                            </StaggeredText>
+                                            <StaggeredImg src="https://i.imgur.com/KihTwxz.jpg" alt="alt" />
+                                                
+                                            
+                                        </StaggeredInside>
+                                    </Staggered>
+                                    <Staggered>
+                                        <StaggeredInside className="flex-col-reverse">
+                                            <StaggeredImg src="https://i.imgur.com/jld2Rpd.jpg" alt="alt" />
+                                            <StaggeredText>
+                                                <StaggeredTitle>{theme["about"]["staggeredTitle2"]}</StaggeredTitle>
+                                                {theme["about"]["staggeredPs2"].map((p, index) => {
+                                                    return(
+                                                        <StaggeredP key={`staggeredp2${index}`}>{p}</StaggeredP>
+                                                    )
+                                                })}
+                                            </StaggeredText>
+                                        </StaggeredInside>
+                                    </Staggered>
+                                    <Staggered>
+                                        <StaggeredInside>
+                                            <StaggeredText>
+                                                <StaggeredTitle>{theme["about"]["staggeredTitle3"]}</StaggeredTitle>
+                                                {theme["about"]["staggeredPs3"].map((p, index) => {
+                                                    return(
+                                                        <StaggeredP key={`staggeredp3${index}`}>{p}</StaggeredP>
+                                                    )
+                                                })}
+                                            </StaggeredText>
+                                            <StaggeredImg src="https://i.imgur.com/kuvSWhJ.jpg" alt="alt" />
+                                        </StaggeredInside>
+                                    </Staggered>
+                                </Fade>
                             </StaggeredHolder>
                         </Container>
                     </Section>
 
                     <VideoSection>
                         <VideoSectionContent>
-                            <FlexCol>
-                                <FooterH1>{theme["about"]["footerH1"]}</FooterH1>
-                                <BtnPrimary href="/shop">{theme["about"]["footerBtn"]}</BtnPrimary>
-                            </FlexCol>
+                            <Fade cascade>
+                                <FlexCol>
+                                    <FooterH1>{theme["about"]["footerH1"]}</FooterH1>
+                                    <BtnPrimary href="/shop">{theme["about"]["footerBtn"]}</BtnPrimary>
+                                </FlexCol>
+                            </Fade>
                         </VideoSectionContent>
                         <VideoContainer>
                             <Video autoPlay loop muted>

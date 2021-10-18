@@ -52,6 +52,7 @@ export const Title = styled.h1`
     font-size: 40px;
     line-height: 1.2;
     margin: 0;
+    height: 100px;
 `;
 
 export const PriceBox = styled.div`
