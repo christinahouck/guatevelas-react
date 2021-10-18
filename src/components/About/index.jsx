@@ -11,7 +11,6 @@ import {
     FlexCol, 
     BtnPrimary,
     VideoSectionContent,
-    FlexColHalfWidthCentered,
     TwoImgBackground,
     ImgBackground,
     ImgBackgroundOverlayHolder,

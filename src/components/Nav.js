@@ -6,55 +6,55 @@ import { LanguageContext } from '../languageContext';
 export default function Nav({ version, setLanguage, isScrolledToTop }) {
     let scrolledClass;
     if (isScrolledToTop) {
-        scrolledClass = 'unScrolledNavCont';     
+        scrolledClass = 'unscrolled';     
     } else {
-        scrolledClass = 'scrolledNavCont';
+        scrolledClass = 'scrolled';
     }
     return (
         <LanguageContext.Consumer>
             {theme => (
                 <NavHolder>
-                <NavDiv>
-                    <NavContainer className={scrolledClass}>
-                        <Link to='/'>
-                            <FlexRowCenter>
-                                {isScrolledToTop === true ? <img className="unscrolled" src="../assets/logo_guatevelas.png" alt="Guatevelas" /> : <img className="scrolled" src="../assets/logo_guatevelas.png" alt="Guatevelas" />}
-                                {isScrolledToTop === true ? <Brandmark className="brandmarkUnscrolled" src="../assets/brandmark_guatevelas.png" alt="Guatevelas" /> : <Brandmark className="brandmarkScrolled" src="../assets/brandmark_guatevelas.png" alt="Guatevelas" />}
-                            </FlexRowCenter>
-                        </Link>
-                        <RightSideContainer>
-                            <FlexRowCenter>
-                                <NavUl>
-                                    <MenuOption>
-                                        <Link to='/products'>
-                                            {theme.nav.shop}
-                                        </Link>
-                                    </MenuOption>
-                                </NavUl>
-                                <NavUl>
-                                    <MenuOption>
-                                        <Link to='/about'>
-                                            {theme.nav.about}
-                                        </Link>
-                                    </MenuOption>
-                                </NavUl>
-                            </FlexRowCenter>
-                            <FlexRowCenter>
-                                { theme.lang === 'es' ? (
-                                    <LanguageButton onClick={() => setLanguage('en')}>
-                                        <img className="flag" src="https://i.imgur.com/8Hugc1D.png" alt="Set website language to English" />
-                                        <LanguageName>English</LanguageName>
-                                    </LanguageButton>
-                                ) : (
-                                    <LanguageButton onClick={() => setLanguage('es')}>
-                                        <img className="flag" src="https://i.imgur.com/WNVIvkO.png" alt="Leer este sitio web en Español" />
-                                        <LanguageName>Espa&ntilde;ol</LanguageName>
-                                    </LanguageButton>
-                                )}
-                            </FlexRowCenter>
-                        </RightSideContainer>
-                    </NavContainer>
-                </NavDiv>
+                    <NavDiv>
+                        <NavContainer className={`nav-transition nav-${scrolledClass}`}>
+                            <Link to='/'>
+                                <FlexRowCenter>
+                                    <Logo className={`nav-transition logo-${scrolledClass}`} src="../assets/logo_guatevelas.png" alt="Guatevelas logo" />
+                                    <Brandmark className={`nav-transition brandmark-${scrolledClass}`} src="../assets/brandmark_guatevelas.png" alt="Guatevelas" />
+                                </FlexRowCenter>
+                            </Link>
+                            <RightSideContainer>
+                                <FlexRowCenter>
+                                    <NavUl>
+                                        <MenuOption className={`menu-item-${scrolledClass}`}>
+                                            <Link to='/products'>
+                                                {theme.nav.shop}
+                                            </Link>
+                                        </MenuOption>
+                                    </NavUl>
+                                    <NavUl>
+                                        <MenuOption className={`menu-item-${scrolledClass}`}>
+                                            <Link to='/about'>
+                                                {theme.nav.about}
+                                            </Link>
+                                        </MenuOption>
+                                    </NavUl>
+                                </FlexRowCenter>
+                                <FlexRowCenter>
+                                    { theme.lang === 'es' ? (
+                                        <LanguageButton onClick={() => setLanguage('en')}>
+                                            <img className="flag" src="https://i.imgur.com/8Hugc1D.png" alt="Set website language to English" />
+                                            <LanguageName>English</LanguageName>
+                                        </LanguageButton>
+                                    ) : (
+                                        <LanguageButton onClick={() => setLanguage('es')}>
+                                            <img className="flag" src="https://i.imgur.com/WNVIvkO.png" alt="Leer este sitio web en Español" />
+                                            <LanguageName>Espa&ntilde;ol</LanguageName>
+                                        </LanguageButton>
+                                    )}
+                                </FlexRowCenter>
+                            </RightSideContainer>
+                        </NavContainer>
+                    </NavDiv>
                 </NavHolder>
             )}
         </LanguageContext.Consumer>
@@ -68,7 +68,7 @@ const FlexRowCenter = styled.div`
     align-items: center;
     justify-content: center;
 `;
-const NavHolder = styled.nav`
+const NavHolder = styled.div`
     display: flex;
     flex-direction: row;
     align-items: flex-start;
@@ -93,6 +93,11 @@ const NavContainer = styled(FlexRowCenter)`
     width: 100%;
     padding: 8px;
     justify-content: space-between;
+`;
+const Logo = styled.img`
+    width: auto;
+    margin-top: 8px;
+    margin-left: 16px;
 `;
 const Brandmark = styled.img`
     width: auto;

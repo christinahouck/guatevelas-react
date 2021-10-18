@@ -65,40 +65,33 @@ body {
   width: 40px;
   height: auto;
 }
-.scrolled {
-  height: 40px; 
-  width: auto;
-  transform: all 500ms ease;
+.nav-transition {
+  transition: all 600ms ease-in-out;
 }
-.unscrolled {
-  height: 80px;
-  width: auto;
-  transform: all 500ms ease;
-}
-.brandmarkScrolled {
-  height: 40px;
-}
-.brandmarkUnscrolled {
-  height: 70px;
-}
-.scrolledNavCont {
-  height: 60px;
-}
-.unscrolledNavCont {
-  height: auto;
-}
-.navScrolled {
-  height: 60px;
-}
-.navUnscrolled {
-  height: auto;
-}
-.menuItemScrolled {
+.menu-item-scrolled {
   font-size: 14px;
 }
-.menuItemunScrolled {
+.menu-item-unscrolled {
   font-size: 24px;
 }
 .flex-col-reverse {
   flex-direction: column-reverse !important;
+}
+.brandmark-scrolled {
+  height: 40px;
+}
+.brandmark-unscrolled {
+  height: 60px;
+}
+.logo-scrolled {
+  height: 40px;
+}
+.logo-unscrolled {
+  height: 60px;
+}
+.nav-scrolled {
+  height: 80px;
+}
+.nav-unscrolled {
+  height: auto;
 }
