@@ -7,6 +7,7 @@ import {
 } from 'react-router-dom';
 import { ThemeProvider } from "styled-components";
 import { LanguageContext } from './languageContext';
+import _debounce from 'lodash/debounce';
 
 import Loading from './components/Loading';
 import Nav from './components/Nav';
@@ -66,6 +67,26 @@ const Home = (props) => (
 class App extends React.Component {
   state = {
     language: 'en',
+    isTop: true,
+  }
+
+  componentWillMount() {
+    // add debouncing
+    this.scrollDebounced = _debounce(e => {
+      this.handleScroll(e);
+    }, 50);
+    document.addEventListener('scroll', this.scrollDebounced);
+  }
+  componentWillUnmount() {
+    document.removeEventListener('scroll', this.scrollDebounced);
+  }
+  
+  handleScroll = (e) => {
+    console.log(window.scrollY)
+    const isTop = window.scrollY < 100;
+    if (isTop !== this.state.isTop) {
+      this.setState({ isTop });
+    }
   }
   setLanguage = (newLanguage) => {
     this.state.language === 'en' ? this.setState({ language: 'es'}) : this.setState({ language: 'en'})
@@ -82,6 +103,7 @@ class App extends React.Component {
                   <Nav 
                     setLanguage={this.setLanguage} 
                     language={this.state.Language}
+                    isScrolledToTop={this.state.isTop}
                   ></Nav>
                   <React.Suspense fallback={<Loading />} >
                     <Switch>

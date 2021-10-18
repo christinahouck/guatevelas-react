@@ -65,3 +65,37 @@ body {
   width: 40px;
   height: auto;
 }
+.scrolled {
+  height: 40px; 
+  width: auto;
+  transform: all 500ms ease;
+}
+.unscrolled {
+  height: 80px;
+  width: auto;
+  transform: all 500ms ease;
+}
+.brandmarkScrolled {
+  height: 40px;
+}
+.brandmarkUnscrolled {
+  height: 70px;
+}
+.scrolledNavCont {
+  height: 60px;
+}
+.unscrolledNavCont {
+  height: auto;
+}
+.navScrolled {
+  height: 60px;
+}
+.navUnscrolled {
+  height: auto;
+}
+.menuItemScrolled {
+  font-size: 14px;
+}
+.menuItemunScrolled {
+  font-size: 24px;
+}

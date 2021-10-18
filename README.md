@@ -78,12 +78,10 @@ Using https://christinacodes.imgur.com/ for image hosting (other than the logos)
 * Motion reference: https://git.faithlife.dev/MarTech/faithlifebase/blob/master/scripts/faithlifebase_unity.js#L171
 * Rearrange the products page colors to look nicer
 * The homepage postcard thing is a little messed up
-* Add product images to all pages
 * Polish homepage
 * Homepage text
 * Add image to homepage
-* Homepage and About page localization
-* Add flag icons to the navbar 
+* Homepage localization
 * Make nav bar mobile friendly
 * Make nav bar shrink when sticky
 * Make it more obvious on the collections page that there are more colors available (show smaller images of different colors or a carousel?)
