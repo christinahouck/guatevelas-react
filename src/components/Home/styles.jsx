@@ -8,21 +8,28 @@ export const Header = styled.article`
     width: 100%;
     padding: 64px 10px;
     position: relative;
-    
+    z-index: 0;
 `;
 
-// &:before {
-//     content: '';
-//     position: absolute;
-//     top: 0; 
-//     left: 0;
-//     width: 100%; 
-//     height: 400px;
-//     background-color: #333;
-//     background-image: url('https://i.imgur.com/2qmKiWk.jpg');
-//     background-size: cover;
-//     background-position: 50% 50%;
-// }
+export const HeaderContentPlacer = styled.div`
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    filter: contrast(105%) saturate(105%);
+    background-image: url('https://i.imgur.com/THvT7gP.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: 50% 20%;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    width: 100%;
+    height: 100%;
+    z-index: -1;
+`;
 
 export const HeaderHeading = styled.h1`
     text-align: center;
@@ -31,7 +38,9 @@ export const HeaderHeading = styled.h1`
     font-size: 40px;
     line-height: 1.2;
     margin: 0;
-    background-color: rgba(255,255,255,0.8);
+    background-color: #fff;
+    padding: 8px 16px;
+    border-radius: 4px;
 `;
 
 export const CenteredContain = styled.section`
@@ -56,7 +65,7 @@ export const H2 = styled.h2`
 
 export const CandleImage = styled.img`
     width: 100%;
-    max-width: 600px;
+    max-width: 700px;
     height: auto;
     margin: 0 0 34px 0;
 `;
@@ -205,18 +214,27 @@ export const PostcardImageContainer = styled.div`
     background-color: white;
     border: 10px solid;
     border-image-slice: 1;
+    z-index: 5;
     border-image-source: linear-gradient(45deg, cornflowerblue 0%, cornflowerblue 5%, #FF7F7F 5%, #FF7F7F 10%, cornflowerblue 10%, cornflowerblue 15%, #FF7F7F 15%, #FF7F7F 20%, cornflowerblue 20%, cornflowerblue 25%, #FF7F7F 25%, #FF7F7F 30%, cornflowerblue 30%, cornflowerblue 35%, #FF7F7F 35%, #FF7F7F 40%, cornflowerblue 40%, cornflowerblue 45%, #FF7F7F 45%, #FF7F7F 50%, cornflowerblue 50%, cornflowerblue 55%, #FF7F7F 55%, #FF7F7F 60%, cornflowerblue 60%, cornflowerblue 65%, #FF7F7F 65%, #FF7F7F 70%, cornflowerblue 70%, cornflowerblue 75%, #FF7F7F 75%, #FF7F7F 80%, cornflowerblue 80%, cornflowerblue 85%, #FF7F7F 85%, #FF7F7F 90%, cornflowerblue 90%, cornflowerblue 95%, #FF7F7F 95%, #FF7F7F 100%);
 `;
 
-export const PostcardImage = styled.img`
+export const PostcardImage = styled.div`
     position: relative;
-    top: -80px;
+    top: -110px;
     width: 100%;
+    background-image: url('https://i.imgur.com/KihTwxz.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: top center;
+    height: 380px;
+    width: 380px;
+    box-sizing: border-box;
+    z-index: 10;
 `;
 
 export const Stamp = styled.div`
     position: relative;
-    top: 0;
+    top: -60px;
     right: -180px;
     z-index: 10;
     display: flex;
@@ -224,33 +242,33 @@ export const Stamp = styled.div`
     flex-wrap: nowrap;
     align-items: center;
     justify-content: center;
+    z-index: 20;
 `;
 
 export const Squiggles = styled.div`
     width: 200px;
     opacity: 0.8;
+
 `;
 
 export const RoundPart = styled.div`
-    width: 80px;
-    height: 80px;
+    width: 110px;
+    height: 110px;
 `;
 
 export const OuterRing = styled.div`
-    width: 100%;
-    height: 100%;
+    width: 80px;
+    height: 80px;
     border-radius: 50%;
     position: relative;
-    border: 4px solid transparent;
-    border-radius: 16px;
-    background: transparent;
+    background: #fff;
     background-clip: padding-box;
     padding: 10px;
     display: flex;
     align-items: center;
     justify-content: center;
     position: relative;
-    top: -26px;
+    top: 24px;
     left: 5px;
     &:after {
         position: absolute;
@@ -264,9 +282,9 @@ export const OuterRing = styled.div`
 `;
 
 export const InsideOfOuterRing = styled.div`
-    height: 100px;
-    width: 100px;
-    background-color: #hotpink;
+    height: 70px;
+    width: 70px;
+    background-color: white;
     border-radius: 50%;
     display: flex;
     align-items: center;
@@ -275,8 +293,8 @@ export const InsideOfOuterRing = styled.div`
 `;
 
 export const InnerRing = styled.div`
-    width: 90%;
-    height: 90%;
+    width: 60px;
+    height: 60px;
     border-radius: 50%;
     border-radius: 50%;
     position: relative;
@@ -284,7 +302,7 @@ export const InnerRing = styled.div`
     left: 0; right: 0;
     background: #fff;
     background-clip: padding-box;
-    padding: 10px;
+    padding: 3px;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -317,7 +335,7 @@ export const InsideOfInnerRing = styled.div`
 
 export const Squiggle = styled.img`
     width: 200px;
-    transform: rotate(-5deg);
+    transform: rotate(5deg);
     filter: grayscale(100%);
 `;
 

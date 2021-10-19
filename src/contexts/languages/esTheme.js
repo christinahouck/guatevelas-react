@@ -7,7 +7,7 @@ export const esTheme = {
     "home": {
         "headerText": "Descubre el mágico de fuego maya",
         "headerBtnText": "Ver la colección",
-        "handcrafted": "Velas únicos hechos a mano",
+        "handcrafted": "Velas únicos hechos a mano en Guatemala",
         "unique": "Que nos hace únicos?",
         "guatemalanOwned":"Empresario Guatemalteco",
         "burnTime":"Duración de más de 24 horas",
