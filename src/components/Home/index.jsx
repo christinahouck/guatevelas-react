@@ -28,8 +28,6 @@ import {
     InnerRing,
     InsideOfInnerRing, 
     PostcardP,
-    Video,
-    VideoContainer
 } from './styles';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faGlobeAmericas, faHandHoldingHeart, faFire, faGifts, faPlane } from '@fortawesome/free-solid-svg-icons';
