@@ -12,7 +12,7 @@ import {
 } from './styles';
 import { Link } from 'react-router-dom';
 import { LanguageContext } from '../../languageContext';
-import Fade from 'react-reveal/Fade';
+// import Fade from 'react-reveal/Fade';
 
 export default function Shop() {
     return (
@@ -24,7 +24,7 @@ export default function Shop() {
                         <ListDiv>
                             { theme["productPage"]["prodDictionary"].map((item, index) => {
                                 return (
-                                    <Fade cascade>
+                                    // <Fade cascade>
                                         <Listing key={`listing${index}`}>
                                             <ProdImage src={item["prodImages"][0]} alt={item["title"]} />
                                             <Title>{item["title"]}</Title>
@@ -32,7 +32,7 @@ export default function Shop() {
                                             <Price>${item["price"]}</Price>
                                             <Link to={`/products/${item.prodId}`} className="listing-link">Learn more</Link>
                                         </Listing>
-                                    </Fade>
+                                    // </Fade>
                                 )
                             })}
                         </ListDiv>

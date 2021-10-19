@@ -38,7 +38,7 @@ import {
     Staggered,
     StaggeredInside
  } from './styles';
-import Fade from 'react-reveal/Fade';
+// import Fade from 'react-reveal/Fade';
 
 export default function About() {
     return (
@@ -73,13 +73,13 @@ export default function About() {
                                     <FlexRow>
                                         <FlexCol>
                                             <H1>{theme["about"]["overlayH1"]}</H1>
-                                            <Fade cascade>
+                                            {/* <Fade cascade> */}
                                                 {theme["about"]["overlayPs"].map((p, index) => {
                                                     return(
                                                         <ImgBgP key={`imgbp${index}`}>{p}</ImgBgP>
                                                     )
                                                 })}
-                                            </Fade>
+                                            {/* </Fade> */}
                                         </FlexCol>
                                     </FlexRow>
                                 </ImgBackgroundOverlay>
@@ -90,16 +90,16 @@ export default function About() {
                         <Container>
                             <FlexRow>
                                 <FlexRow>
-                                    <Fade>
+                                    {/* <Fade> */}
                                         <Fusion>{theme["about"]["fusion"]}</Fusion>
-                                    </Fade>
+                                    {/* </Fade> */}
                                 </FlexRow>
                             </FlexRow>
                         </Container>
                     </Section>
                     <Section>
                         <Container>
-                            <Fade cascade>
+                            {/* <Fade cascade> */}
                                 <H1>{theme["about"]["ourArtisans"]}</H1>
                                 <Artisans>
                                         <ArtisansSect>
@@ -121,7 +121,7 @@ export default function About() {
                                             </ArtFlexColHalfWidthCentered>
                                         </ArtisansSect>
                                 </Artisans>
-                            </Fade>
+                            {/* </Fade> */}
                         </Container>
                     </Section>
 
@@ -129,7 +129,7 @@ export default function About() {
                         <Container>
                             <StaggeredH1>{theme["about"]["how"]}</StaggeredH1>
                             <StaggeredHolder>
-                                <Fade cascade>
+                                {/* <Fade cascade> */}
                                     <Staggered>
                                         <StaggeredInside>
                                             <StaggeredText>
@@ -171,19 +171,19 @@ export default function About() {
                                             <StaggeredImg src="https://i.imgur.com/kuvSWhJ.jpg" alt="alt" />
                                         </StaggeredInside>
                                     </Staggered>
-                                </Fade>
+                                {/* </Fade> */}
                             </StaggeredHolder>
                         </Container>
                     </Section>
 
                     <VideoSection>
                         <VideoSectionContent>
-                            <Fade cascade>
+                            {/* <Fade cascade> */}
                                 <FlexCol>
                                     <FooterH1>{theme["about"]["footerH1"]}</FooterH1>
                                     <BtnPrimary href="/shop">{theme["about"]["footerBtn"]}</BtnPrimary>
                                 </FlexCol>
-                            </Fade>
+                            {/* </Fade> */}
                         </VideoSectionContent>
                         <VideoContainer>
                             <Video autoPlay loop muted>
