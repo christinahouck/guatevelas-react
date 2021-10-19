@@ -223,13 +223,6 @@ export const Fusion = styled.h1`
     margin-bottom: 64px;
 `;
 
-// export const FusionImg = styled.img`
-//     max-width: 600px;
-//     width: 100%;
-//     height: auto;
-//     margin-bottom: 68px;
-// `;
-
 export const Artisans = styled.div`
     display: flex;
     flex-direction: row;
@@ -296,7 +289,7 @@ export const ArtisansP = styled.p`
 `;
 
 export const ArtisansImage = styled.img`
-    max-width: 100%;
+    width: 300px;
     height: auto;
     box-shadow: #586a3a 5px 5px, #7c885f 10px 10px, #84946a 15px 15px, #9ea783 20px 20px, #bdbd99 25px 25px;
 `;
@@ -335,6 +328,9 @@ export const Staggered = styled.div`
     flex-direction: row;
     align-items: center;
     justify-content: center;
+    > .flex-col-reverse {
+        flex-wrap: wrap-reverse;
+    }
 `;
 
 export const StaggeredInside = styled.div`
@@ -346,12 +342,9 @@ export const StaggeredInside = styled.div`
     margin-bottom: 12px;
     display: flex;
     flex-direction: row;
-    flex-wrap: wrap-reverse;
+    flex-wrap: wrap;
     align-items: center;
     justify-content: center;
-    @media (max-width: 1135px) {
-        flex-direction: column;
-    }
 `;
 
 export const StaggeredText = styled.div`

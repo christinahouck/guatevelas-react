@@ -104,7 +104,7 @@ export default function About() {
                                 <Artisans>
                                         <ArtisansSect>
                                             <ArtFlexColHalfWidthCentered>
-                                                <ArtisansImage src="https://via.placeholder.com/300x400/b4bca4" alt="A photo of the artisans" />
+                                                <ArtisansImage src="https://i.imgur.com/l0rsraM.jpg" alt="A photo of the artisans" />
                                                 <ArtisansImageCapt>{theme["about"]["victor"]}</ArtisansImageCapt>
                                             </ArtFlexColHalfWidthCentered>
                                             <ArtFlexColHalfWidthCentered>
@@ -113,7 +113,7 @@ export default function About() {
                                         </ArtisansSect>
                                         <ArtisansSect>
                                             <ArtFlexColHalfWidthCentered>
-                                                <ArtisansImage src="https://via.placeholder.com/300x400/b4bca4" alt="A photo of the artisans" />
+                                                <ArtisansImage src="https://i.imgur.com/dQA7WOy.jpg" alt="A photo of the artisans" />
                                                 <ArtisansImageCapt>{theme["about"]["edwin"]}</ArtisansImageCapt>
                                             </ArtFlexColHalfWidthCentered>
                                             <ArtFlexColHalfWidthCentered>

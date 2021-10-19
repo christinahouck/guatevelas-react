@@ -74,9 +74,6 @@ body {
 .menu-item-unscrolled {
   font-size: 24px;
 }
-.flex-col-reverse {
-  flex-direction: column-reverse !important;
-}
 .brandmark-scrolled {
   height: 40px;
 }
