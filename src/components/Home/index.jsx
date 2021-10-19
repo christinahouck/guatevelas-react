@@ -3,6 +3,7 @@ import { LanguageContext } from '../../languageContext';
 import { Main, CenteredContainer, BtnAPrimary } from '../Common/styles';
 import { 
     Header, 
+    HeaderContentPlacer,
     HeaderHeading, 
     H2, 
     CenteredContain, 
@@ -39,11 +40,13 @@ export default function Home() {
             {theme => (
                 <Main>
                     <Header>
-                        <VideoContainer>  
+                        {/* <VideoContainer>  
                             <Video autoPlay loop muted>
                                 <source src="../assets/candles.mp4" type="video/mp4" />
                             </Video>
-                        </VideoContainer>
+                        </VideoContainer> */}
+                        <HeaderContentPlacer>
+                        </HeaderContentPlacer>
                         <CenteredContain>
                             <HeaderHeading>{theme["home"]["headerText"]}</HeaderHeading>
                             <BtnAPrimary href="/products">{theme["home"]["headerBtnText"]}</BtnAPrimary>
@@ -51,7 +54,7 @@ export default function Home() {
                     </Header>
                     <CenteredContainer>
                         <H2>{theme["home"]["handcrafted"]}</H2>
-                        <CandleImage src="https://i.imgur.com/bv8DHoW.png" />
+                        <CandleImage src="https://i.imgur.com/bV961Qa.png" alt="A lineup of Guatevelas candles: one short ovular candle followed by three cyllindrical candles of increasing height" />
                     </CenteredContainer>
                     <BenefitContainer>
                         <H2>{theme["home"]["unique"]}</H2>
@@ -102,7 +105,7 @@ export default function Home() {
                                         </OuterRing>
                                     </RoundPart>
                                 </Stamp>
-                                <PostcardImage src="https://via.placeholder.com/400?text=Picture+of+an+artisan" alt="A photo of a Guatevelas artisan" />
+                                <PostcardImage></PostcardImage>
                             </PostcardImageContainer>
                             <PostcardText>
                                 <PostcardP>{theme["home"]["postcardRight"]}</PostcardP>

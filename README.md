@@ -73,17 +73,12 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/t
 Using https://christinacodes.imgur.com/ for image hosting (other than the logos)
 
 # TODOS
-* Get the different URLs to default to whatever language the URLs are in
-* Scroll animations
-* Motion reference: https://git.faithlife.dev/MarTech/faithlifebase/blob/master/scripts/faithlifebase_unity.js#L171
 * Rearrange the products page colors to look nicer
-* The homepage postcard thing is a little messed up
 * Polish homepage
 * Homepage text
-* Add images to homepage
 * Homepage localization
 * Make nav bar mobile friendly
-* Make nav bar shrink when sticky
 * Make it more obvious on the collections page that there are more colors available (show smaller images of different colors or a carousel?)
 * alt tags 
-* bug under "our artisans"
+* bug under "our artisans" when switching between English and Spanish 
+* Nice-to-have: get the different URLs to default to whatever language the URLs are in
