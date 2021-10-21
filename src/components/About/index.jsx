@@ -181,7 +181,7 @@ export default function About() {
                             {/* <Fade cascade> */}
                                 <FlexCol>
                                     <FooterH1>{theme["about"]["footerH1"]}</FooterH1>
-                                    <BtnPrimary href="/shop">{theme["about"]["footerBtn"]}</BtnPrimary>
+                                    <BtnPrimary href="/products">{theme["about"]["footerBtn"]}</BtnPrimary>
                                 </FlexCol>
                             {/* </Fade> */}
                         </VideoSectionContent>
