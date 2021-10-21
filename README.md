@@ -73,12 +73,33 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/t
 Using https://christinacodes.imgur.com/ for image hosting (other than the logos)
 
 # TODOS
-* Rearrange the products page colors to look nicer
-* Polish homepage
-* Homepage text
-* Homepage localization
-* Make nav bar mobile friendly
-* Make it more obvious on the collections page that there are more colors available (show smaller images of different colors or a carousel?)
-* alt tags 
-* bug under "our artisans" when switching between English and Spanish 
 * Nice-to-have: get the different URLs to default to whatever language the URLs are in
+
+General: 
+* add motion back in
+* add footer (contact, copyright, dev)
+* alt tags 
+* code bundling
+* performance - caching, resize images
+
+Nav: 
+* make mobile friendly 
+
+Footer: 
+* check that email address is correct 
+
+Homepage:
+* localization
+* text
+* polish
+* swap out header? 
+
+Shop page: 
+* make it more obvious on the collections page that there are more colors available (show smaller images of different colors or a carousel?)
+
+Products page: 
+* rearrage colors to look nicer? 
+* update buttons and links
+
+About page: 
+* bug under "our artisans" when switching between English and Spanish 

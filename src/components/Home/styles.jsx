@@ -65,7 +65,7 @@ export const H2 = styled.h2`
 
 export const CandleImage = styled.img`
     width: 100%;
-    max-width: 700px;
+    max-width: 600px;
     height: auto;
     margin: 0 0 34px 0;
 `;
@@ -330,7 +330,7 @@ export const InsideOfInnerRing = styled.div`
     z-index: 25;
     color: rgba(152,152,152,0.9);
     font-size: 28px;
-    transform: rotate(-15deg);
+    transform: rotate(5deg);
 `;
 
 export const Squiggle = styled.img`

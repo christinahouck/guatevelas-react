@@ -4,6 +4,10 @@ export const esTheme = {
         "shop": "Colección",
         "about": "Sobre nosotros"
     },
+    "footer": {
+        "contact": "Contacta con nosotros",
+        "dev": "Este sitio web fue diseñado y desarollado por "
+    },
     "home": {
         "headerText": "Descubre el mágico de fuego maya",
         "headerBtnText": "Ver la colección",

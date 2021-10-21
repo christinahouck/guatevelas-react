@@ -4,6 +4,10 @@ export const enTheme = {
         "shop": "Collection",
         "about": "About"
     },
+    "footer": {
+        "contact": "Contact us",
+        "dev": "This site was developed by "
+    },
     "home": {
         "headerText": "Discover the magic of Mayan fire",
         "headerBtnText": "Browse the collection",

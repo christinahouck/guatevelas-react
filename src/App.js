@@ -15,6 +15,7 @@ import Nav from './components/Nav';
 import { styleVars } from './themes.js';
 import { enTheme } from './contexts/languages/enTheme';
 import { esTheme } from './contexts/languages/esTheme';
+import Footer from './components/Footer';
 
 class DynamicImport extends React.Component { 
   state = {
@@ -116,6 +117,9 @@ class App extends React.Component {
                       <Route path='/productos/:prodId' component={ProductPage} />
                       <Route render={() => (<h1>404: not found</h1>)} />
                     </Switch>
+                    <Footer
+                      language={this.state.Language}
+                    ></Footer>
                   </React.Suspense>
               </div>
             </ThemeProvider>
