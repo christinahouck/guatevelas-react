@@ -82,9 +82,6 @@ General:
 * code bundling
 * performance - caching, resize images
 
-Nav: 
-* make mobile friendly 
-
 Footer: 
 * check that email address is correct 
 
