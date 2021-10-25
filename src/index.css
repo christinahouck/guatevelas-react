@@ -80,11 +80,18 @@ body {
 .brandmark-unscrolled {
   height: 60px;
 }
+@media (max-width: 767px) {
+  .logo-unscrolled {
+    height: 40px;
+  }
+}
+@media (min-width: 768px) {
+  .logo-unscrolled {
+    height: 60px;
+  }
+}
 .logo-scrolled {
   height: 40px;
-}
-.logo-unscrolled {
-  height: 60px;
 }
 .nav-scrolled {
   height: 80px;

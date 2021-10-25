@@ -103,12 +103,20 @@ const Brandmark = styled.img`
     width: auto;
     margin-top: 8px;
     margin-left: 16px;
+    @media (max-width: 500px) {
+        display: none;
+    }
 `;
 const RightSideContainer = styled(FlexRowCenter)`
     justify-content: flex-end;
 `;
 const MenuOption = styled.li`
-    font-size: 24px;
+    @media (max-width: 767px) {
+        font-size: 18px;
+    }
+    @media (min-width: 768px) {
+        font-size: 24px;
+    }
     padding: 12px;
     list-style-type: none;
     text-decoration: none;
@@ -128,7 +136,9 @@ const NavUl = styled.ul`
     padding-left: 0;
     &:nth-child(2) {
         margin-left: 8px;
-        margin-right: 40px;
+        @media (min-width: 768px) {
+            margin-right: 40px;
+        }
     }
 `;
 const LanguageButton = styled.button`
