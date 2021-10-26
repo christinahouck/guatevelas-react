@@ -67,6 +67,7 @@ export const enTheme = {
         "prodSpecsMeasurements": "This item is",
         "prodSpecsWeight": "and weighs",
         "in": "in",
+        "learnMore": "Learn more",
         "prodDictionary": [
             {
                 prodId: 1001,
@@ -833,7 +834,7 @@ export const enTheme = {
             {
                 prodId: 1004,
                 title: "Izabal",
-                tagline: "This short cyllindrical candle is a perfect accent piece, named after the lush coastal region of Guatemala between Costa Rica and Honduras.",
+                tagline: "This short cyllindrical candle is a perfect accent piece, named after the lush coastal region of Guatemala between Belize and Honduras.",
                 height: "4.5 in",
                 width: "2.5 in",
                 weight: "1 lb",
@@ -2103,7 +2104,7 @@ export const enTheme = {
             {
                 prodId: 1009,
                 title: "Alta Verapaz",
-                tagline: "With elevations soaring to 9,200 ft (2,800 m), Alta Verapaz, a region in Guatemala, is the perfect inspiration for this tall, proud, rectangular candle.",
+                tagline: "With elevations soaring to 9,200 ft (2,800 m), Alta Verapaz, a region in Guatemala characterized by its wild orchids, is the perfect inspiration for this tall, proud, rectangular candle.",
                 height: "12 in",
                 width: "2 in",
                 weight: "2.5 lbs",

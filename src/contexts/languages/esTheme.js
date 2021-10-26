@@ -67,11 +67,12 @@ export const esTheme = {
         "prodSpecsMeasurements": "Este artículo mide",
         "prodSpecsWeight": "y pesa",
         "in": "en",
+        "learnMore": "Más información",
         "prodDictionary": [
             {
                 prodId: 1001,
                 title: "El Progreso",
-                tagline: "Esta alta vela cilíndrica está nombrada por un departamento en el corazón de Guatemala. Es un centro de mesa perfecta.",
+                tagline: "Esta alta vela cilíndrica está nombrada por un departamento en el corazón de Guatemala. Es un centro de mesa perfecto.",
                 height: "15 cm",
                 width: "6.3 cm",
                 weight: "0.7 kg",
@@ -579,7 +580,7 @@ export const esTheme = {
             {
                 prodId: 1003,
                 title: "Santa Rosa",
-                tagline: "Esta vela cilindrica está nombrada por un departamento que tiene muchos ríos y lagos y borde el océano.",
+                tagline: "Esta vela cilindrica está nombrada por un departamento que tiene muchos ríos u lagos a la orilla del océano.",
                 height: "12.7 cm",
                 width: "5 cm",
                 weight: "0.36 kg",
@@ -833,7 +834,7 @@ export const esTheme = {
             {
                 prodId: 1004,
                 title: "Izabal",
-                tagline: "Esta vela baja y cylíndrica acentúa cada rincón de tu casa. El nombre viene del departamento costal entre Costa Rica y Honduras.",
+                tagline: "Esta vela baja y cylíndrica acentúa cada rincón de tu casa. El nombre viene del departamento costal entre Belize y Honduras.",
                 height: "11.4 cm",
                 width: "6.3 cm",
                 weight: "0.45 kg",
@@ -1341,7 +1342,7 @@ export const esTheme = {
             {
                 prodId: 1006,
                 title: "San Marcos",
-                tagline: "Esta vela rectangular con altura mediana lleva el nombre de un departamento en el Oeste de Guatemala que borde México y el Oceano Pacífico.",
+                tagline: "Esta vela rectangular con altura mediana lleva el nombre de un departamento en el oeste de Guatemala, en la frontera con México y al borde del Oceano Pacífico.",
                 height: "11.4 cm",
                 width: "6.3 cm",
                 weight: "0.45 kg",
@@ -1595,7 +1596,7 @@ export const esTheme = {
             {
                 prodId: 1007,
                 title: "Petén",
-                tagline: "Esta vela tan único lleva el nombre donde el departamento donde se encuentra el anciano ciudad Maya más famoso de Guatemala: Tikal. Es un sitio Patrimonio de la Humanidad de UNESCO. Igual que Tikal, esta vela es una joya de Guatemala.",
+                tagline: "Esta vela tan única lleva el nombre del departamento donde se encuentra la ciudad maya más famosa de Guatemala, Tikal, que fue nombrada Patrimonio de la Humanidad por la UNESCO. Igual que Tikal, esta vela es una joya de Guatemala.",
                 height: "10 cm",
                 width: "12.7 cm",
                 weight: "0.7 kg",
@@ -1849,7 +1850,7 @@ export const esTheme = {
             {
                 prodId: 1008,
                 title: "Sololá",
-                tagline: "Nombrado en honor de la región donde se encuentra el lago Atitlán, esta baja vela rectangular representa paz y claridad.",
+                tagline: "Nombrado en honor de la región donde se encuentra el lago de Atitlán, esta baja vela rectangular representa paz y claridad.",
                 height: "10 cm",
                 width: "10 cm",
                 weight: "0.7 kg",
@@ -2103,7 +2104,7 @@ export const esTheme = {
             {
                 prodId: 1009,
                 title: "Alta Verapaz",
-                tagline: "Con alturas hasta 9,200 pies (2,800 m), Alta Verapaz, un departamento de Guatemala, es la inspiración perfecta para esta alta vela.",
+                tagline: "Con alturas de hasta 9,200 pies (2,800 m), Alta Verapaz, un departamento de Guatemala caracteriza por sus orquídeas salvajes, es la inspiración perfecta para esta alta vela.",
                 height: "30.4 cm",
                 width: "5 cm",
                 weight: "1.13 kg",
