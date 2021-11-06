@@ -9,13 +9,13 @@ export const esTheme = {
         "dev": "Este sitio web fue diseñado y desarollado por "
     },
     "home": {
-        "headerText": "Descubre el mágico de fuego maya",
+        "headerText": "Descubre la magia de fuego maya",
         "headerBtnText": "Ver la colección",
-        "handcrafted": "Velas únicos hechos a mano en Guatemala",
-        "unique": "Que nos hace únicos?",
+        "handcrafted": "Velas únicas hechas a mano en Guatemala",
+        "unique": "¿Que nos hace únicos?",
         "guatemalanOwned":"Empresario Guatemalteco",
-        "burnTime":"Duración de más de 24 horas",
-        "empowers":"Apoya artisanos locales",
+        "burnTime":"Duración de más de 15 horas",
+        "empowers":"Apoya artesanos locales",
         "gift":"Un regalo único y especial",
         "learnMore":"Aprende más",
         "postcardLeft":"Cuando compras una candela, apoyas a artesanos Guatemaltecos e inviertes en su crecimiento",
@@ -30,14 +30,14 @@ export const esTheme = {
         ],
         "overlayH1": "Arte textil Guatemalteco",
         "overlayPs": [
-            "Nuestras velas agregan el simbolismo de los ancestros y tradiciones mayas, ya que están decoradas con algunos de sus patrones y diseños de tel as más hermosos. Más allá de sus dimensiones étnicas, los textiles mayas contienen múltiples significados de índole social, económica y política, y lo más importante, su simbolismo cosmológico, es decir, todos aquellos conceptos relacionados con la cosmovisión maya.",
+            "Nuestras velas agregan el simbolismo de los ancestros y tradiciones mayas, ya que están decoradas con algunos de sus patrones y diseños de telas más hermosos. Más allá de sus dimensiones étnicas, los textiles mayas contienen múltiples significados de índole social, económica y política, y lo más importante, su simbolismo cosmológico, es decir, todos aquellos conceptos relacionados con la cosmovisión maya.",
             "Hoy, sin la necesidad de grandes rituales o ceremonias y en la privacidad de nuestro hogar, todavía podemos estar fascinados por el fuego a la luz mágica de las velas.",
         ],
         "fusion": "Guatevelas representa el fusión de dos formas de mágia y tradición: el fuego y el arte textil",
-        "ourArtisans": "Nuestros artisanos",
+        "ourArtisans": "Nuestros artesanos",
         "victor": "Victor, 38 años",
         "victorP": 
-        "Nuestros artisanos provienen de familias fabricantes de artesanías por generaciones. Ambos coinciden en que la cerería al igual que cualquier otra artesanía, conlleva procesos que precisan mucha dedicación y paciencia; a ambos les gusta su trabajo porque requiere atención al detalle y les llena de satisfacción que su producto sea apreciado. Ellos coinciden en que el artesano desarrolla su talento a través de la experiencia, la experimentación y el amor por su trabajo.",
+        "Nuestros artesanos provienen de familias fabricantes de artesanías por generaciones. Ambos coinciden en que la cerería al igual que cualquier otra artesanía, conlleva procesos que precisan mucha dedicación y paciencia; a ambos les gusta su trabajo porque requiere atención al detalle y les llena de satisfacción que su producto sea apreciado. Ellos coinciden en que el artesano desarrolla su talento a través de la experiencia, la experimentación y el amor por su trabajo.",
         "edwin": "Edwin, 21 años",
         "edwinP": "La asociación a la que ellos pertenecen, es una asociación de empleados que elaboran diversos productos artesanales, además de la cerería, que cuenta con casi 25 años de experiencia y constantemente experimenta e investiga para mejorar sus productos.  La asociación vende sus productos y reparte utilidades entre sus miembros, otorga préstamos livianos y ofrece una caja de ahorro, entre otros pequeños beneficios. Actualmente analizan la integración de beneficios adicionales para sus miembros.",
         "how": "El proceso de fabricación",
@@ -46,15 +46,14 @@ export const esTheme = {
             "El primer paso en la elaboración de las velas de forma cilíndrica, es la preparación de los moldes. Para éstos se utilizan tubos de PVC (policloruro de vinilo) de diferente ancho, según el ancho de las velas y se cortan a la medida que tendrá la altura de la vela. Para las velas cuadradas y ovaladas se utilizan moldes de aluminio.",
             "Luego se limpian los moldes minuciosamente y se les aplica aceite vegetal para facilitar el desmolde."
         ],
-        "staggeredTitle2": "Wax preparation",
+        "staggeredTitle2": "Preparación de la cera",
         "staggeredPs2": [
             "Cuando la vela será de color, al derretir la parafina se le agrega un tinte del color deseado. Así, se llenan los moldes con la parafina derretida y se colocan las mechas.",
             "Finalmente se dejan secar a temperatura ambiente. Después de aproximadamente 8 horas se sacan de los moldes y se procede a la decoración."
         ],
         "staggeredTitle3": "Decoration",
         "staggeredPs3": [
-            "How the fabric pattern is added goes here",
-            "Para un producto sencillo y elegante, un empaque sencillo y elegante: un simple envoltorio de papel kraft atado con lazo de maguey, con una tarjetita que identifica al producto. Cada vela además lleva una calcomanía con la marca para garantizar su autenticidad. Además, recomendaciones dentro del empaque para disfrutar del producto y para la seguridad del cliente"
+            "Finalmente, las velas se decoran con nuestra técnica propia y cada una se sella con una calcomanía que garantiza su autenticidad.",
         ],
         "footerH1": "Encuentra la vela perfecta para ti",
         "footerBtn": "Ver el colección",

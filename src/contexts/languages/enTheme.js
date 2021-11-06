@@ -14,7 +14,7 @@ export const enTheme = {
         "handcrafted": "Unique handcrafted Guatemalan candles",
         "unique": "What makes Guatevelas unique",
         "guatemalanOwned":"Guatemalan-owned",
-        "burnTime":"24+ hour burn time",
+        "burnTime":"15+ hour burn time",
         "empowers":"Empowers local artisans",
         "gift":"Unique and meaningful gift",
         "learnMore":"Learn more",
@@ -53,8 +53,7 @@ export const enTheme = {
         ],
         "staggeredTitle3": "Decoration",
         "staggeredPs3": [
-            "How the fabric pattern is added goes here",
-            "Our beautiful, simple, and elegant candles come in a beautiful, simple, and elegant package. Each is wrapped in kraft paper, tied with Guatemalan agave string, and comes accompanied with a card that identifies the product. Each candle is also sealed with the Guatevelas logo to ensure its authenticity."
+            "The candles are then decorated with our proprietary technology and each of them is sealed with a sticker to ensure its authenticity.",
         ],
         "footerH1": "Find the perfect candle for you",
         "footerBtn": "Browse the collection",
