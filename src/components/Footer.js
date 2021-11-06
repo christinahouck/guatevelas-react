@@ -8,7 +8,7 @@ export default function Footer({ version, setLanguage }) {
             {theme => (
                 <FooterHolder>
                     <FooterContainer>
-                        <Contact href="mailto:guatevelas@gmail.com">{theme.footer.contact}</Contact>
+                        <Contact href="mailto:guatemalavelas@gmail.com">{theme.footer.contact}</Contact>
                         <Copyright>&copy; Copyright 2021 Guatevelas</Copyright>
                         <Dev>{theme.footer.dev}<DevLink href="https://christinacodes.dev" target="_blank" rel="noopener">Christina</DevLink></Dev>
                     </FooterContainer>
@@ -47,12 +47,14 @@ const Contact = styled.a`
 `;
 const Copyright = styled.p`
     font-family: ${props => props.theme.secondaryFont}, serif;
+    color: ${props => props.theme.gray};
     font-size: 16px;
     margin: 0;
     line-height: 1.2;
 `;
 const Dev = styled.p`
     font-family: ${props => props.theme.secondaryFont}, serif;
+    color: ${props => props.theme.gray};
     font-size: 12px;
     margin: 10px;
 `;

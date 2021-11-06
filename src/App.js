@@ -72,7 +72,6 @@ class App extends React.Component {
   }
 
   componentWillMount() {
-    // add debouncing
     this.scrollDebounced = _debounce(e => {
       this.handleScroll(e);
     }, 50);

@@ -30,7 +30,7 @@ export default function Shop() {
                                             <Title>{item["title"]}</Title>
                                             <Tagline>{item["tagline"]}</Tagline>
                                             <Price>${item["price"]}</Price>
-                                            <Link to={`/products/${item.prodId}`} className="listing-link">Learn more</Link>
+                                            <Link to={`/products/${item.prodId}`} className="listing-link">{theme["productPage"]["learnMore"]}</Link>
                                         </Listing>
                                     // </Fade>
                                 )
