@@ -9,7 +9,7 @@ export const esTheme = {
         "dev": "Este sitio web fue diseñado y desarollado por "
     },
     "home": {
-        "headerText": "Descubre la magia de fuego maya",
+        "headerText": "Descubre la magia del fuego maya",
         "headerBtnText": "Ver la colección",
         "handcrafted": "Velas únicas hechas a mano en Guatemala",
         "unique": "¿Que nos hace únicos?",
