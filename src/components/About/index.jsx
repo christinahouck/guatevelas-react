@@ -49,7 +49,7 @@ export default function About() {
                         <Container>
                             <FireSections>
                                 <Fire>
-                                    <FireImg src="https://i.imgur.com/OHFgIHl.jpg?1" alt="alt" />
+                                    <FireImg src="https://i.imgur.com/OHFgIHl.jpg?1" alt="An aerial view of a river of lava coming from a volcano" />
                                 </Fire>
                                 <Fire>
                                     <FireH1>{theme["about"]["headerText"]}</FireH1>
@@ -104,7 +104,7 @@ export default function About() {
                                 <Artisans>
                                         <ArtisansSect>
                                             <ArtFlexColHalfWidthCentered>
-                                                <ArtisansImage src="https://i.imgur.com/l0rsraM.jpg" alt="A photo of the artisans" />
+                                                <ArtisansImage src="https://i.imgur.com/l0rsraM.jpg" alt="A photo of Victor, one of the Guatevelas artisans" />
                                                 <ArtisansImageCapt>{theme["about"]["victor"]}</ArtisansImageCapt>
                                             </ArtFlexColHalfWidthCentered>
                                             <ArtFlexColHalfWidthCentered>
@@ -113,7 +113,7 @@ export default function About() {
                                         </ArtisansSect>
                                         <ArtisansSect>
                                             <ArtFlexColHalfWidthCentered>
-                                                <ArtisansImage src="https://i.imgur.com/dQA7WOy.jpg" alt="A photo of the artisans" />
+                                                <ArtisansImage src="https://i.imgur.com/dQA7WOy.jpg" alt="A photo of Edwin, one of the Guatevelas artisans" />
                                                 <ArtisansImageCapt>{theme["about"]["edwin"]}</ArtisansImageCapt>
                                             </ArtFlexColHalfWidthCentered>
                                             <ArtFlexColHalfWidthCentered>
@@ -140,14 +140,14 @@ export default function About() {
                                                     )
                                                 })}
                                             </StaggeredText>
-                                            <StaggeredImg src="https://i.imgur.com/KihTwxz.jpg" alt="alt" />
+                                            <StaggeredImg src="https://i.imgur.com/KihTwxz.jpg" alt="A photo of an artisan sawing PVC pipe to make a custom candle mold" />
                                                 
                                             
                                         </StaggeredInside>
                                     </Staggered>
                                     <Staggered>
                                         <StaggeredInside className="flex-col-reverse">
-                                            <StaggeredImg src="https://i.imgur.com/jld2Rpd.jpg" alt="alt" />
+                                            <StaggeredImg src="https://i.imgur.com/jld2Rpd.jpg" alt="A photo of an artisan melting down the candle wax and adding dye" />
                                             <StaggeredText>
                                                 <StaggeredTitle>{theme["about"]["staggeredTitle2"]}</StaggeredTitle>
                                                 {theme["about"]["staggeredPs2"].map((p, index) => {
@@ -168,7 +168,7 @@ export default function About() {
                                                     )
                                                 })}
                                             </StaggeredText>
-                                            <StaggeredImg src="https://i.imgur.com/kuvSWhJ.jpg" alt="alt" />
+                                            <StaggeredImg src="https://i.imgur.com/kuvSWhJ.jpg" alt="A photo of an artisan holding a recently-decorated blue patterned Guatevelas candle and buffing the outer design with a towel" />
                                         </StaggeredInside>
                                     </Staggered>
                                 {/* </Fade> */}

@@ -206,6 +206,9 @@ export const PostcardText = styled.div`
     align-items: center;
     justify-content: center;
     padding: 0 12px;
+    @media (max-width: 768px) {
+        margin: 34px 0;
+    }
 `;
 
 export const PostcardImageContainer = styled.div`
@@ -230,6 +233,9 @@ export const PostcardImage = styled.div`
     width: 380px;
     box-sizing: border-box;
     z-index: 10;
+    @media (max-width: 500px) {
+        top: 0;
+    }
 `;
 
 export const Stamp = styled.div`
@@ -243,6 +249,9 @@ export const Stamp = styled.div`
     align-items: center;
     justify-content: center;
     z-index: 20;
+    @media (max-width: 500px) {
+        display: none;
+    }
 `;
 
 export const Squiggles = styled.div`
