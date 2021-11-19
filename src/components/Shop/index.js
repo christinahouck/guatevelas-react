@@ -39,6 +39,8 @@ export default function Shop() {
                                                         return <OtherColor src={currentColor.colorSampleImage} alt={currentColor.color} key={`othercolor${index}${i}`} />
                                                     } else if (i === colorsToShow) {
                                                         return <MoreColorsText key={`moreColors${index}${i}`}>+ {item.availableColors.length - i} {theme.productPage.otherColors}</MoreColorsText>
+                                                    } else {
+                                                        return '';
                                                     }
                                                 })}
                                             </MoreColorsContainer>
