@@ -36,11 +36,9 @@ export default function Shop() {
                                                 {item.availableColors.map((currentColor, i) => {
                                                     let colorsToShow = 10;
                                                     if (i < colorsToShow) {
-                                                        return(
-                                                        <OtherColor src={currentColor.colorSampleImage} alt={currentColor.color} key={`othercolor${index}${i}`} />)
+                                                        return <OtherColor src={currentColor.colorSampleImage} alt={currentColor.color} key={`othercolor${index}${i}`} />
                                                     } else if (i === colorsToShow) {
-                                                        return(
-                                                        <MoreColorsText key={`moreColors${index}${i}`}>+ {item.availableColors.length - i} {theme.productPage.otherColors}</MoreColorsText>)
+                                                        return <MoreColorsText key={`moreColors${index}${i}`}>+ {item.availableColors.length - i} {theme.productPage.otherColors}</MoreColorsText>
                                                     }
                                                 })}
                                             </MoreColorsContainer>

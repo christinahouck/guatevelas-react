@@ -83,7 +83,6 @@ class App extends React.Component {
   }
   
   handleScroll = (e) => {
-    console.log(window.scrollY)
     const isTop = window.scrollY < 100;
     if (isTop !== this.state.isTop) {
       this.setState({ isTop });
