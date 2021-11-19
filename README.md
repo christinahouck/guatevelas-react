@@ -44,29 +44,19 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/d
 Using https://christinacodes.imgur.com/ for image hosting (other than the logos)
 
 # TODOS
-General: 
+## General: 
 * add motion back in
 * performance - caching, resize images
 
-Footer: 
-* check that email address is correct 
-
 Homepage:
 * check that the text & localization is ok 
-
-Shop page: 
-* Set equal height 
 
 Products page: 
 * update buy button text and links (waiting on info)
 
 
-Nice-to-have: 
+## Nice-to-have: 
 Homepage:
 * swap out header image on homepage?
-Shop page: 
-* make it more obvious on the collections page that there are more colors available (show smaller images of different colors or a carousel, or say "more colors available"?)
-Products page: 
-* rearrage colors to look nicer? 
 General:
 * get the different URLs to default to whatever language the URLs are in

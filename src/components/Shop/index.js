@@ -7,6 +7,9 @@ import {
     Listing,
     Title,
     Tagline,
+    MoreColorsContainer,
+    OtherColor,
+    MoreColorsText,
     Price, 
     ProdImage
 } from './styles';
@@ -29,6 +32,18 @@ export default function Shop() {
                                             <ProdImage src={item["prodImages"][0]} alt={item["title"]} />
                                             <Title>{item["title"]}</Title>
                                             <Tagline>{item["tagline"]}</Tagline>
+                                            <MoreColorsContainer>
+                                                {item.availableColors.map((currentColor, i) => {
+                                                    let colorsToShow = 10;
+                                                    if (i < colorsToShow) {
+                                                        return(
+                                                        <OtherColor src={currentColor.colorSampleImage} alt={currentColor.color} key={`othercolor${index}${i}`} />)
+                                                    } else if (i === colorsToShow) {
+                                                        return(
+                                                        <MoreColorsText key={`moreColors${index}${i}`}>+ {item.availableColors.length - i} {theme.productPage.otherColors}</MoreColorsText>)
+                                                    }
+                                                })}
+                                            </MoreColorsContainer>
                                             <Price>${item["price"]}</Price>
                                             <Link to={`/products/${item.prodId}`} className="listing-link">{theme["productPage"]["learnMore"]}</Link>
                                         </Listing>

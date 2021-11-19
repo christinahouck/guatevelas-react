@@ -11,6 +11,7 @@ import _debounce from 'lodash/debounce';
 
 import Loading from './components/Loading';
 import Nav from './components/Nav';
+import NotFound from './components/NotFound';
 
 import { styleVars } from './themes.js';
 import { enTheme } from './contexts/languages/enTheme';
@@ -114,7 +115,7 @@ class App extends React.Component {
                       <Route path='/sobre-nosotros' component={About} />
                       <Route path='/products/:prodId' component={ProductPage} />
                       <Route path='/productos/:prodId' component={ProductPage} />
-                      <Route render={() => (<h1>404: not found</h1>)} />
+                      <Route component={NotFound} />
                     </Switch>
                     <Footer
                       language={this.state.Language}

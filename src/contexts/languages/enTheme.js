@@ -22,6 +22,11 @@ export const enTheme = {
         "postcardRight":"Plus, you get a unique and meaningful souvenir",
         "shopNow": "Browse collection"
     },
+    "notFoundLoading": {
+        "loading": "Loading",
+        "notFound": "Sorry, we can't find the content that you're looking for.",
+        "notFoundButton": "Browse the collection"
+    },
     "about": {
         "headerText": "Fire: one of the last remaining forms of magic",
         "headerPs": [
@@ -67,6 +72,7 @@ export const enTheme = {
         "prodSpecsWeight": "and weighs",
         "in": "in",
         "learnMore": "Learn more",
+        "otherColors": "other patterns",
         "prodDictionary": [
             {
                 prodId: 1001,

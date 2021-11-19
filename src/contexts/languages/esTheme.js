@@ -22,6 +22,11 @@ export const esTheme = {
         "postcardRight":"También recibes una pieza de arte único",
         "shopNow": "Compra ahora"
     },
+    "notFoundLoading": {
+        "loading": "Cargando",
+        "notFound": "Lo sentimos, pero no podemos encontrar lo que estabas buscando.",
+        "notFoundButton": "Ver la colección"
+    },
     "about": {
         "headerText": "La magia del fuego Maya en tu casa",
         "headerPs": [
@@ -67,6 +72,7 @@ export const esTheme = {
         "prodSpecsWeight": "y pesa",
         "in": "en",
         "learnMore": "Más información",
+        "otherColors": "otros colores",
         "prodDictionary": [
             {
                 prodId: 1001,
