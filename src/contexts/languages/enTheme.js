@@ -67,6 +67,7 @@ export const enTheme = {
         "prodSpecsWeight": "and weighs",
         "in": "in",
         "learnMore": "Learn more",
+        "otherColors": "other patterns",
         "prodDictionary": [
             {
                 prodId: 1001,

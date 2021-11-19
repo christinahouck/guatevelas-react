@@ -67,6 +67,7 @@ export const esTheme = {
         "prodSpecsWeight": "y pesa",
         "in": "en",
         "learnMore": "Más información",
+        "otherColors": "otros colores",
         "prodDictionary": [
             {
                 prodId: 1001,

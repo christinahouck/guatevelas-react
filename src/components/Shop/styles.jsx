@@ -45,7 +45,9 @@ export const Listing = styled.div`
     padding: 30px;
     border-radius: 10px;
     margin: 16px 8px;
-    max-width: 320px;
+    @media (min-width: 691px) {
+        max-width: 320px;
+    }
 `;
 
 export const ProdImage = styled.img`
@@ -65,6 +67,33 @@ export const Tagline = styled.p`
     color: ${props => props.theme.gray};
     font-size: 24px;
     margin: 8px 0 0 0;
+    @media (min-width: 691px) {
+        height: 320px;
+    }
+`;
+
+export const MoreColorsContainer = styled.div`
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: flex-start;
+    overflow: hidden;
+    flex-wrap: wrap;
+    margin: 12px 0;
+`;
+
+export const OtherColor = styled.img`
+    height: 30px;
+    width: auto;
+    margin: 6px 3px;
+`;
+
+export const MoreColorsText = styled.p`
+    font-family: ${props => props.theme.secondaryFont}, serif;
+    color: ${props => props.theme.gray};
+    font-size: 18px;
+    line-height: 1.3;
+    margin: 0 auto;
 `;
 
 export const Price = styled.p`
