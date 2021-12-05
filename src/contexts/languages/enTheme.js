@@ -65,6 +65,7 @@ export const enTheme = {
     },
     "productPage": {
         "buyButton": "Buy on TBD",
+        "buyLinkGT": "Buy via email—only available in Guatemala",
         "moreInfo": "More info",
         "mayAlso": "You may also like...",
         "social": "Share on Social Media",
@@ -73,6 +74,20 @@ export const enTheme = {
         "in": "in",
         "learnMore": "Learn more",
         "otherColors": "other patterns",
+        "warning": "Warnings",
+        "warnings": [
+            "Burn within sight.",
+            "Keep away from flammable objects.",
+            "Keep away from children and pets."
+        ],
+        "burnInstruction": "Burning Instructions",
+        "burnInstructions": [
+            "Trim wick to 1/4 inch before lighting.",
+            "Keep candle free of any foreign materials including matches and wick trimmings.",
+            "Only burn the candle on a level, fire resistant surface.",
+            "Do not burn candle for more than 3 hours at a time.",
+            "Stop use when only 1/4 inch of wax remains."
+        ],
         "prodDictionary": [
             {
                 prodId: 1001,

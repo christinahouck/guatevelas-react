@@ -12,14 +12,14 @@ export const esTheme = {
         "headerText": "Descubre la magia del fuego maya",
         "headerBtnText": "Ver la colección",
         "handcrafted": "Velas únicas hechas a mano en Guatemala",
-        "unique": "¿Que nos hace únicos?",
-        "guatemalanOwned":"Empresario Guatemalteco",
+        "unique": "¿Qué nos hace únicos?",
+        "guatemalanOwned":"Empresario guatemalteco",
         "burnTime":"Duración de más de 15 horas",
         "empowers":"Apoya artesanos locales",
         "gift":"Un regalo único y especial",
         "learnMore":"Aprende más",
-        "postcardLeft":"Cuando compras una candela, apoyas a artesanos Guatemaltecos e inviertes en su crecimiento",
-        "postcardRight":"También recibes una pieza de arte único",
+        "postcardLeft":"Cuando compras una candela, apoyas a artesanos guatemaltecos e inviertes en su crecimiento",
+        "postcardRight":"También recibes una pieza de arte única",
         "shopNow": "Compra ahora"
     },
     "notFoundLoading": {
@@ -33,7 +33,7 @@ export const esTheme = {
             "Las velas traen magia ya que son una manifestación del fuego - uno de los cuatro elementos – que ha cautivado a la humanidad desde tiempos primitivos.",
             "Las velas son la expresión más hermosa utilizada en ceremonias y rituales, incluso los más simples, como encender una para un cumpleaños y pedir un deseo antes de apagarla.",
         ],
-        "overlayH1": "Arte textil Guatemalteco",
+        "overlayH1": "Arte textil guatemalteco",
         "overlayPs": [
             "Nuestras velas agregan el simbolismo de los ancestros y tradiciones mayas, ya que están decoradas con algunos de sus patrones y diseños de telas más hermosos. Más allá de sus dimensiones étnicas, los textiles mayas contienen múltiples significados de índole social, económica y política, y lo más importante, su simbolismo cosmológico, es decir, todos aquellos conceptos relacionados con la cosmovisión maya.",
             "Hoy, sin la necesidad de grandes rituales o ceremonias y en la privacidad de nuestro hogar, todavía podemos estar fascinados por el fuego a la luz mágica de las velas.",
@@ -65,6 +65,7 @@ export const esTheme = {
     },
     "productPage": {
         "buyButton": "Compra en TBD",
+        "buyLinkGT": "Compra por correo, sólamente en Guatemala",
         "moreInfo": "Más información",
         "mayAlso": "Te podría interesar...",
         "social": "Comparte en redes sociales",
@@ -73,6 +74,20 @@ export const esTheme = {
         "in": "en",
         "learnMore": "Más información",
         "otherColors": "otros colores",
+        "warning": "Advertencias",
+        "warnings": [
+            "Supervisar mientras se quema",
+            "Mantener a distancia de objetos flamables",
+            "Mantener a distancia de niños y mascotas"
+        ],
+        "burnInstruction": "Instrucciones para utilizar",
+        "burnInstructions": [
+            "Cortar mecha a 1/4 pulgada antes de encender.",
+            "Mantén la candela libre de cualquier material ajeno incluiendo fósforos y sobras de mechas.",
+            "Sólo quemar la candela en una superficie nivelada y resistente al fuego.",
+            "No quemar la candela durante más de 3 horas enseguidas.",
+            "Dejar de utilizar cuando 1/4 pulgada de sobras de cera."
+        ],
         "prodDictionary": [
             {
                 prodId: 1001,
