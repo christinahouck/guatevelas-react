@@ -10,14 +10,9 @@ import { ProductBody,
     ProdSection, 
     ProductContainer, 
     Title, 
-    PriceBox, 
-    PriceH2, 
-    CentsBox, 
-    CentsSpan,
     BuyButton,
     GTBuyLink,
     EmptyDiv,
-    DollarSign,
     SocialShare,
     ShareLink,
     SocialP,
@@ -85,18 +80,18 @@ class ProductPage extends React.Component {
                                                 <ColorSelect prodId={item} toggleColor={this.toggleColor}></ColorSelect>
                                             </div>
                                             <BuyButton href={item["buyLink"]} target="_blank" rel="noopener">{theme["productPage"]["buyButton"]}</BuyButton>
-                                            {/* {theme["lang"] === "en" ? <GTBuyLink href={`mailto:guatemalavelas@gmail.com?subject=New+purchase+order&body=Hi,+I'd+like+to+purchase+candle+${item["prodId"].toString()},+${item["title"]}+in+${color}.+Can+you+please+help+me+process+my+order?+Thank+you.`}>{theme["productPage"]["buyLinkGT"]}</GTBuyLink> : 
+                                            {theme["lang"] === "en" ? <GTBuyLink href={`mailto:guatemalavelas@gmail.com?&subject=New%20purchase%20order&body=Hi,+I'd+like+to+purchase+candle+${item["prodId"].toString()},+${item["title"]}+in+${color}.+Can+you+please+help+me+process+my+order?+Thank+you.`}>{theme["productPage"]["buyLinkGT"]}</GTBuyLink> : 
                                             <GTBuyLink href={`mailto:guatemalavelas@gmail.com?subject=Nueva+orden+Guatevela&body=Hola,+Me+gustaría+comprar+la+candela+${item["prodId"].toString()},+${item["title"]}+en+${color}.+Me+podrías+ayudar+en+tramitar+mi+orden?+Gracias.`}>{theme["productPage"]["buyLinkGT"]}</GTBuyLink>
-                                            } */}
+                                            }
                                             </ProdSectionInfo>
                                         <ProdSectionFullWidth>
                                             <Header>{theme["productPage"]["moreInfo"]}</Header>
                                             <Description>{item["tagline"]}</Description>
                                             <Description>{theme["productPage"]["prodSpecsMeasurements"]} {item["height"]} x {item["width"]} {theme["productPage"]["prodSpecsWeight"]} {item["weight"]}</Description>
                                             <Header>{theme["productPage"]["warning"]}</Header>
-                                            {theme["productPage"]["warnings"].map((warn) => {return <Description>{warn}</Description>})}
+                                            {theme["productPage"]["warnings"].map((warn, n) => {return <Description key={`warn${n}`}>{warn}</Description>})}
                                             <Header>{theme["productPage"]["burnInstruction"]}</Header>
-                                            {theme["productPage"]["burnInstructions"].map((instruct) => {return <Description>{instruct}</Description>})}
+                                            {theme["productPage"]["burnInstructions"].map((instruct, dex) => {return <Description key={`instruct${dex}`}>{instruct}</Description>})}
                                         </ProdSectionFullWidth>
                                         <ProdSectionFullWidth>
                                             <Recommended
