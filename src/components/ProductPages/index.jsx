@@ -15,6 +15,7 @@ import { ProductBody,
     CentsBox, 
     CentsSpan,
     BuyButton,
+    GTBuyLink,
     EmptyDiv,
     DollarSign,
     SocialShare,
@@ -23,7 +24,7 @@ import { ProductBody,
     ProdSectionFullWidth,
     Header,
     Description,
-    ProdSectionInfo
+    ProdSectionInfo,
 } from './styles';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { library } from "@fortawesome/fontawesome-svg-core";
@@ -73,22 +74,29 @@ class ProductPage extends React.Component {
                                         <ProdSectionInfo>
                                             <div>
                                                 <Title>{item["title"]} {theme["productPage"]["in"]} {color}</Title>
-                                                <PriceBox>
+                                                {/* <PriceBox>
                                                     <DollarSign>$</DollarSign>
                                                     <PriceH2>{item["price"].split('.')[0]}</PriceH2>
                                                     <CentsBox>
                                                         <CentsSpan>.{item["price"].split('.')[1]}</CentsSpan>
                                                         <CentsSpan>USD</CentsSpan>
                                                     </CentsBox>
-                                                </PriceBox>
+                                                </PriceBox> */}
                                                 <ColorSelect prodId={item} toggleColor={this.toggleColor}></ColorSelect>
                                             </div>
                                             <BuyButton href={item["buyLink"]} target="_blank" rel="noopener">{theme["productPage"]["buyButton"]}</BuyButton>
-                                        </ProdSectionInfo>
+                                            {theme["lang"] === "en" ? <GTBuyLink href={`mailto:guatemalavelas@gmail.com?subject=New+purchase+order&body=Hi,+I'd+like+to+purchase+candle+${item["prodId"].toString()},+${item["title"]}+in+${color}.+Can+you+please+help+me+process+my+order?+Thank+you.`}>{theme["productPage"]["buyLinkGT"]}</GTBuyLink> : 
+                                            <GTBuyLink href={`mailto:guatemalavelas@gmail.com?subject=Nueva+orden+Guatevela&body=Hola,+Me+gustaría+comprar+la+candela+${item["prodId"].toString()},+${item["title"]}+en+${color}.+Me+podrías+ayudar+en+tramitar+mi+orden?+Gracias.`}>{theme["productPage"]["buyLinkGT"]}</GTBuyLink>
+                                            }
+                                            </ProdSectionInfo>
                                         <ProdSectionFullWidth>
                                             <Header>{theme["productPage"]["moreInfo"]}</Header>
                                             <Description>{item["tagline"]}</Description>
                                             <Description>{theme["productPage"]["prodSpecsMeasurements"]} {item["height"]} x {item["width"]} {theme["productPage"]["prodSpecsWeight"]} {item["weight"]}</Description>
+                                            <Header>{theme["productPage"]["warning"]}</Header>
+                                            {theme["productPage"]["warnings"].map((warn) => {return <Description>{warn}</Description>})}
+                                            <Header>{theme["productPage"]["burnInstruction"]}</Header>
+                                            {theme["productPage"]["burnInstructions"].map((instruct) => {return <Description>{instruct}</Description>})}
                                         </ProdSectionFullWidth>
                                         <ProdSectionFullWidth>
                                             <Recommended

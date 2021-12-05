@@ -120,6 +120,17 @@ export const BuyButton = styled.a`
     }
 `;
 
+export const GTBuyLink = styled.a`
+    margin-top: 20px;
+    color: ${props => props.theme.brown};
+    font-size: 19px;
+    font-family: ${props => props.theme.secondaryFont}, serif;
+    &:hover,
+    &:active {
+        color: ${props => props.theme.green2};
+    }
+`;
+
 export const EmptyDiv = styled.div`
     height: 1px;
     width: 1px;

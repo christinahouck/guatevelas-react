@@ -44,7 +44,7 @@ export default function Shop() {
                                                     }
                                                 })}
                                             </MoreColorsContainer>
-                                            <Price>${item["price"]}</Price>
+                                            {/* <Price>${item["price"]}</Price> */}
                                             <Link to={`/products/${item.prodId}`} className="listing-link">{theme["productPage"]["learnMore"]}</Link>
                                         </Listing>
                                     // </Fade>
