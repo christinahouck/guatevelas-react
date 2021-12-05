@@ -85,9 +85,9 @@ class ProductPage extends React.Component {
                                                 <ColorSelect prodId={item} toggleColor={this.toggleColor}></ColorSelect>
                                             </div>
                                             <BuyButton href={item["buyLink"]} target="_blank" rel="noopener">{theme["productPage"]["buyButton"]}</BuyButton>
-                                            {theme["lang"] === "en" ? <GTBuyLink href={`mailto:guatemalavelas@gmail.com?subject=New+purchase+order&body=Hi,+I'd+like+to+purchase+candle+${item["prodId"].toString()},+${item["title"]}+in+${color}.+Can+you+please+help+me+process+my+order?+Thank+you.`}>{theme["productPage"]["buyLinkGT"]}</GTBuyLink> : 
+                                            {/* {theme["lang"] === "en" ? <GTBuyLink href={`mailto:guatemalavelas@gmail.com?subject=New+purchase+order&body=Hi,+I'd+like+to+purchase+candle+${item["prodId"].toString()},+${item["title"]}+in+${color}.+Can+you+please+help+me+process+my+order?+Thank+you.`}>{theme["productPage"]["buyLinkGT"]}</GTBuyLink> : 
                                             <GTBuyLink href={`mailto:guatemalavelas@gmail.com?subject=Nueva+orden+Guatevela&body=Hola,+Me+gustaría+comprar+la+candela+${item["prodId"].toString()},+${item["title"]}+en+${color}.+Me+podrías+ayudar+en+tramitar+mi+orden?+Gracias.`}>{theme["productPage"]["buyLinkGT"]}</GTBuyLink>
-                                            }
+                                            } */}
                                             </ProdSectionInfo>
                                         <ProdSectionFullWidth>
                                             <Header>{theme["productPage"]["moreInfo"]}</Header>
