@@ -19,6 +19,7 @@ import { ProductBody,
     Header,
     Description,
     ProdSectionInfo,
+    GTBuyLink
 } from './styles';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { library } from "@fortawesome/fontawesome-svg-core";
@@ -60,14 +61,14 @@ class ProductPage extends React.Component {
                                                 <ShareLink id="pinterest" href="https://pinterest.com/pin/create/button/?url=https://guatevelas.com" target="_blank" rel="noopener">
                                                     <FontAwesomeIcon icon={faPinterest} color="#faf8dd" />
                                                 </ShareLink>
-                                                <ShareLink id="pinterest" href="mailto:info@example.com?&subject=Check+this+out&cc=&bcc=&body=https://guatevelas.com%0A" target="_blank" rel="noopener">
+                                                <ShareLink id="pinterest" href={`mailto:info@example.com?&subject=Guatevelas&cc=&bcc=&body=https://guatevelas.com/products/${item.prodId}`} target="_blank" rel="noopener">
                                                     <FontAwesomeIcon icon={faEnvelope} color="#faf8dd" />
                                                 </ShareLink>
                                             </SocialShare>
                                         </ProdSection>
                                         <ProdSectionInfo>
                                             <div>
-                                                <Title>{item["title"]} {theme["productPage"]["in"]} {color}</Title>
+                                                <Title>{item["title"]} (GV{item["prodId"].toString().slice(1,4)}) {theme["productPage"]["in"]} {color}</Title>
                                                 {/* <PriceBox>
                                                     <DollarSign>$</DollarSign>
                                                     <PriceH2>{item["price"].split('.')[0]}</PriceH2>
@@ -79,9 +80,7 @@ class ProductPage extends React.Component {
                                                 <ColorSelect prodId={item} toggleColor={this.toggleColor}></ColorSelect>
                                             </div>
                                             <BuyButton href={item["buyLink"]} target="_blank" rel="noopener">{theme["productPage"]["buyButton"]}</BuyButton>
-                                            {/* {theme["lang"] === "en" ? <GTBuyLink href={`mailto:guatemalavelas@gmail.com?&subject=New%20purchase%20order&body=Hi,+I'd+like+to+purchase+candle+${item["prodId"].toString()},+${item["title"]}+in+${color}.+Can+you+please+help+me+process+my+order?+Thank+you.`}>{theme["productPage"]["buyLinkGT"]}</GTBuyLink> : 
-                                            <GTBuyLink href={`mailto:guatemalavelas@gmail.com?subject=Nueva+orden+Guatevela&body=Hola,+Me+gustaría+comprar+la+candela+${item["prodId"].toString()},+${item["title"]}+en+${color}.+Me+podrías+ayudar+en+tramitar+mi+orden?+Gracias.`}>{theme["productPage"]["buyLinkGT"]}</GTBuyLink>
-                                            } */}
+                                            {theme["lang"] === "en" ? <GTBuyLink href={`mailto:guatemalavelas@gmail.com?&subject=New%20purchase%20order&body=Hi, I live in Guatemala and I'd like to purchase a candle. I'm interested in the ${item.title} candle in ${color}. Thanks!`} target="_blank" rel="noopener noreferrer">Purchase via email (only available in Guatemala)</GTBuyLink> : <GTBuyLink href={`mailto:guatemalavelas@gmail.com?&subject=Nuevo%20pedido&body=Hola, vivo en Guatemala y me gustaría comprar una vela. Estoy interesado en el modelo ${item.title} en el color ${color}. Un saludo.`} target="_blank" rel="noopener noreferrer">Comprar por correo-e (disponible sólamente en Guatemala)</GTBuyLink>}
                                             </ProdSectionInfo>
                                         <ProdSectionFullWidth>
                                             <Header>{theme["productPage"]["moreInfo"]}</Header>
