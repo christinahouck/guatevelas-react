@@ -73,20 +73,21 @@ export const esTheme = {
         "prodSpecsWeight": "y pesa",
         "in": "en",
         "learnMore": "Más información",
-        "otherColors": "otros colores",
+        "plus": "y ",
+        "otherColors": "colores más",
         "warning": "Advertencias",
         "warnings": [
             "Supervisar mientras se quema",
             "Mantener a distancia de objetos flamables",
-            "Mantener a distancia de niños y mascotas"
+            "Mantener fuera del alcance de niños y mascotas"
         ],
         "burnInstruction": "Instrucciones para utilizar",
         "burnInstructions": [
-            "Cortar mecha a 1/4 pulgada antes de encender.",
-            "Mantén la candela libre de cualquier material ajeno incluiendo fósforos y sobras de mechas.",
+            "Cortar la mecha a 1/4 pulgada antes de encender.",
+            "Mantén la candela libre de cualquier material ajeno incluyendo fósforos y sobras de mechas.",
             "Sólo quemar la candela en una superficie nivelada y resistente al fuego.",
-            "No quemar la candela durante más de 3 horas enseguidas.",
-            "Dejar de utilizar cuando 1/4 pulgada de sobras de cera."
+            "No quemar la candela durante más de 3 horas seguidas.",
+            "Dejar de utilizar cuando quede solamente 1/4 pulgada de cera."
         ],
         "prodDictionary": [
             {
