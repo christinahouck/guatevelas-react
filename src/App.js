@@ -23,7 +23,7 @@ class DynamicImport extends React.Component {
     component: null
   }
   componentDidMount() {
-    alert('This website is a work in progress. Not all of its content is finalized or up-to-date.');
+    // alert('This website is a work in progress. Not all of its content is finalized or up-to-date.');
     this.props.load()
       .then((mod) => this.setState(() => ({
         component: mod.default
@@ -70,6 +70,8 @@ class App extends React.Component {
   state = {
     language: 'en',
     isTop: true,
+    color: 'Atitlán Blue',
+    colorIndex: 0
   }
 
   componentWillMount() {
@@ -91,6 +93,9 @@ class App extends React.Component {
   setLanguage = (newLanguage) => {
     this.state.language === 'en' ? this.setState({ language: 'es'}) : this.setState({ language: 'en'})
 	}
+  toggleColor = (event, newColor, index) => {
+      this.setState({ color: newColor, colorIndex: index});
+  }
   render() {
     const { language } = this.state;
     var lang = language === 'en' ? enTheme : esTheme;
@@ -108,11 +113,33 @@ class App extends React.Component {
                   <React.Suspense fallback={<Loading />} >
                     <Switch>
                       <Route exact path='/' component={Home} />
-                      <Route exact path='/products' component={Shop} />
+                      <Route 
+                        exact 
+                        path='/products' 
+                        render={(props) => (
+                          <Shop 
+                            {...props} 
+                            color={this.state.color} 
+                            colorIndex={this.state.colorIndex}
+                            toggleColor={this.toggleColor}
+                          />
+                        )}
+                      />
                       <Route exact path='/productos' component={Shop} />
                       <Route path='/about' component={About} />
                       <Route path='/sobre-nosotros' component={About} />
-                      <Route path='/products/:prodId' component={ProductPage} />
+                      <Route 
+                        path='/products/:prodId' 
+                        // component={ProductPage} 
+                        render={(props) => (
+                          <ProductPage 
+                            {...props} 
+                            color={this.state.color} 
+                            colorIndex={this.state.colorIndex}
+                            toggleColor={this.toggleColor}
+                          />
+                        )}
+                      />
                       <Route path='/productos/:prodId' component={ProductPage} />
                       <Route component={NotFound} />
                     </Switch>

@@ -17,6 +17,35 @@ export const Container = styled.section`
     max-width: 1200px;
     width: 100%;
     padding: 64px 10px;
+    margin-top: 260px;
+    @media (max-width: 759px) {
+        margin-top: 314px;
+    }
+    @media (max-width: 619px) {
+        margin-top: 465px;
+    }
+    @media (max-width: 469px) {
+        margin-top: 670px;
+    }
+    @media (max-width: 319px) {
+        margin-top: 1400px;
+    }
+`;
+
+export const ColorSelectCont = styled.section`
+    position: absolute;
+    top: 100px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    max-width: 1050px;
+    z-index: 5;
+    padding: 10px;
+    & img {
+        max-width: 110px;
+    }
 `;
 
 export const Header = styled.h1`
@@ -32,7 +61,7 @@ export const ListDiv = styled.div`
     align-items: flex-start;
     justify-content: center;
     flex-wrap: wrap;
-    margin-top: 32px;
+    margin-top: 6px;
 `;
 
 export const Listing = styled.div`
