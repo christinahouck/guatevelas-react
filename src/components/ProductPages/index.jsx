@@ -29,16 +29,7 @@ import { faEnvelope } from "@fortawesome/free-solid-svg-icons";
 library.add(faTwitter);
 
 class ProductPage extends React.Component {
-    state = {
-      color: 'Atitlán Blue',
-      colorIndex: 0,
-    }
-    toggleColor = (event, newColor, index) => {
-        this.setState({ color: newColor, colorIndex: index});
-    }
-
-    render() {
-        const { color, colorIndex } = this.state;
+    render(props) {
         let prodId = this.props.match.params.prodId;
         return (
             <LanguageContext.Consumer>
@@ -49,7 +40,7 @@ class ProductPage extends React.Component {
                                 return ( 
                                     <ProductContainer key={`prodSect${index}`}>
                                         <ProdSection>
-                                            <ProdImgSwiper product={item} color={color} colorIndex={colorIndex}/>
+                                            <ProdImgSwiper product={item} color={this.props.color} colorIndex={this.props.colorIndex}/>
                                             <SocialShare>
                                                 <SocialP>{theme["productPage"]["social"]}</SocialP>
                                                 <ShareLink id="facebook" href="https://www.facebook.com/sharer/sharer.php?u=https%3A//guatevelas.com" target="_blank" rel="noopener">
@@ -68,19 +59,11 @@ class ProductPage extends React.Component {
                                         </ProdSection>
                                         <ProdSectionInfo>
                                             <div>
-                                                <Title>{item["title"]} (GV{item["prodId"].toString().slice(1,4)}) {theme["productPage"]["in"]} {color}</Title>
-                                                {/* <PriceBox>
-                                                    <DollarSign>$</DollarSign>
-                                                    <PriceH2>{item["price"].split('.')[0]}</PriceH2>
-                                                    <CentsBox>
-                                                        <CentsSpan>.{item["price"].split('.')[1]}</CentsSpan>
-                                                        <CentsSpan>USD</CentsSpan>
-                                                    </CentsBox>
-                                                </PriceBox> */}
-                                                <ColorSelect prodId={item} toggleColor={this.toggleColor}></ColorSelect>
+                                                <Title>{item["title"]} (GV{item["prodId"].toString().slice(1,4)}) {theme["productPage"]["in"]} {this.props.color}</Title>
+                                                <ColorSelect prodId={item} toggleColor={this.props.toggleColor}></ColorSelect>
                                             </div>
                                             <BuyButton href={item["buyLink"]} target="_blank" rel="noopener">{theme["productPage"]["buyButton"]}</BuyButton>
-                                            {theme["lang"] === "en" ? <GTBuyLink href={`mailto:guatemalavelas@gmail.com?&subject=New%20purchase%20order&body=Hi, I live in Guatemala and I'd like to purchase a candle. I'm interested in the ${item.title} candle in ${color}. Thanks!`} target="_blank" rel="noopener noreferrer">Purchase via email (only available in Guatemala)</GTBuyLink> : <GTBuyLink href={`mailto:guatemalavelas@gmail.com?&subject=Nuevo%20pedido&body=Hola, vivo en Guatemala y me gustaría comprar una vela. Estoy interesado en el modelo ${item.title} en el color ${color}. Un saludo.`} target="_blank" rel="noopener noreferrer">Comprar por correo-e (disponible sólamente en Guatemala)</GTBuyLink>}
+                                            {theme["lang"] === "en" ? <GTBuyLink href={`mailto:guatemalavelas@gmail.com?&subject=New%20purchase%20order&body=Hi, I live in Guatemala and I'd like to purchase a candle. I'm interested in the ${item.title} candle in ${this.props.color}. Thanks!`} target="_blank" rel="noopener noreferrer">Purchase via email (only available in Guatemala)</GTBuyLink> : <GTBuyLink href={`mailto:guatemalavelas@gmail.com?&subject=Nuevo%20pedido&body=Hola, vivo en Guatemala y me gustaría comprar una vela. Estoy interesado en el modelo ${item.title} en el color ${this.props.color}. Un saludo.`} target="_blank" rel="noopener noreferrer">Comprar por correo-e (disponible sólamente en Guatemala)</GTBuyLink>}
                                             </ProdSectionInfo>
                                         <ProdSectionFullWidth>
                                             <Header>{theme["productPage"]["moreInfo"]}</Header>

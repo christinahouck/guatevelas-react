@@ -1,5 +1,5 @@
 import React from 'react';
-import { ColorSelectContainer, ColorOption, ColorOptionImage } from './styles';
+import { ColorSelectContainer, ColorOption, ColorOptionImage, ColorName } from './styles';
 
 export default function ColorSelect(props) {
     return (
@@ -9,6 +9,7 @@ export default function ColorSelect(props) {
                 return(
                     <ColorOption key={`colorOption${index}`} onClick={(event) => props.toggleColor(event, newColor, index)}>
                         <ColorOptionImage src={item.colorSampleImage} />
+                        {props.titles && <ColorName>{newColor}</ColorName>}
                     </ColorOption>
                 )
             })} 

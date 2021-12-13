@@ -47,6 +47,7 @@ Using https://christinacodes.imgur.com/ for image hosting (other than the logos)
 ## General: 
 * add motion back in
 * performance - caching, resize images
+* clicking on a product page scrolls down for some reason? 
 
 Homepage:
 * check that the text & localization is ok 

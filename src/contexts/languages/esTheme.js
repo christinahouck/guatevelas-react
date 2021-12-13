@@ -73,8 +73,6 @@ export const esTheme = {
         "prodSpecsWeight": "y pesa",
         "in": "en",
         "learnMore": "Más información",
-        "plus": "y ",
-        "otherColors": "colores más",
         "warning": "Advertencias",
         "warnings": [
             "Supervisar mientras se quema",

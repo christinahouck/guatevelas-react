@@ -73,8 +73,6 @@ export const enTheme = {
         "prodSpecsWeight": "and weighs",
         "in": "in",
         "learnMore": "Learn more",
-        "plus": "+ ",
-        "otherColors": "other patterns",
         "warning": "Warnings",
         "warnings": [
             "Burn within sight.",
@@ -578,7 +576,7 @@ export const enTheme = {
                         "color": "Zaculeu",
                         "colorSampleImage": "https://i.imgur.com/Oc7gOBz.jpg",
                         "images": [
-                            "https://i.imgur.com/y88H0fi.jpg",
+                            "https://i.imgur.com/tSwlFck.jpg",
                             "https://via.placeholder.com/300x400/000000",
                             "https://via.placeholder.com/300x400/000000",
                             "https://via.placeholder.com/300x400/000000",
@@ -589,7 +587,7 @@ export const enTheme = {
                         "color": "Zunil",
                         "colorSampleImage": "https://i.imgur.com/CuQBteH.jpg",
                         "images": [
-                            "https://i.imgur.com/tSwlFck.jpg",
+                            "https://i.imgur.com/y88H0fi.jpg",
                             "https://via.placeholder.com/300x400/000000",
                             "https://via.placeholder.com/300x400/000000",
                             "https://via.placeholder.com/300x400/000000",

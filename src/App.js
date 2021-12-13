@@ -70,6 +70,8 @@ class App extends React.Component {
   state = {
     language: 'en',
     isTop: true,
+    color: 'Atitlán Blue',
+    colorIndex: 0
   }
 
   componentWillMount() {
@@ -91,6 +93,9 @@ class App extends React.Component {
   setLanguage = (newLanguage) => {
     this.state.language === 'en' ? this.setState({ language: 'es'}) : this.setState({ language: 'en'})
 	}
+  toggleColor = (event, newColor, index) => {
+      this.setState({ color: newColor, colorIndex: index});
+  }
   render() {
     const { language } = this.state;
     var lang = language === 'en' ? enTheme : esTheme;
@@ -108,12 +113,54 @@ class App extends React.Component {
                   <React.Suspense fallback={<Loading />} >
                     <Switch>
                       <Route exact path='/' component={Home} />
-                      <Route exact path='/products' component={Shop} />
-                      <Route exact path='/productos' component={Shop} />
+                      <Route 
+                        exact 
+                        path='/products' 
+                        render={(props) => (
+                          <Shop 
+                            {...props} 
+                            color={this.state.color} 
+                            colorIndex={this.state.colorIndex}
+                            toggleColor={this.toggleColor}
+                          />
+                        )}
+                      />
+                      <Route 
+                        exact 
+                        path='/productos' 
+                        render={(props) => (
+                          <Shop 
+                            {...props} 
+                            color={this.state.color} 
+                            colorIndex={this.state.colorIndex}
+                            toggleColor={this.toggleColor}
+                          />
+                        )}
+                      />
                       <Route path='/about' component={About} />
                       <Route path='/sobre-nosotros' component={About} />
-                      <Route path='/products/:prodId' component={ProductPage} />
-                      <Route path='/productos/:prodId' component={ProductPage} />
+                      <Route 
+                        path='/products/:prodId' 
+                        render={(props) => (
+                          <ProductPage 
+                            {...props} 
+                            color={this.state.color} 
+                            colorIndex={this.state.colorIndex}
+                            toggleColor={this.toggleColor}
+                          />
+                        )}
+                      />
+                      <Route 
+                        path='/productos/:prodId' 
+                        render={(props) => (
+                          <ProductPage 
+                            {...props} 
+                            color={this.state.color} 
+                            colorIndex={this.state.colorIndex}
+                            toggleColor={this.toggleColor}
+                          />
+                        )}
+                      />
                       <Route component={NotFound} />
                     </Switch>
                     <Footer
