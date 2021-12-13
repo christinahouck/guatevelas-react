@@ -125,12 +125,22 @@ class App extends React.Component {
                           />
                         )}
                       />
-                      <Route exact path='/productos' component={Shop} />
+                      <Route 
+                        exact 
+                        path='/productos' 
+                        render={(props) => (
+                          <Shop 
+                            {...props} 
+                            color={this.state.color} 
+                            colorIndex={this.state.colorIndex}
+                            toggleColor={this.toggleColor}
+                          />
+                        )}
+                      />
                       <Route path='/about' component={About} />
                       <Route path='/sobre-nosotros' component={About} />
                       <Route 
                         path='/products/:prodId' 
-                        // component={ProductPage} 
                         render={(props) => (
                           <ProductPage 
                             {...props} 
@@ -140,7 +150,17 @@ class App extends React.Component {
                           />
                         )}
                       />
-                      <Route path='/productos/:prodId' component={ProductPage} />
+                      <Route 
+                        path='/productos/:prodId' 
+                        render={(props) => (
+                          <ProductPage 
+                            {...props} 
+                            color={this.state.color} 
+                            colorIndex={this.state.colorIndex}
+                            toggleColor={this.toggleColor}
+                          />
+                        )}
+                      />
                       <Route component={NotFound} />
                     </Switch>
                     <Footer
