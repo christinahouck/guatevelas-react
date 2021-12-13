@@ -8,9 +8,6 @@ import {
     Listing,
     Title,
     Tagline,
-    MoreColorsContainer,
-    OtherColor,
-    ProdImage
 } from './styles';
 import { Link } from 'react-router-dom';
 import { LanguageContext } from '../../languageContext';
