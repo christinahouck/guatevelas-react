@@ -64,6 +64,7 @@ export const esTheme = {
         "footerBtn": "Ver el colección",
     },
     "productPage": {
+        "clickPattern": "Colores disponibles",
         "buyButton": "Compra en TBD",
         "buyLinkGT": "Compra por correo, sólamente en Guatemala",
         "moreInfo": "Más información",

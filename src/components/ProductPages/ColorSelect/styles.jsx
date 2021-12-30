@@ -19,6 +19,9 @@ export const ColorOption = styled.button`
     align-items: center;
     justify-content: flex-start;
     cursor: pointer;
+    @media (max-width: 609px) {
+        height: 85px;
+    } 
 `;
 
 export const ColorOptionImage = styled.img`

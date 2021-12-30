@@ -64,6 +64,7 @@ export const enTheme = {
         "footerBtn": "Browse the collection",
     },
     "productPage": {
+        "clickPattern": "Available patterns",
         "buyButton": "Buy on TBD",
         "buyLinkGT": "Buy via email—only available in Guatemala",
         "moreInfo": "More info",

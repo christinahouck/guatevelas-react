@@ -20,11 +20,11 @@ class Shop extends React.Component {
             <LanguageContext.Consumer>
                 {theme => (
                     <PageDiv>
+                        <Title>{theme["productPage"]["clickPattern"]}</Title>
                         <ColorSelectCont>
                             <ColorSelect titles="true" prodId={theme["productPage"]["prodDictionary"][0]} toggleColor={this.props.toggleColor}></ColorSelect>
                         </ColorSelectCont>
                         <Container>
-                            <Header>{theme.nav.shop}</Header>
                             <ListDiv>
                                 { theme["productPage"]["prodDictionary"].map((item, index) => {
                                     return (

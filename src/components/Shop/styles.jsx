@@ -2,7 +2,7 @@ import styled from 'styled-components';
 
 export const PageDiv = styled.div`
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
     align-items: center;
     justify-content: center;
     width: 100%;
@@ -17,24 +17,27 @@ export const Container = styled.section`
     max-width: 1200px;
     width: 100%;
     padding: 64px 10px;
-    margin-top: 260px;
+    margin-top: 300px;
     @media (max-width: 759px) {
         margin-top: 314px;
     }
     @media (max-width: 619px) {
-        margin-top: 465px;
+        margin-top: 255px;
     }
-    @media (max-width: 469px) {
-        margin-top: 670px;
+    @media (max-width: 509px) {
+        margin-top: 340px;
     }
-    @media (max-width: 319px) {
-        margin-top: 1400px;
+    @media (max-width: 419px) {
+        margin-top: 350px;
+    }
+    @media (max-width: 369px) {
+        margin-top: 520px;
     }
 `;
 
 export const ColorSelectCont = styled.section`
     position: absolute;
-    top: 100px;
+    top: 190px;
     display: flex;
     flex-direction: row;
     align-items: center;
@@ -42,9 +45,23 @@ export const ColorSelectCont = styled.section`
     width: 100%;
     max-width: 1050px;
     z-index: 5;
-    padding: 10px;
+    padding: 5px;
     & img {
         max-width: 110px;
+        @media (max-width: 619px) {
+            max-width: 90px;
+        }
+    }
+    @media (max-width: 769px) {
+        top: 168px;
+    }
+    & div > button {
+        @media (max-width: 619px) {
+            max-width: 100px;
+        }
+        @media (max-width: 419px) {
+            max-width: 90px;
+        }
     }
 `;
 
