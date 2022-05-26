@@ -118,6 +118,9 @@ export const BuyButton = styled.a`
     &:active {
         background-color: ${props => props.theme.green2};
     }
+    &:nth-child(2n + 1) {
+        margin-top: 8px;
+    }
 `;
 
 export const GTBuyLink = styled.a`

@@ -45,15 +45,17 @@ Using https://christinacodes.imgur.com/ for image hosting (other than the logos)
 
 # TODOS
 ## General: 
+* remove unnecessary buy links from products
 * add motion back in
-* performance - caching, resize images
+* performance - caching, resize images - very slow. 
+* maybe add images here rather than using imgur
 * clicking on a product page scrolls down for some reason? 
 
 Homepage:
 * check that the text & localization is ok 
 
 Products page: 
-* update buy button text and links (waiting on info)
+* update buy button styling
 
 
 ## Nice-to-have: 
