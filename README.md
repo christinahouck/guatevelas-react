@@ -41,21 +41,14 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/m
 This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
 
 
-Using https://christinacodes.imgur.com/ for image hosting (other than the logos)
+Using imagekit.io for image hosting (other than the logos)
 
 # TODOS
 ## General: 
-* remove unnecessary buy links from products
 * add motion back in
-* performance - caching, resize images - very slow. 
-* maybe add images here rather than using imgur
-* clicking on a product page scrolls down for some reason? 
 
-Homepage:
-* check that the text & localization is ok 
-
-Products page: 
-* update buy button styling
+* attribute images properly
+* randomly stops working, process is not defined?
 
 
 ## Nice-to-have: 

@@ -36,6 +36,7 @@ library.add(faTwitter);
 class ProductPage extends React.Component {
   render(props) {
     let prodId = this.props.match.params.prodId;
+    console.log(this.props.colorIndex);
     return (
       <LanguageContext.Consumer>
         {(theme) => (
@@ -166,7 +167,10 @@ class ProductPage extends React.Component {
                       )}
                     </ProdSectionFullWidth>
                     <ProdSectionFullWidth>
-                      <Recommended prod={item}></Recommended>
+                      <Recommended
+                        colorIndex={this.props.colorIndex}
+                        prod={item}
+                      ></Recommended>
                     </ProdSectionFullWidth>
                   </ProductContainer>
                 );
