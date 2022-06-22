@@ -13,6 +13,7 @@ import { styleVars } from "./themes.js";
 import { enTheme } from "./contexts/languages/enTheme";
 import { esTheme } from "./contexts/languages/esTheme";
 import Footer from "./components/Footer";
+import ScrollToTop from "./components/Common/ScrollToTop";
 
 class DynamicImport extends React.Component {
   state = {
@@ -96,72 +97,74 @@ class App extends React.Component {
 
     return (
       <Router>
-        <LanguageContext.Provider value={lang}>
-          <ThemeProvider theme={styleVars}>
-            <div className="App">
-              <Nav
-                setLanguage={this.setLanguage}
-                language={this.state.Language}
-                isScrolledToTop={this.state.isTop}
-              ></Nav>
-              <React.Suspense fallback={<Loading />}>
-                <Switch>
-                  <Route exact path="/" component={Home} />
-                  <Route
-                    exact
-                    path="/products"
-                    render={(props) => (
-                      <Shop
-                        {...props}
-                        color={this.state.color}
-                        colorIndex={this.state.colorIndex}
-                        toggleColor={this.toggleColor}
-                      />
-                    )}
-                  />
-                  <Route
-                    exact
-                    path="/productos"
-                    render={(props) => (
-                      <Shop
-                        {...props}
-                        color={this.state.color}
-                        colorIndex={this.state.colorIndex}
-                        toggleColor={this.toggleColor}
-                      />
-                    )}
-                  />
-                  <Route path="/about" component={About} />
-                  <Route path="/sobre-nosotros" component={About} />
-                  <Route
-                    path="/products/:prodId"
-                    render={(props) => (
-                      <ProductPage
-                        {...props}
-                        color={this.state.color}
-                        colorIndex={this.state.colorIndex}
-                        toggleColor={this.toggleColor}
-                      />
-                    )}
-                  />
-                  <Route
-                    path="/productos/:prodId"
-                    render={(props) => (
-                      <ProductPage
-                        {...props}
-                        color={this.state.color}
-                        colorIndex={this.state.colorIndex}
-                        toggleColor={this.toggleColor}
-                      />
-                    )}
-                  />
-                  <Route component={NotFound} />
-                </Switch>
-                <Footer language={this.state.Language}></Footer>
-              </React.Suspense>
-            </div>
-          </ThemeProvider>
-        </LanguageContext.Provider>
+        <ScrollToTop>
+          <LanguageContext.Provider value={lang}>
+            <ThemeProvider theme={styleVars}>
+              <div className="App">
+                <Nav
+                  setLanguage={this.setLanguage}
+                  language={this.state.Language}
+                  isScrolledToTop={this.state.isTop}
+                ></Nav>
+                <React.Suspense fallback={<Loading />}>
+                  <Switch>
+                    <Route exact path="/" component={Home} />
+                    <Route
+                      exact
+                      path="/products"
+                      render={(props) => (
+                        <Shop
+                          {...props}
+                          color={this.state.color}
+                          colorIndex={this.state.colorIndex}
+                          toggleColor={this.toggleColor}
+                        />
+                      )}
+                    />
+                    <Route
+                      exact
+                      path="/productos"
+                      render={(props) => (
+                        <Shop
+                          {...props}
+                          color={this.state.color}
+                          colorIndex={this.state.colorIndex}
+                          toggleColor={this.toggleColor}
+                        />
+                      )}
+                    />
+                    <Route path="/about" component={About} />
+                    <Route path="/sobre-nosotros" component={About} />
+                    <Route
+                      path="/products/:prodId"
+                      render={(props) => (
+                        <ProductPage
+                          {...props}
+                          color={this.state.color}
+                          colorIndex={this.state.colorIndex}
+                          toggleColor={this.toggleColor}
+                        />
+                      )}
+                    />
+                    <Route
+                      path="/productos/:prodId"
+                      render={(props) => (
+                        <ProductPage
+                          {...props}
+                          color={this.state.color}
+                          colorIndex={this.state.colorIndex}
+                          toggleColor={this.toggleColor}
+                        />
+                      )}
+                    />
+                    <Route component={NotFound} />
+                  </Switch>
+                  <Footer language={this.state.Language}></Footer>
+                </React.Suspense>
+              </div>
+            </ThemeProvider>
+          </LanguageContext.Provider>
+        </ScrollToTop>
       </Router>
     );
   }
